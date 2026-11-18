@@ -1,13 +1,13 @@
 /**
- * GemEdu — Google Sheets connector (Apps Script)
+ * Gema Edu — Google Sheets connector (Apps Script)
  * ------------------------------------------------------------
  * Cara pakai (sekali saja, ±5 menit):
  *
- * 1. Buka https://sheets.new  → buat spreadsheet baru, beri nama "GemEdu - Nilai Siswa"
+ * 1. Buka https://sheets.new  → buat spreadsheet baru, beri nama "Gema Edu - Nilai Siswa"
  * 2. Menu Extensions → Apps Script
  * 3. Hapus semua isi Code.gs, tempel seluruh file ini
  * 4. Klik Deploy → New deployment → pilih tipe "Web app"
- *      - Description : GemEdu
+ *      - Description : Gema Edu
  *      - Execute as  : Me
  *      - Who has access : Anyone
  *    Klik Deploy → Authorize access → pilih akun Google → Advanced → Go to (unsafe) → Allow
@@ -71,7 +71,7 @@ function doPost(e) {
 function doGet() {
   getSheet_();
   return ContentService
-    .createTextOutput(JSON.stringify({ ok: true, service: 'GemEdu' }))
+    .createTextOutput(JSON.stringify({ ok: true, service: 'Gema Edu' }))
     .setMimeType(ContentService.MimeType.JSON);
 }
 
