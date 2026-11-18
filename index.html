@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#1A2E26" />
+  <meta name="description" content="GemEdu — Latihan soal Tes Kemampuan Awal (TKA) gratis untuk siswa SD, SMP, dan SMA. Chill skinnya, sKilll ujiannya — 100 soal per jenjang, langsung dinilai." />
+  <title>GemEdu — Latihan TKA SD · SMP · SMA</title>
+  <link rel="icon" type="image/png" href="assets/logo-dark.png" />
+  <link rel="apple-touch-icon" href="assets/logo-dark.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <main id="app">
+
+    <!-- ====== HOME ====== -->
+    <section id="screen-home" class="screen screen-home active" aria-labelledby="home-title">
+      <header class="hero">
+        <img class="hero-logo" src="assets/logo-dark.png" alt="GemEdu logo — huruf G pada perisai hijau" width="110" height="110" />
+        <h1 id="home-title" class="hero-title">GemEdu</h1>
+        <p class="hero-tagline">Chill belajarnya,<br><span>skill ujiannya.</span></p>
+      </header>
+
+      <p class="section-label">Pilih jenjang</p>
+      <div class="jenjang-grid" role="listbox" aria-label="Jenjang sekolah">
+        <button class="jenjang-btn" data-jenjang="sd" role="option">
+          <span class="jenjang-emoji" aria-hidden="true">🌱</span>
+          <span class="jenjang-name">SD</span>
+          <span class="jenjang-sub">Kelas 6 · 100 soal</span>
+        </button>
+        <button class="jenjang-btn" data-jenjang="smp" role="option">
+          <span class="jenjang-emoji" aria-hidden="true">🚀</span>
+          <span class="jenjang-name">SMP</span>
+          <span class="jenjang-sub">Kelas 9 · 100 soal</span>
+        </button>
+        <button class="jenjang-btn" data-jenjang="sma" role="option">
+          <span class="jenjang-emoji" aria-hidden="true">🎓</span>
+          <span class="jenjang-name">SMA</span>
+          <span class="jenjang-sub">Kelas 12 · 100 soal</span>
+        </button>
+      </div>
+
+      <p class="section-label">Mata pelajaran</p>
+      <div class="subject-grid" role="listbox" aria-label="Mata pelajaran">
+        <!-- diisi oleh app.js -->
+      </div>
+
+      <div class="home-meta">
+        <span class="chip">100 Soal / Jenjang</span>
+        <span class="chip chip-green">Penilaian O<sup>1</sup>–100</span>
+        <span class="chip">Gratis · Tanpa login</span>
+      </div>
+    </section>
+
+    <!-- ====== QUIZ ====== -->
+    <section id="screen-quiz" class="screen screen-quiz" aria-labelledby="quiz-subject" hidden>
+      <div class="quiz-topbar">
+        <button class="icon-btn" id="btn-back" aria-label="Kembali ke beranda">←</button>
+        <div class="quiz-meta">
+          <span id="quiz-subject" class="quiz-subject">Matematika</span>
+          <span id="quiz-counter" class="quiz-counter">Soal 1 / 10</span>
+        </div>
+        <div id="quiz-timer" class="quiz-timer" aria-live="polite">00:00</div>
+      </div>
+      <div class="quiz-progress" aria-hidden="true"><div id="quiz-progress-bar"></div></div>
+
+      <article class="question-card">
+        <p id="question-jenjang" class="question-jenjang">SD · Kelas 6</p>
+        <h2 id="question-text" class="question-text">Pertanyaan muncul di sini…</h2>
+        <div id="options" class="options" role="radiogroup" aria-label="Pilihan jawaban"></div>
+      </article>
+
+      <div class="quiz-actions">
+        <button id="btn-prev" class="btn btn-ghost" type="button">← Sebelumnya</button>
+        <button id="btn-next" class="btn btn-solid" type="button">Selanjutnya →</button>
+      </div>
+    </section>
+
+    <!-- ====== RESULT ====== -->
+    <section id="screen-result" class="screen screen-result" aria-labelledby="result-title" hidden>
+      <div class="result-card">
+        <div id="result-ring" class="result-ring" role="img" aria-label="Persentase nilai"><span id="result-percent">0%</span></div>
+        <h2 id="result-title">Hasil Latihan</h2>
+        <p id="result-verdict" class="result-verdict">Bagus!</p>
+
+        <div class="result-stats">
+          <div><span id="stat-correct">0</span><small>Benar</small></div>
+          <div><span id="stat-wrong">0</span><small>Salah</small></div>
+          <div><span id="stat-empty">0</span><small>Kosong</small></div>
+          <div><span id="stat-time">0:00</span><small>Waktu</small></div>
+        </div>
+
+        <div id="result-answers" class="result-answers" aria-live="polite"></div>
+
+        <div class="result-actions">
+          <button id="btn-retry" class="btn btn-ghost" type="button">↻ Ulangi</button>
+          <button id="btn-home" class="btn btn-solid" type="button">Beranda</button>
+        </div>
+
+        <div class="sheets-box">
+          <p class="sheets-title">Catat nilaimu ke Spreadsheet</p>
+          <form id="form-sheets" class="sheets-form">
+            <input type="text" id="input-name" placeholder="Nama siswa" required aria-label="Nama siswa" />
+            <input type="text" id="input-kelas" placeholder="Kelas / jenjang" required aria-label="Kelas" />
+            <button type="submit" class="btn btn-green">✓ Simpan ke Google Sheets</button>
+          </form>
+          <p id="sheets-status" class="sheets-status" role="status"></p>
+          <button id="btn-download-csv" class="btn btn-text" type="button">Atau unduh file CSV</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
