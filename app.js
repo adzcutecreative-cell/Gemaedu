@@ -103,9 +103,7 @@ function startQuiz(subject) {
 
   const subjName = SUBJECTS.find(s => s.id === subject).name;
   $('#quiz-subject').textContent = subjName;
-  $('#quiz-jenjang').textContent = `${JENJANG_NAMES[state.jenjang]} · ${state.session.length} soal`;
 
-  $('#quiz-subject').textContent = subjName;
   showScreen('screen-quiz');
   startTimer();
   renderQuestion();
@@ -277,12 +275,10 @@ function downloadCSV() {
 /* ---------- Wiring ---------- */
 function init() {
   renderSubjects();
-  $('#quiz-jenjang').textContent = 'Pilih jenjang dulu';
 
   // Jenjang picker
   $$('.jenjang-btn').forEach(btn => btn.addEventListener('click', () => {
     state.jenjang = btn.dataset.jenjang;
-    $('#quiz-jenjang').textContent = JENJANG_NAMES[state.jenjang];
     updateJenjangUI();
   }));
 
