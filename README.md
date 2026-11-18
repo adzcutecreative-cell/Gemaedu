@@ -9,11 +9,11 @@ Aplikasi web gratis untuk latihan **Tes Kemampuan Akademik (TKA)**.
 
 | Jenjang | Mata pelajaran | Soal per mapel | Total bank |
 |---|---|---|---|
-| **SD** (Kelas 6) | Matematika, Bahasa Indonesia, IPAS | 60 | **180** |
+| **SD** (Kelas 6) | Matematika, B. Indonesia | 60 | **120** |
 | **SMP** (Kelas 9) | Matematika, B. Indonesia | 60 | **120** |
 | **SMA** (Kelas 12) | Matematika, B. Indonesia, IPA, IPS, B. Inggris | 60 | **300** |
 
-**Total 600 soal.**
+**Total 540 soal.**
 
 Fitur:
 
@@ -88,6 +88,7 @@ Selama belum diset, pakai **Unduh CSV** → buka <https://sheets.new> → **File
 
 ## Catatan konten
 
-- SD menambah **IPAS** sebagai pengayaan (TKA SD 2026 resmi hanya Matematika + B. Indonesia).
+- SD & SMP mengikuti komposisi resmi TKA 2026: **Matematika + Bahasa Indonesia**.
+- Bank soal SD IPAS tetap disimpan di `banks/` sebagai pengayaan, tetapi tidak ditampilkan.
 - SMA memakai **IPA/IPS** sebagai payung untuk 2 mapel pilihan.
 - Bank soal SMP IPA/IPS/B. Inggris masih disimpan di `banks/` untuk keperluan lain, tetapi **tidak ditampilkan** di aplikasi.

@@ -112,11 +112,12 @@ globalisasi), sejarah (kerajaan, kolonialisme, pergerakan, demokrasi, Reformasi,
 
 | | Resmi 2026 | Gema Edu |
 |---|---|---|
-| SD | 2 mapel (Matematika, B. Indonesia) | **3 mapel** (+ IPAS) — latihan tambahan di luar cakupan resmi |
+| SD | 2 mapel (Matematika, B. Indonesia) | **2 mapel** (Matematika, B. Indonesia) — sesuai resmi ✔ |
 | SMP | 2 mapel (Matematika, B. Indonesia) | **2 mapel** (Matematika, B. Indonesia) — sesuai resmi ✔ |
 | SMA | 3 wajib + 2 pilihan | **5 mapel** (Mat, BIN, IPA, IPS, ING) — IPA/IPS dipakai sebagai payung mapel pilihan |
 | Bentuk soal | PG + PG kompleks | PG + PG kompleks ✔ |
 | Jumlah soal | 25–30 per mapel | 60 per mapel (2× lebih banyak, untuk latihan) |
 
-Catatan penting: **untuk SD 2026, IPAS bukan mata uji resmi** — di aplikasi ini fungsinya sebagai pengayaan.
-SMP sudah mengikuti komposisi resmi (Matematika + Bahasa Indonesia, masing-masing 60 soal).
+Catatan penting: **SD & SMP sudah mengikuti komposisi resmi TKA 2026** (Matematika + Bahasa Indonesia,
+masing-masing 60 soal). Bank IPAS/IPA/IPS/B. Inggris tetap disimpan untuk pengayaan, tapi tidak
+ditampilkan di aplikasi. SMA memakai IPA/IPS sebagai payung mapel pilihan.

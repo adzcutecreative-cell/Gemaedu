@@ -7,7 +7,7 @@
 
 /* ---------- Jenjang & mata pelajaran ---------- */
 const JENJANG = {
-  sd:  { name: 'SD',  kelas: '6',  mapel: ['math', 'bin', 'ipas'] },
+  sd:  { name: 'SD',  kelas: '6',  mapel: ['math', 'bin'] },
   smp: { name: 'SMP', kelas: '9',  mapel: ['math', 'bin'] },
   sma: { name: 'SMA', kelas: '12', mapel: ['math', 'bin', 'ipa', 'ips', 'ing'] },
 };
