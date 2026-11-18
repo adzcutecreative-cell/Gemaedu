@@ -1,6 +1,6 @@
 {
-  "name": "GemEdu — Latihan TKA SD · SMP · SMA",
-  "short_name": "GemEdu",
+  "name": "Gema Edu — Latihan TKA SD · SMP · SMA",
+  "short_name": "Gema Edu",
   "description": "Latihan soal Tes Kemampuan Awal gratis untuk siswa SD, SMP, dan SMA. Chill belajarnya, skill ujiannya.",
   "start_url": "./index.html",
   "scope": "./",

@@ -1,4 +1,4 @@
-# GemEdu — Latihan TKA SD · SMP · SMA
+# Gema Edu — Latihan TKA SD · SMP · SMA
 
 Aplikasi web gratis untuk latihan **Tes Kemampuan Akademik (TKA)**.
 **Chill belajarnya, skill ujiannya.**
@@ -10,10 +10,10 @@ Aplikasi web gratis untuk latihan **Tes Kemampuan Akademik (TKA)**.
 | Jenjang | Mata pelajaran | Soal per mapel | Total bank |
 |---|---|---|---|
 | **SD** (Kelas 6) | Matematika, Bahasa Indonesia, IPAS | 60 | **180** |
-| **SMP** (Kelas 9) | Matematika, B. Indonesia, IPA, IPS, B. Inggris | 60 | **300** |
+| **SMP** (Kelas 9) | Matematika, B. Indonesia | 60 | **120** |
 | **SMA** (Kelas 12) | Matematika, B. Indonesia, IPA, IPS, B. Inggris | 60 | **300** |
 
-**Total 780 soal.**
+**Total 600 soal.**
 
 Fitur:
 
@@ -66,7 +66,7 @@ Otomatis: `git push` ke `main` → GitHub Pages build ulang (±1 menit).
 
 ## Google Sheets (opsional, ±5 menit)
 
-1. Buka <https://sheets.new>, beri nama **GemEdu - Nilai Siswa**
+1. Buka <https://sheets.new>, beri nama **Gema Edu - Nilai Siswa**
 2. **Extensions → Apps Script**, hapus isi `Code.gs`
 3. Tempel seluruh isi `google-apps-script.gs` → **Save**
 4. **Deploy → New deployment → Web app** → Execute as **Me**, access **Anyone** → Deploy → Allow
@@ -85,3 +85,9 @@ Selama belum diset, pakai **Unduh CSV** → buka <https://sheets.new> → **File
 
 - **Android (Chrome):** menu ⋮ → **Install app / Add to Home screen**
 - **iPhone (Safari):** Share → **Add to Home Screen**
+
+## Catatan konten
+
+- SD menambah **IPAS** sebagai pengayaan (TKA SD 2026 resmi hanya Matematika + B. Indonesia).
+- SMA memakai **IPA/IPS** sebagai payung untuk 2 mapel pilihan.
+- Bank soal SMP IPA/IPS/B. Inggris masih disimpan di `banks/` untuk keperluan lain, tetapi **tidak ditampilkan** di aplikasi.

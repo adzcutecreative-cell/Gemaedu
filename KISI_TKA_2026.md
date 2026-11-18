@@ -1,6 +1,6 @@
 # Kisi-Kisi & Format Soal TKA 2026 (riset 18 Nov 2026)
 
-Ringkasan ini dipakai untuk menyusun bank soal GemEdu. Sumber resmi: Pusmendik Kemendikdasmen
+Ringkasan ini dipakai untuk menyusun bank soal Gema Edu. Sumber resmi: Pusmendik Kemendikdasmen
 (Peraturan Kepala BSKAP No. 045/H/AN/2025 untuk TKA SMA/MA & SMK/MAK) dan panduan TKA SD/SMP 2026.
 
 ---
@@ -108,16 +108,15 @@ globalisasi), sejarah (kerajaan, kolonialisme, pergerakan, demokrasi, Reformasi,
 
 ---
 
-## 5. Konsekuensi untuk GemEdu
+## 5. Konsekuensi untuk Gema Edu
 
-| | Resmi 2026 | GemEdu |
+| | Resmi 2026 | Gema Edu |
 |---|---|---|
 | SD | 2 mapel (Matematika, B. Indonesia) | **3 mapel** (+ IPAS) — latihan tambahan di luar cakupan resmi |
-| SMP | 2 mapel (Matematika, B. Indonesia) | **5 mapel** (+ IPA, IPS, B. Inggris) — latihan tambahan |
+| SMP | 2 mapel (Matematika, B. Indonesia) | **2 mapel** (Matematika, B. Indonesia) — sesuai resmi ✔ |
 | SMA | 3 wajib + 2 pilihan | **5 mapel** (Mat, BIN, IPA, IPS, ING) — IPA/IPS dipakai sebagai payung mapel pilihan |
 | Bentuk soal | PG + PG kompleks | PG + PG kompleks ✔ |
 | Jumlah soal | 25–30 per mapel | 60 per mapel (2× lebih banyak, untuk latihan) |
 
-Catatan penting: **untuk SD & SMP 2026, IPA/IPAS/IPS/B. Inggris bukan mata uji resmi** — di aplikasi
-ini fungsinya sebagai pengayaan. Kalau sekolah mau meniru komposisi resmi, pakai mode **20 soal**
-atau fokus ke Matematika + Bahasa Indonesia.
+Catatan penting: **untuk SD 2026, IPAS bukan mata uji resmi** — di aplikasi ini fungsinya sebagai pengayaan.
+SMP sudah mengikuti komposisi resmi (Matematika + Bahasa Indonesia, masing-masing 60 soal).

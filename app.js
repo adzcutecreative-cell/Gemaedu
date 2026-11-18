@@ -8,7 +8,7 @@
 /* ---------- Jenjang & mata pelajaran ---------- */
 const JENJANG = {
   sd:  { name: 'SD',  kelas: '6',  mapel: ['math', 'bin', 'ipas'] },
-  smp: { name: 'SMP', kelas: '9',  mapel: ['math', 'bin', 'ipa', 'ips', 'ing'] },
+  smp: { name: 'SMP', kelas: '9',  mapel: ['math', 'bin'] },
   sma: { name: 'SMA', kelas: '12', mapel: ['math', 'bin', 'ipa', 'ips', 'ing'] },
 };
 
@@ -21,7 +21,7 @@ const SUBJECTS = {
   ing:  { name: 'Bahasa Inggris',   short: 'B. Inggris', emoji: '🗣️' },
 };
 
-const STORAGE_KEY = 'gemedu:v2';
+const STORAGE_KEY = 'gemaedu:v3';
 const MODE_KEY = STORAGE_KEY + ':mode';
 
 /* ---------- Helpers ---------- */
@@ -326,7 +326,7 @@ function downloadCSV() {
   const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
-  a.download = `GemEdu_${r.subject.replace(/\s+/g, '_')}_${name.replace(/\s+/g, '_')}_${Date.now()}.csv`;
+  a.download = `Gema_Edu_${r.subject.replace(/\s+/g, '_')}_${name.replace(/\s+/g, '_')}_${Date.now()}.csv`;
   a.click();
   URL.revokeObjectURL(a.href);
 }
@@ -338,7 +338,13 @@ function init() {
   updateJenjangUI();
 
   const total = $('#chip-total');
-  if (total) total.textContent = QUESTIONS.length + ' soal';
+  if (total) {
+    let n = 0;
+    for (const j of Object.keys(JENJANG)) {
+      for (const p of JENJANG[j].mapel) n += bank(j, p).length;
+    }
+    total.textContent = n + ' soal';
+  }
 
   $$('.jenjang-btn').forEach(btn => btn.addEventListener('click', () => {
     state.jenjang = btn.dataset.jenjang;
