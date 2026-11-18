@@ -375,7 +375,7 @@ function finishQuiz() {
 const SHEETS_ENDPOINT = 'https://script.google.com/macros/s/AKfycbx-25twqJihFNUuf5UQNjHQTWtCCb4qFG9l5Zo3xnkFDvdsA81zAVdeTcvXJfLz6_Tv/exec';
 
 /* Published CSV (baca saja) — dipakai Halaman Guru untuk menarik rekap lintas perangkat. */
-const SHEETS_PUBLIC_CSV = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQw486M-TX237kGF-T26cmMFt5Ws6G34kxJq-XZvLqiz7Y-y3V2ZlsR6j6JQ8CoqbfW_wfO0goKR63c/pub?output=csv&gid=566500971';
+const SHEETS_PUBLIC_CSV = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQw486M-TX237kGF-T26cmMFt5Ws6G34kxJq-XZvLqiz7Y-y3V2ZlsR6j6JQ8CoqbfW_wfO0goKR63c/pub?output=csv&gid=566500971&headers=true';
 
 const SHEETS_ENDPOINT_KEY = STORAGE_KEY + ':sheets-endpoint';
 function getSheetsEndpoint() {
