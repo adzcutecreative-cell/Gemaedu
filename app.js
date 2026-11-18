@@ -11,7 +11,7 @@ const SUBJECTS = [
   { id: 'bin',  name: 'Bahasa Indonesia', emoji: '📖' },
   { id: 'ipa',  name: 'IPA',              emoji: '🔬' },
   { id: 'ips',  name: 'IPS',              emoji: '🗺️' },
-  { id: 'ing',  name: 'Bahasa Inggris',   emoji: '🇬🇧' },
+  { id: 'ing',  name: 'Bahasa Inggris',   emoji: '🗣️' },
 ];
 const JENJANG_NAMES = { sd: 'SD', smp: 'SMP', sma: 'SMA' };
 const QUESTIONS_PER_SESSION = 15;        // questions per quiz run
@@ -217,22 +217,23 @@ function finishQuiz() {
 }
 
 /* ---------- Google Sheets: save via Apps Script Web App ---------- */
-// Apps Script URL set once via localStorage or default
+/* Tempel Web app URL dari google-apps-script.gs di sini (lihat README). */
+const SHEETS_ENDPOINT = '';
+
 const SHEETS_ENDPOINT_KEY = STORAGE_KEY + ':sheets-endpoint';
 function getSheetsEndpoint() {
-  return store.get(SHEETS_ENDPOINT_KEY) || '';
+  return SHEETS_ENDPOINT || store.get(SHEETS_ENDPOINT_KEY) || '';
 }
 
 async function saveToSheets(payload) {
-  const endpoint = getSheetsEndpoint() || 'https://script.google.com/macros/s/AKfycbz5mrD_PLACEHOLDER/exec';
-  // If endpoint not configured, fallback to CSV download
-  if (!getSheetsEndpoint()) {
-    $('#sheets-status').textContent = 'Endpoint belum diatur — gunakan tombol "Unduh CSV" di bawah.';
+  const endpoint = getSheetsEndpoint();
+  if (!endpoint) {
+    $('#sheets-status').textContent = 'Belum tersambung ke spreadsheet — pakai tombol "Unduh CSV" di bawah, lalu buka di Google Sheets.';
     $('#sheets-status').className = 'sheets-status error';
     return false;
   }
   try {
-    const res = await fetch(endpoint, {
+    await fetch(endpoint, {
       method: 'POST',
       mode: 'no-cors',
       headers: { 'Content-Type': 'text/plain' },
@@ -275,6 +276,10 @@ function downloadCSV() {
 /* ---------- Wiring ---------- */
 function init() {
   renderSubjects();
+
+  // Jenjang default: SD (kelas 6) supaya jumlah soal langsung kelihatan
+  state.jenjang = 'sd';
+  updateJenjangUI();
 
   // Jenjang picker
   $$('.jenjang-btn').forEach(btn => btn.addEventListener('click', () => {
