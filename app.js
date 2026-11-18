@@ -359,14 +359,23 @@ function finishQuiz() {
   store.set(RECORDS_KEY, recs.slice(-1000));
 
   showScreen('screen-result');
+
+  // Kirim otomatis ke Google Sheets kalau endpoint sudah dipasang
+  if (getSheetsEndpoint()) {
+    const payload = resultPayload(
+      state.student ? state.student.name : $('#input-name').value.trim(),
+      state.student ? (state.student.kelas || '') : $('#input-kelas').value.trim()
+    );
+    saveToSheets(payload);
+  }
 }
 
 /* ---------- Google Sheets ---------- */
 /* Tempel Web app URL dari google-apps-script.gs di sini (lihat README). */
-const SHEETS_ENDPOINT = '';
+const SHEETS_ENDPOINT = 'https://script.google.com/macros/s/AKfycbx-25twqJihFNUuf5UQNjHQTWtCCb4qFG9l5Zo3xnkFDvdsA81zAVdeTcvXJfLz6_Tv/exec';
 
 /* Published CSV (baca saja) — dipakai Halaman Guru untuk menarik rekap lintas perangkat. */
-const SHEETS_PUBLIC_CSV = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQw486M-TX237kGF-T26cmMFt5Ws6G34kxJq-XZvLqiz7Y-y3V2ZlsR6j6JQ8CoqbfW_wfO0goKR63c/pub?output=csv&gid=0';
+const SHEETS_PUBLIC_CSV = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQw486M-TX237kGF-T26cmMFt5Ws6G34kxJq-XZvLqiz7Y-y3V2ZlsR6j6JQ8CoqbfW_wfO0goKR63c/pub?output=csv&gid=566500971';
 
 const SHEETS_ENDPOINT_KEY = STORAGE_KEY + ':sheets-endpoint';
 function getSheetsEndpoint() {
@@ -479,7 +488,8 @@ function teacherRecords() {
   const all = local.concat(state.sheetRecords);
   const seen = new Set();
   const merged = all.filter(r => {
-    const key = [r.name, r.kelas, r.subject, r.ts, r.pct].join('|').toLowerCase();
+    const key = [r.name, r.kelas, r.subject, r.pct, r.correct, r.total,
+      Math.floor((Number(r.ts) || 0) / 60000)].join('|').toLowerCase();
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
@@ -492,6 +502,11 @@ function teacherRecords() {
 }
 
 /* Parser CSV sederhana (mendukung tanda kutip & koma di dalam sel) */
+function parseSheetDate(s) {
+  const m = String(s || '').match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})\s+(\d{1,2}):(\d{2})(?::(\d{2}))?/);
+  if (m) return new Date(+m[3], +m[2] - 1, +m[1], +m[4], +m[5], +(m[6] || 0)).getTime();
+  return new Date(s).getTime() || Date.now();
+}
 function parseCSV(text) {
   const rows = [];
   let row = [], cell = '', quoted = false;
@@ -540,7 +555,7 @@ async function syncFromSheets() {
 
     state.sheetRecords = rows.slice(1).filter(r => r[iName] && r[iName].trim()).map(r => ({
       id: 'sheet-' + iWaktu + '-' + r[iName],
-      ts: new Date(r[iWaktu]).getTime() || Date.now(),
+      ts: parseSheetDate(r[iWaktu]),
       name: r[iName].trim(), kelas: (r[iKelas] || '').trim(),
       jenjang: (r[iJenjang] || '').trim(), subject: (r[iMapel] || '').trim(),
       mode: 'Sheets', total: Number(r[iTotal]) || 0,
@@ -683,7 +698,11 @@ function init() {
   });
 
   // Halaman guru
-  $('#btn-teacher').addEventListener('click', () => { renderTeacher(); showScreen('screen-teacher'); });
+  $('#btn-teacher').addEventListener('click', () => {
+    renderTeacher();
+    showScreen('screen-teacher');
+    if (getSheetsEndpoint()) syncFromSheets();
+  });
   $('#btn-teacher-back').addEventListener('click', () => showScreen('screen-home'));
   $('#t-filter-name').addEventListener('input', renderTeacher);
   $('#t-filter-mapel').addEventListener('change', renderTeacher);

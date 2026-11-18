@@ -91,7 +91,7 @@ Tag `lv` ada di tiap soal (`banks/*.json`) dan ditampilkan sebagai badge di soal
 
 Otomatis: `git push` ke `main` → GitHub Pages build ulang (±1 menit).
 
-## Google Sheets (opsional, ±5 menit)
+## Google Sheets (sudah tersambung)
 
 1. Buka <https://sheets.new>, beri nama **Gema Edu - Nilai Siswa**
 2. **Extensions → Apps Script**, hapus isi `Code.gs`
