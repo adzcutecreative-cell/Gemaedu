@@ -327,6 +327,13 @@ function init() {
     await saveToSheets(payload);
   });
   $('#btn-download-csv').addEventListener('click', downloadCSV);
+
+  // Service worker: bisa dibuka offline & "Add to Home Screen"
+  if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js').catch(() => {/* diabaikan */});
+    });
+  }
 }
 
 document.addEventListener('DOMContentLoaded', init);
