@@ -83,7 +83,9 @@ Tag `lv` ada di tiap soal (`banks/*.json`) dan ditampilkan sebagai badge di soal
 - Siswa mengisi **nama + kelas** sekali di beranda (tersimpan di perangkat). Tombol **Ganti siswa** untuk memakai HP bersama.
 - Setiap selesai kuis, satu baris hasil masuk ke rekap lokal (maks. 1000 entri).
 - Tombol **Halaman Guru** di beranda menampilkan total pengerjaan, siswa unik, rata-rata nilai, tabel hasil, filter, dan ekspor CSV.
-- Data rekap **hanya di perangkat yang dipakai**. Untuk mengumpulkan hasil dari banyak HP, aktifkan Google Sheets seperti di bawah.
+- Data rekap lokal **hanya di perangkat yang dipakai**. Tombol **Tarik dari Sheets** mengambil baris dari spreadsheet publik
+  (URL CSV di `app.js` → `SHEETS_PUBLIC_CSV`). Untuk mengumpulkan hasil dari banyak HP, siswa harus mengirim ke sheet
+  lewat Apps Script (lihat bawah).
 
 ## Deploy
 

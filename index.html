@@ -10,7 +10,7 @@
   <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png" />
   <link rel="icon" type="image/png" href="assets/logo-dark.png" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
-  <link rel="stylesheet" href="styles.css?v=9" />
+  <link rel="stylesheet" href="styles.css?v=10" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap" rel="stylesheet" />
@@ -170,14 +170,18 @@
       <div id="teacher-list" class="teacher-list"></div>
 
       <div class="teacher-actions">
+        <button id="t-sync" class="btn btn-green" type="button">↻ Tarik dari Sheets</button>
         <button id="t-export" class="btn btn-solid" type="button">↓ Ekspor CSV</button>
-        <button id="t-clear" class="btn btn-ghost" type="button">Hapus semua</button>
+      </div>
+      <p id="t-sync-status" class="sheets-status" role="status"></p>
+      <div class="teacher-actions">
+        <button id="t-clear" class="btn btn-ghost" type="button">Hapus data lokal</button>
       </div>
     </section>
 
   </main>
 
-  <script src="questions.js?v=9"></script>
-  <script src="app.js?v=9"></script>
+  <script src="questions.js?v=10"></script>
+  <script src="app.js?v=10"></script>
 </body>
 </html>

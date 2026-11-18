@@ -62,6 +62,7 @@ const state = {
   elapsedSec: 0,
   timedOut: false,
   student: null,
+  sheetRecords: [],
 };
 
 /* ---------- Scoring ---------- */
@@ -364,6 +365,9 @@ function finishQuiz() {
 /* Tempel Web app URL dari google-apps-script.gs di sini (lihat README). */
 const SHEETS_ENDPOINT = '';
 
+/* Published CSV (baca saja) — dipakai Halaman Guru untuk menarik rekap lintas perangkat. */
+const SHEETS_PUBLIC_CSV = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQw486M-TX237kGF-T26cmMFt5Ws6G34kxJq-XZvLqiz7Y-y3V2ZlsR6j6JQ8CoqbfW_wfO0goKR63c/pub?output=csv&gid=0';
+
 const SHEETS_ENDPOINT_KEY = STORAGE_KEY + ':sheets-endpoint';
 function getSheetsEndpoint() {
   return SHEETS_ENDPOINT || store.get(SHEETS_ENDPOINT_KEY) || '';
@@ -469,10 +473,88 @@ function saveStudent() {
 function teacherRecords() {
   const name = $('#t-filter-name').value.trim().toLowerCase();
   const mapel = $('#t-filter-mapel').value;
-  return (store.get(RECORDS_KEY) || []).filter(r =>
+
+  // Gabungkan rekap lokal + data yang ditarik dari Sheets
+  const local = store.get(RECORDS_KEY) || [];
+  const all = local.concat(state.sheetRecords);
+  const seen = new Set();
+  const merged = all.filter(r => {
+    const key = [r.name, r.kelas, r.subject, r.ts, r.pct].join('|').toLowerCase();
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+
+  return merged.filter(r =>
     (!name || String(r.name).toLowerCase().includes(name)) &&
     (!mapel || r.subject === mapel)
   );
+}
+
+/* Parser CSV sederhana (mendukung tanda kutip & koma di dalam sel) */
+function parseCSV(text) {
+  const rows = [];
+  let row = [], cell = '', quoted = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (quoted) {
+      if (c === '"' && text[i + 1] === '"') { cell += '"'; i++; }
+      else if (c === '"') quoted = false;
+      else cell += c;
+    } else if (c === '"') quoted = true;
+    else if (c === ',') { row.push(cell); cell = ''; }
+    else if (c === '\n') { row.push(cell); rows.push(row); row = []; cell = ''; }
+    else if (c !== '\r') cell += c;
+  }
+  if (cell || row.length) { row.push(cell); rows.push(row); }
+  return rows;
+}
+
+async function syncFromSheets() {
+  const status = $('#t-sync-status');
+  status.textContent = 'Menarik data dari spreadsheet…';
+  status.className = 'sheets-status';
+  if (!SHEETS_PUBLIC_CSV) {
+    status.textContent = 'URL spreadsheet belum diisi.';
+    status.className = 'sheets-status error';
+    return;
+  }
+  try {
+    const res = await fetch(SHEETS_PUBLIC_CSV + '&cb=' + Date.now(), { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const rows = parseCSV(await res.text());
+    if (rows.length < 2 || !/nama/i.test(rows[0].join(' '))) {
+      state.sheetRecords = [];
+      renderTeacher();
+      status.textContent = 'Sheet belum ada data hasil. Kirim dulu dari aplikasi via Apps Script.';
+      status.className = 'sheets-status error';
+      return;
+    }
+    const head = rows[0].map(h => h.trim().toLowerCase());
+    const col = n => head.findIndex(h => h.includes(n));
+    const iName = col('nama'), iKelas = col('kelas'), iJenjang = col('jenjang'),
+      iMapel = col('mapel') >= 0 ? col('mapel') : col('pelajaran'),
+      iTotal = col('total'), iBenar = col('benar'),
+      iSalah = col('salah'), iKosong = col('kosong'), iNilai = col('nilai'),
+      iDur = col('durasi'), iWaktu = col('waktu');
+
+    state.sheetRecords = rows.slice(1).filter(r => r[iName] && r[iName].trim()).map(r => ({
+      id: 'sheet-' + iWaktu + '-' + r[iName],
+      ts: new Date(r[iWaktu]).getTime() || Date.now(),
+      name: r[iName].trim(), kelas: (r[iKelas] || '').trim(),
+      jenjang: (r[iJenjang] || '').trim(), subject: (r[iMapel] || '').trim(),
+      mode: 'Sheets', total: Number(r[iTotal]) || 0,
+      correct: Number(r[iBenar]) || 0, wrong: Number(r[iSalah]) || 0,
+      empty: Number(r[iKosong]) || 0, pct: Number(r[iNilai]) || 0,
+      elapsedSec: Number(r[iDur]) || 0, timedOut: false,
+    }));
+    renderTeacher();
+    status.textContent = `${state.sheetRecords.length} baris berhasil ditarik dari spreadsheet ✓`;
+    status.className = 'sheets-status ok';
+  } catch (e) {
+    status.textContent = 'Gagal menarik data: ' + e.message;
+    status.className = 'sheets-status error';
+  }
 }
 
 function renderTeacher() {
@@ -606,6 +688,7 @@ function init() {
   $('#t-filter-name').addEventListener('input', renderTeacher);
   $('#t-filter-mapel').addEventListener('change', renderTeacher);
   $('#t-export').addEventListener('click', exportTeacherCSV);
+  $('#t-sync').addEventListener('click', syncFromSheets);
   $('#t-clear').addEventListener('click', () => {
     if (window.confirm('Hapus semua rekap nilai di perangkat ini? Tindakan ini tidak bisa dibatalkan.')) {
       store.set(RECORDS_KEY, []);
