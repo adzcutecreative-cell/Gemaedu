@@ -24,6 +24,10 @@ const SUBJECTS = {
 const STORAGE_KEY = 'gemaedu:v3';
 const MODE_KEY = STORAGE_KEY + ':mode';
 
+/* Mode simulasi mengikuti durasi resmi TKA: 30 soal / 75 menit */
+const MODE_COUNTS = { 20: 20, 30: 30, 60: 60 };
+const SIM_SECONDS = 75 * 60;
+
 /* ---------- Helpers ---------- */
 const $  = s => document.querySelector(s);
 const $$ = s => Array.from(document.querySelectorAll(s));
@@ -37,7 +41,7 @@ const LETTERS = ['A', 'B', 'C', 'D', 'E'];
 const state = {
   jenjang: 'sd',
   subject: null,
-  mode: 60,               // 20 | 60
+  mode: 60,               // 20 cepat | 30 simulasi | 60 lengkap
   session: [],
   index: 0,
   answers: [],
@@ -45,6 +49,7 @@ const state = {
   finishedAt: 0,
   timerId: null,
   elapsedSec: 0,
+  timedOut: false,
 };
 
 /* ---------- Scoring ---------- */
@@ -124,18 +129,22 @@ function shuffle(arr) {
   return a;
 }
 
+function isSimulation() { return state.mode === 30; }
+
 function startQuiz(subject) {
   const pool = bank(state.jenjang, subject);
   if (!pool.length) return;
 
   state.subject = subject;
-  state.session = shuffle(pool).slice(0, Math.min(state.mode, pool.length));
+  state.session = shuffle(pool).slice(0, Math.min(MODE_COUNTS[state.mode] || state.mode, pool.length));
   state.index = 0;
   state.answers = new Array(state.session.length).fill(null);
   state.startedAt = Date.now();
   state.finishedAt = 0;
   state.elapsedSec = 0;
+  state.timedOut = false;
 
+  $('#btn-submit').hidden = !isSimulation();
   $('#quiz-subject').textContent = SUBJECTS[subject].name;
   showScreen('screen-quiz');
   startTimer();
@@ -145,19 +154,38 @@ function startQuiz(subject) {
 /* ---------- Timer ---------- */
 function startTimer() {
   if (state.timerId) clearInterval(state.timerId);
-  $('#quiz-timer').textContent = '00:00';
-  $('#quiz-timer').classList.add('running');
-  state.timerId = setInterval(() => {
-    state.elapsedSec = Math.max(0, Math.floor((Date.now() - state.startedAt) / 1000));
-    const m = String(Math.floor(state.elapsedSec / 60)).padStart(2, '0');
-    const s = String(state.elapsedSec % 60).padStart(2, '0');
-    $('#quiz-timer').textContent = `${m}:${s}`;
-  }, 1000);
+  const timer = $('#quiz-timer');
+  timer.classList.add('running');
+  timer.classList.remove('danger');
+
+  const tick = () => {
+    const spent = Math.max(0, Math.floor((Date.now() - state.startedAt) / 1000));
+    let shown;
+    if (isSimulation()) {
+      const left = Math.max(0, SIM_SECONDS - spent);
+      state.elapsedSec = SIM_SECONDS - left;
+      shown = `${String(Math.floor(left / 60)).padStart(2, '0')}:${String(left % 60).padStart(2, '0')}`;
+      timer.classList.toggle('danger', left <= 300);
+      if (left === 0) {
+        timer.textContent = '00:00';
+        state.timedOut = true;
+        finishQuiz();
+        return;
+      }
+    } else {
+      state.elapsedSec = spent;
+      shown = `${String(Math.floor(spent / 60)).padStart(2, '0')}:${String(spent % 60).padStart(2, '0')}`;
+    }
+    timer.textContent = shown;
+  };
+
+  tick();
+  state.timerId = setInterval(tick, 1000);
 }
 function stopTimer() {
   if (state.timerId) clearInterval(state.timerId);
   state.timerId = null;
-  $('#quiz-timer').classList.remove('running');
+  $('#quiz-timer').classList.remove('running', 'danger');
 }
 
 /* ---------- Question ---------- */
@@ -228,6 +256,7 @@ function finishQuiz() {
   if (pct >= 90) verdict = 'Luar biasa — kamu sudah sangat siap!';
   else if (pct >= 75) verdict = 'Bagus! Sedikit lagi menuju sempurna.';
   else if (pct >= 60) verdict = 'Cukup. Coba ulangi dan tingkatkan.';
+  if (state.timedOut) verdict = 'Waktu habis! Tetap cek hasilmu di bawah.';
 
   $('#result-percent').textContent = pct + '%';
   $('#result-verdict').textContent = verdict;
@@ -254,6 +283,7 @@ function finishQuiz() {
   store.set(STORAGE_KEY + ':last', {
     jenjang: state.jenjang, subject: state.subject, mode: state.mode,
     pct, correct, wrong, empty, elapsedSec: state.elapsedSec, finishedAt: state.finishedAt,
+    timedOut: state.timedOut,
   });
 
   showScreen('screen-result');
@@ -368,11 +398,14 @@ function init() {
     else finishQuiz();
   });
 
+  $('#btn-submit').addEventListener('click', () => finishQuiz());
+
   $('#btn-retry').addEventListener('click', () => {
     state.index = 0;
     state.answers = new Array(state.session.length).fill(null);
     state.startedAt = Date.now();
     state.elapsedSec = 0;
+    state.timedOut = false;
     startTimer();
     showScreen('screen-quiz');
     renderQuestion();

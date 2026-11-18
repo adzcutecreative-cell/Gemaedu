@@ -18,6 +18,7 @@ Aplikasi web gratis untuk latihan **Tes Kemampuan Akademik (TKA)**.
 Fitur:
 
 - **Dua bentuk soal seperti TKA**: pilihan ganda biasa & **pilihan ganda kompleks** (jawaban benar lebih dari satu)
+- **Mode simulasi 30 soal / 75 menit** (hitung mundur, kumpulkan kapan saja, otomatis selesai saat waktu habis)
 - Mode **20 soal (cepat)** atau **60 soal (lengkap)**
 - Timer, progress bar, penilaian otomatis, rincian kunci jawaban, tombol ulangi
 - **Mobile-first** + bisa dipasang di HP (PWA, ada cache offline)

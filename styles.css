@@ -139,7 +139,11 @@ body {
   padding: .45rem .65rem; border-radius: 12px; font-weight: 700; font-size: .9rem;
 }
 .quiz-timer.running { animation: pulse 1.4s infinite; }
+.quiz-timer.danger { background: var(--red-soft); color: var(--red); animation: pulse 1s infinite; }
+.quiz-timer.danger.running { animation: pulse 1s infinite; }
 @keyframes pulse { 50% { background: #2E4E38; } }
+.quiz-timer.danger { animation-name: pulseDanger; }
+@keyframes pulseDanger { 50% { background: rgba(208,83,78,.35); } }
 
 .quiz-progress { height: 6px; background: rgba(255,255,255,.06); border-radius: 999px; overflow: hidden; margin-bottom: 1.5rem; }
 #quiz-progress-bar {
@@ -191,6 +195,12 @@ body {
 .btn-ghost { background: rgba(255,255,255,.08); color: var(--cream); }
 .btn-ghost:hover { background: rgba(255,255,255,.14); }
 .btn-green { background: var(--lime); color: var(--green-950); }
+.btn-submit {
+  flex: 0 0 auto; background: var(--lime); color: var(--green-950);
+  padding: .8rem .9rem; box-shadow: 0 10px 22px rgba(140,183,67,.3);
+}
+.btn-submit:hover { background: var(--lime-hi); }
+.btn-submit[hidden] { display: none; }
 .btn-text { background: transparent; color: var(--lime-hi); text-decoration: underline; text-underline-offset: 4px; font-weight: 500; font-size: .85rem; padding: .5rem; width: auto; }
 
 /* ============ RESULT ============ */
@@ -252,6 +262,11 @@ body {
 }
 .mode-label { font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--cream-dim); }
 .mode-toggle { display: flex; gap: .35rem; }
+@media (max-width: 420px) {
+  .mode-row { flex-direction: column; align-items: stretch; gap: .5rem; }
+  .mode-toggle { width: 100%; }
+  .mode-btn { flex: 1; padding: .5rem .2rem; }
+}
 .mode-btn {
   font-family: inherit; font-size: .78rem; font-weight: 700; cursor: pointer;
   padding: .45rem .7rem; border-radius: 10px; border: 1px solid rgba(140,183,67,.3);

@@ -10,7 +10,7 @@
   <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png" />
   <link rel="icon" type="image/png" href="assets/logo-dark.png" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
-  <link rel="stylesheet" href="styles.css?v=7" />
+  <link rel="stylesheet" href="styles.css?v=8" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap" rel="stylesheet" />
@@ -55,6 +55,7 @@
         <span class="mode-label">Jumlah soal</span>
         <div class="mode-toggle" role="group" aria-label="Jumlah soal per sesi">
           <button class="mode-btn" data-mode="20" type="button">20 · cepat</button>
+          <button class="mode-btn" data-mode="30" type="button">30 · simulasi</button>
           <button class="mode-btn active" data-mode="60" type="button">60 · lengkap</button>
         </div>
       </div>
@@ -62,6 +63,7 @@
       <div class="home-meta">
         <span class="chip chip-green" id="chip-total">780 soal</span>
         <span class="chip">PG &amp; PG Kompleks</span>
+        <span class="chip">Simulasi 30 soal · 75 menit</span>
         <span class="chip">Skala 0–100</span>
         <span class="chip">Gratis · Tanpa login</span>
       </div>
@@ -89,6 +91,7 @@
       <div class="quiz-actions">
         <button id="btn-prev" class="btn btn-ghost" type="button">← Sebelumnya</button>
         <button id="btn-next" class="btn btn-solid" type="button">Selanjutnya →</button>
+        <button id="btn-submit" class="btn btn-submit" type="button" hidden>Kumpulkan ✓</button>
       </div>
     </section>
 
@@ -129,7 +132,7 @@
 
   </main>
 
-  <script src="questions.js?v=7"></script>
-  <script src="app.js?v=7"></script>
+  <script src="questions.js?v=8"></script>
+  <script src="app.js?v=8"></script>
 </body>
 </html>
