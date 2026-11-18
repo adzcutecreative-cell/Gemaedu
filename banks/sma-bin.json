@@ -1,0 +1,650 @@
+[
+  {
+    "t": "Pemerintah kota mulai membatasi penggunaan kantong plastik di pusat perbelanjaan. Kebijakan itu berlaku sejak awal bulan lalu. Meski demikian, sosialisasi kepada pedagang kecil belum merata.\nIde pokok paragraf tersebut adalah ...",
+    "o": [
+      "Pembatasan kantong plastik di pusat perbelanjaan.",
+      "Sosialisasi kebijakan kepada pedagang kecil.",
+      "Reaksi pedagang terhadap kebijakan baru.",
+      "Jadwal penerapan kebijakan pemerintah kota."
+    ],
+    "k": 0
+  },
+  {
+    "t": "Bentuk baku dari kata merubah adalah ...",
+    "o": [
+      "merubah",
+      "mengubah",
+      "merobah",
+      "mengrobah"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Kalimat yang menggunakan kata baku adalah ...",
+    "o": [
+      "Ia menganalisis data itu dengan teliti.",
+      "Mereka merubah rencana perjalanan.",
+      "Apotik itu buka pukul delapan.",
+      "Kami menyimpulkan hasil diskusi."
+    ],
+    "k": [
+      0,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "(1) Sampah organik dapat diolah menjadi kompos. (2) Prosesnya cukup sederhana. (3) Sampah dipisahkan, dicacah, lalu ditumpuk. (4) Dalam beberapa minggu, kompos siap digunakan.\nKalimat utama paragraf tersebut ditandai nomor ...",
+    "o": [
+      "(3)",
+      "(2)",
+      "(1)",
+      "(4)"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Kerja sama tim ini perlu ditingkatkan ... hasil yang dicapai belum maksimal.",
+    "o": [
+      "sehingga",
+      "apabila",
+      "meskipun",
+      "karena"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Kalimat yang mengandung majas metafora adalah ...",
+    "o": [
+      "Kau adalah mentari hidupku.",
+      "Wajahnya seperti bulan purnama.",
+      "Angin berbisik menyampaikan salamku.",
+      "Suaranya menggelegar membelah angkasa."
+    ],
+    "k": 0
+  },
+  {
+    "t": "Sejak musim hujan tiba, Pak Rudi jarang membuka warungnya. Ia lebih sering membantu memperbaiki saluran air di kampung. Warga pun mulai mengandalkan kehadirannya saat banjir datang.\nSimpulan yang tepat berdasarkan teks tersebut adalah ...",
+    "o": [
+      "Pak Rudi menutup warung karena bangkrut.",
+      "Pak Rudi lebih mendahulukan kepentingan warga saat musim hujan.",
+      "Warga mengabaikan masalah saluran air.",
+      "Pak Rudi berencana pindah ke kampung lain."
+    ],
+    "k": 1
+  },
+  {
+    "t": "Pernyataan berikut yang merupakan opini adalah ...",
+    "o": [
+      "Sungai ini tampaknya paling indah di kota.",
+      "Jembatan itu dibangun pada 1998.",
+      "Pemerintah sebaiknya memperbaiki jembatan itu.",
+      "Sungai itu melintasi tiga kecamatan."
+    ],
+    "k": [
+      0,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Kalimat yang menggunakan kata tidak baku adalah ...",
+    "o": [
+      "Kami memperbaiki atap rumah.",
+      "Panitia menyusun laporan kegiatan.",
+      "Ia merubah jadwal keberangkatan.",
+      "Petugas mengukur lebar jalan."
+    ],
+    "k": 2
+  },
+  {
+    "t": "Kemacetan di Jalan Merdeka terjadi setiap pagi. Menurut catatan Dinas Perhubungan, volume kendaraan di jalan itu mencapai 12.000 unit per jam. Pemerintah seharusnya segera membangun jalur khusus sepeda.\nKalimat yang merupakan opini adalah ...",
+    "o": [
+      "Kemacetan di Jalan Merdeka terjadi setiap pagi.",
+      "Volume kendaraan mencapai 12.000 unit per jam.",
+      "Kemacetan di jalan itu dicatat oleh Dinas Perhubungan.",
+      "Pemerintah seharusnya segera membangun jalur khusus sepeda."
+    ],
+    "k": 3
+  },
+  {
+    "t": "\"Saya akan berangkat besok pagi,\" kata Rina.\nKalimat tidak langsung yang tepat adalah ...",
+    "o": [
+      "Rina mengatakan bahwa ia akan berangkat besok pagi.",
+      "Rina mengatakan bahwa ia akan berangkat kemarin pagi.",
+      "Rina mengatakan bahwa saya akan berangkat besok pagi.",
+      "Rina mengatakan, \"ia akan berangkat besok pagi.\""
+    ],
+    "k": 0
+  },
+  {
+    "t": "Kalimat yang menyatakan fakta adalah ...",
+    "o": [
+      "Pulau-pulau di Indonesia sangat indah.",
+      "Indonesia memiliki lebih dari 17.000 pulau.",
+      "Pemerintah seharusnya menjaga laut.",
+      "Wisata bahari paling menyenangkan."
+    ],
+    "k": 1
+  },
+  {
+    "t": "Penggunaan kendaraan listrik perlu didorong. Selain menekan emisi, kendaraan listrik mengurangi ketergantungan pada bahan bakar fosil. Namun, harga dan infrastruktur pengisian daya masih menjadi kendala.\nTeks tersebut paling tepat digolongkan sebagai teks ...",
+    "o": [
+      "narasi",
+      "deskripsi",
+      "argumentasi",
+      "prosedur"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Kalimat berikut yang mengandung majas personifikasi adalah ...",
+    "o": [
+      "Angin membelai rambutku.",
+      "Wajahnya seperti bulan.",
+      "Daun-daun melambai kepadaku.",
+      "Ia berlari secepat kilat."
+    ],
+    "k": [
+      0,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "... hujan turun deras, kegiatan itu tetap berlangsung.",
+    "o": [
+      "Karena",
+      "Sehingga",
+      "Apabila",
+      "Meskipun"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Banjir merendam tiga desa di Kecamatan Sukamaju pada Selasa (12/3). Ketinggian air mencapai 80 sentimeter. BPBD mengevakuasi 150 warga ke balai desa.\nUnsur berita yang tidak terdapat dalam teks tersebut adalah ...",
+    "o": [
+      "mengapa peristiwa terjadi",
+      "kapan peristiwa terjadi",
+      "di mana peristiwa terjadi",
+      "apa yang terjadi"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Kalimat definisi dalam teks eksposisi terdapat pada ...",
+    "o": [
+      "Harga barang naik sejak bulan lalu.",
+      "Inflasi adalah kenaikan harga barang secara umum.",
+      "Warga mengeluh tentang kenaikan harga.",
+      "Pemerintah menetapkan kebijakan baru."
+    ],
+    "k": 1
+  },
+  {
+    "t": "Ia dijadikan kambing hitam dalam kasus itu.\nMakna ungkapan kambing hitam pada kalimat tersebut adalah ...",
+    "o": [
+      "orang yang memimpin",
+      "orang yang berjasa",
+      "orang yang disalahkan",
+      "orang yang menolong"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Pemerintah daerah dinilai terlalu lambat menangani sampah. Setiap hari, 300 ton sampah menumpuk di TPA tanpa pengolahan memadai. Jika tidak segera diatasi, masalah ini akan mengancam kesehatan warga.\nSimpulan teks tersebut adalah ...",
+    "o": [
+      "TPA menghasilkan 300 ton sampah setiap hari.",
+      "Warga menolak keberadaan TPA di lingkungan mereka.",
+      "Pemerintah daerah telah berhasil mengolah sampah.",
+      "Penanganan sampah yang lambat berpotensi mengancam kesehatan warga."
+    ],
+    "k": 3
+  },
+  {
+    "t": "Kata berikut yang termasuk konjungsi pertentangan adalah ...",
+    "o": [
+      "tetapi",
+      "sehingga",
+      "namun",
+      "karena"
+    ],
+    "k": [
+      0,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Kalimat yang efektif adalah ...",
+    "o": [
+      "Panitia menyediakan dua ratus kursi untuk peserta.",
+      "Kepada peserta harap hadir tepat waktu.",
+      "Ia bekerja demi untuk keluarganya.",
+      "Para siswa-siswa mengikuti sosialisasi."
+    ],
+    "k": 0
+  },
+  {
+    "t": "Buku ini mengupas sejarah kereta api di Sumatera. Penulis menyajikan data arsip yang jarang diangkat. Sayangnya, beberapa foto tidak diberi keterangan yang memadai.\nBagian tersebut merupakan ... dalam resensi.",
+    "o": [
+      "identitas buku",
+      "kelebihan dan kekurangan buku",
+      "sinopsis cerita",
+      "latar belakang penulis"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Wajahnya seperti bulan purnama.\nMajas yang digunakan pada kalimat tersebut adalah ...",
+    "o": [
+      "personifikasi",
+      "metafora",
+      "simile",
+      "metonimia"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Penulisan kalimat yang sesuai kaidah adalah ...",
+    "o": [
+      "kami berlibur ke danau toba pada bulan juli.",
+      "Kami berlibur ke danau Toba pada Bulan Juli.",
+      "Kami berlibur ke Danau toba pada bulan juli.",
+      "Kami berlibur ke Danau Toba pada bulan Juli."
+    ],
+    "k": 3
+  },
+  {
+    "t": "(1) Panaskan minyak dalam wajan. (2) Masukkan telur yang telah dikocok. (3) ... (4) Angkat dan sajikan.\nKalimat yang tepat untuk melengkapi langkah ke-3 adalah ...",
+    "o": [
+      "Aduk hingga telur matang merata.",
+      "Wajan harus berukuran besar.",
+      "Sajikan bersama nasi hangat.",
+      "Telur sebaiknya dibeli di pasar."
+    ],
+    "k": 0
+  },
+  {
+    "t": "Berikut yang merupakan ciri kalimat efektif adalah ...",
+    "o": [
+      "Tidak boros kata.",
+      "Memiliki subjek dan predikat yang jelas.",
+      "Menggunakan kata asing sebanyak mungkin.",
+      "Mengulang gagasan yang sama."
+    ],
+    "k": [
+      0,
+      1
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Bukan hanya siswa ... guru ikut serta dalam kegiatan itu.",
+    "o": [
+      "melainkan",
+      "tetapi juga",
+      "sebaliknya",
+      "bahkan"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Sampah plastik di kota ini terus bertambah setiap tahun. Sebagian besar sampah tersebut belum terkelola dengan baik.\nOleh karena itu, pemerintah dan warga perlu bekerja sama memilah sampah sejak dari rumah.\nHubungan kedua bagian teks tersebut adalah ...",
+    "o": [
+      "Bagian kedua menyanggah bagian pertama.",
+      "Bagian kedua merupakan contoh bagian pertama.",
+      "Bagian kedua merupakan simpulan bagian pertama.",
+      "Bagian kedua mengulang bagian pertama."
+    ],
+    "k": 2
+  },
+  {
+    "t": "Guru mengatakan bahwa kami harus mengumpulkan tugas hari ini.\nKalimat langsung yang tepat adalah ...",
+    "o": [
+      "Guru berkata, \"Kamu harus mengumpulkan tugas hari itu.\"",
+      "Guru berkata bahwa \"kamu harus mengumpulkan tugas hari ini.\"",
+      "Guru berkata, \"Saya harus mengumpulkan tugas hari ini.\"",
+      "Guru berkata, \"Kamu harus mengumpulkan tugas hari ini.\""
+    ],
+    "k": 3
+  },
+  {
+    "t": "Kata kontradiksi bersinonim dengan ...",
+    "o": [
+      "pertentangan",
+      "perjanjian",
+      "persetujuan",
+      "perubahan"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Pendidikan karakter perlu ditanamkan sejak dini. Anak yang terbiasa disiplin akan lebih mudah menaati aturan. Kebiasaan itu terbentuk melalui contoh dan pembiasaan di rumah serta sekolah.\nGagasan penjelas paragraf tersebut adalah ...",
+    "o": [
+      "Pendidikan karakter perlu ditanamkan sejak dini.",
+      "Pembiasaan disiplin membentuk ketaatan anak pada aturan.",
+      "Sekolah bertanggung jawab penuh atas pendidikan anak.",
+      "Anak sulit menaati aturan tanpa hukuman."
+    ],
+    "k": 1
+  },
+  {
+    "t": "Berikut yang merupakan ciri teks berita adalah ...",
+    "o": [
+      "Bahasa lugas dan mengutamakan fakta.",
+      "Bersifat imajinatif.",
+      "Mengutamakan peristiwa aktual.",
+      "Menggunakan konflik tokoh rekaan."
+    ],
+    "k": [
+      0,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Jalan itu rusak berat ... kendaraan tidak dapat melintas.",
+    "o": [
+      "karena",
+      "meskipun",
+      "sehingga",
+      "agar"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Dinas Kesehatan menggelar imunisasi campak di 12 puskesmas. Kegiatan itu menyasar 3.000 anak usia bawah lima tahun. Hingga hari ketiga, cakupan imunisasi baru mencapai 60 persen.\nSimpulan yang tepat berdasarkan teks tersebut adalah ...",
+    "o": [
+      "Imunisasi campak telah mencapai seluruh sasaran.",
+      "Seluruh anak di kota itu sudah diimunisasi.",
+      "Dinas Kesehatan menunda kegiatan imunisasi.",
+      "Kegiatan imunisasi berlangsung di 12 puskesmas dan baru menjangkau sebagian sasaran."
+    ],
+    "k": 3
+  },
+  {
+    "t": "Kalimat perintah yang tepat dalam teks prosedur adalah ...",
+    "o": [
+      "Panaskan minyak dalam wajan.",
+      "Minyak sedang dipanaskan.",
+      "Minyak dipanaskan dalam wajan.",
+      "Wajan itu berisi minyak."
+    ],
+    "k": 0
+  },
+  {
+    "t": "Antonim kata krusial adalah ...",
+    "o": [
+      "penting",
+      "sepele",
+      "mendesak",
+      "utama"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Air tanah menjadi sumber utama kebutuhan rumah tangga di kota ini. Pengambilan air secara berlebihan menyebabkan penurunan permukaan tanah. Karena itu, pemanfaatan air tanah perlu diatur.\nTujuan teks tersebut adalah ...",
+    "o": [
+      "menghibur pembaca dengan kisah air tanah",
+      "mengajak pembaca membeli air kemasan",
+      "memaparkan informasi disertai fakta tentang air tanah",
+      "menceritakan pengalaman penulis"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Kalimat langsung berikut yang penulisannya tepat adalah ...",
+    "o": [
+      "\"Saya akan datang,\" kata Ani.",
+      "\"Saya akan datang.\" kata Ani.",
+      "Kata Ani, \"saya akan datang.\"",
+      "\"Saya akan datang,\" kata Ani, \"jika hujan reda.\""
+    ],
+    "k": [
+      0,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Kalimat yang tidak efektif adalah ...",
+    "o": [
+      "Kami saling menghormati.",
+      "Mereka menghormati kami.",
+      "Kami menghormati mereka.",
+      "Kami saling menghormati satu sama lain."
+    ],
+    "k": 3
+  },
+  {
+    "t": "Trotoar di kawasan pusat kota kini banyak beralih fungsi menjadi tempat berjualan. Pejalan kaki terpaksa turun ke jalan raya. Pemerintah seharusnya menata kembali fungsi trotoar agar hak pejalan kaki terlindungi.\nOpini penulis dalam teks tersebut adalah ...",
+    "o": [
+      "Pemerintah seharusnya menata kembali fungsi trotoar.",
+      "Pejalan kaki turun ke jalan raya.",
+      "Trotoar di pusat kota beralih fungsi.",
+      "Pedagang berjualan di kawasan pusat kota."
+    ],
+    "k": 0
+  },
+  {
+    "t": "Pemerintah menaikkan harga bahan bakar. Kebijakan tersebut menuai protes dari warga.\nKata tersebut pada kalimat kedua merujuk pada ...",
+    "o": [
+      "pemerintah",
+      "kenaikan harga bahan bakar",
+      "protes warga",
+      "bahan bakar"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Kata berimbuhan memperbaiki berasal dari kata dasar ...",
+    "o": [
+      "perbaikan",
+      "baiki",
+      "baik",
+      "perbaiki"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Novel ini menyajikan kisah nelayan dengan latar yang kuat. Dialog-dialognya terasa hidup dan wajar. Namun, alur bagian akhir terasa terburu-buru sehingga konflik tokoh utama selesai terlalu mudah.\nKalimat yang berisi kelemahan buku tersebut adalah ...",
+    "o": [
+      "Novel ini menyajikan kisah nelayan dengan latar yang kuat.",
+      "Dialog-dialognya terasa hidup dan wajar.",
+      "Konflik tokoh utama menarik perhatian pembaca.",
+      "Alur bagian akhir terasa terburu-buru."
+    ],
+    "k": 3
+  },
+  {
+    "t": "Kata berikut yang tidak baku adalah ...",
+    "o": [
+      "praktek",
+      "analisis",
+      "jaman",
+      "kualitas"
+    ],
+    "k": [
+      0,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Kalimat yang mengandung majas hiperbola adalah ...",
+    "o": [
+      "Suaranya menggelegar membelah angkasa.",
+      "Daun melambai ke arah kami.",
+      "Ia bekerja seperti kuda.",
+      "Kau adalah mentari hidupku."
+    ],
+    "k": 0
+  },
+  {
+    "t": "Cara Membuat Pot dari Botol Bekas\n(1) Siapkan botol plastik bekas. (2) Potong botol menjadi dua bagian. (3) Lubangi bagian bawah botol. (4) Isi dengan tanah dan tanam bibit. (5) Siram secukupnya.\nTujuan teks prosedur tersebut adalah ...",
+    "o": [
+      "menjelaskan asal-usul botol plastik",
+      "memaparkan cara membuat pot dari botol bekas",
+      "menghimbau pembaca mengurangi sampah",
+      "menceritakan pengalaman menanam bibit"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Penulisan kalimat yang menggunakan tanda baca secara tepat adalah ...",
+    "o": [
+      "\"Kapan kita berangkat? tanya Ayah.\"",
+      "\"Kapan kita berangkat?\" Tanya Ayah.",
+      "\"Kapan kita berangkat?\" tanya Ayah.",
+      "\"Kapan kita berangkat,\" tanya Ayah?"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Kalimat yang memiliki subjek dan predikat secara lengkap adalah ...",
+    "o": [
+      "Di perpustakaan membaca buku.",
+      "Buku yang dibaca mahasiswa itu.",
+      "Membaca buku di perpustakaan.",
+      "Mahasiswa itu membaca buku di perpustakaan."
+    ],
+    "k": 3
+  },
+  {
+    "t": "Berikut yang merupakan ciri ide pokok paragraf adalah ...",
+    "o": [
+      "Terdapat pada kalimat utama.",
+      "Selalu berada di akhir paragraf.",
+      "Mencakup keseluruhan isi paragraf.",
+      "Berupa contoh khusus."
+    ],
+    "k": [
+      0,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Ungkapan oleh sebab itu dalam teks argumentasi berfungsi sebagai ...",
+    "o": [
+      "penanda simpulan",
+      "penanda contoh",
+      "penanda waktu",
+      "penanda pertentangan"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Penulisan kata baku yang tepat adalah ...",
+    "o": [
+      "frekwensi",
+      "frekuensi",
+      "frekuansi",
+      "frekwansi"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Kalimat berikut yang bermakna ambigu (ambiguity) adalah ...",
+    "o": [
+      "Anak itu memukul bola dengan keras.",
+      "Guru baru itu sedang mengajar di kelas.",
+      "Dia membaca buku sejarah di perpustakaan.",
+      "Mereka berdiskusi tentang masalah sampah plastik."
+    ],
+    "k": 1
+  },
+  {
+    "t": "Berikut yang merupakan ciri teks prosedur adalah ...",
+    "o": [
+      "Menggunakan kalimat perintah.",
+      "Berisi langkah yang berurutan.",
+      "Bertujuan menghibur pembaca.",
+      "Menggunakan konflik tokoh."
+    ],
+    "k": [
+      0,
+      1
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Kalimat yang menyatakan opini adalah ...",
+    "o": [
+      "Ruang terbuka hijau di kota itu seluas 12 hektare.",
+      "Taman dibangun pada tahun 2010.",
+      "Warga menggunakan taman setiap pagi.",
+      "Pemerintah sebaiknya menambah ruang terbuka hijau."
+    ],
+    "k": 3
+  },
+  {
+    "t": "Kalimat tanya retoris dalam teks editorial terdapat pada ...",
+    "o": [
+      "Sampai kapan kita membiarkan sampah menumpuk?",
+      "Siapa yang membersihkan sampah itu?",
+      "Kapan petugas datang?",
+      "Di mana tempat pembuangan sampah?"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Kalimat yang menggunakan konjungsi temporal adalah ...",
+    "o": [
+      "Ia sakit karena kehujanan.",
+      "Setelah hujan reda, kami melanjutkan perjalanan.",
+      "Kami tidak datang meskipun diundang.",
+      "Ia belajar agar lulus."
+    ],
+    "k": 1
+  },
+  {
+    "t": "Kalimat berikut yang mengandung konjungsi sebab-akibat adalah ...",
+    "o": [
+      "Ia tidak masuk karena sakit.",
+      "Jalan macet sehingga kami terlambat.",
+      "Ia belajar sambil mendengarkan musik.",
+      "Kami berangkat meskipun hujan."
+    ],
+    "k": [
+      0,
+      1
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Kata baku yang tepat untuk melengkapi kalimat \"Para ahli sedang ... dampak kebijakan itu\" adalah ...",
+    "o": [
+      "menganalisa",
+      "menganalisakan",
+      "menganalisis",
+      "analisa"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Kalimat yang mengandung kata kerja mental adalah ...",
+    "o": [
+      "Warga membangun jembatan.",
+      "Warga menanam pohon.",
+      "Warga membersihkan selokan.",
+      "Warga berharap pemerintah segera bertindak."
+    ],
+    "k": 3
+  },
+  {
+    "t": "Pernyataan berikut yang merupakan fakta adalah ...",
+    "o": [
+      "Air mendidih pada suhu 100 derajat Celsius pada tekanan satu atmosfer.",
+      "Musik tradisional lebih indah daripada musik modern.",
+      "Jakarta terletak di Pulau Jawa.",
+      "Pantai di Bali paling bagus di dunia."
+    ],
+    "k": [
+      0,
+      2
+    ],
+    "tipe": "multi"
+  }
+]

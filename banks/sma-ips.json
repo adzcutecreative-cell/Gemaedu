@@ -1,0 +1,652 @@
+[
+  {
+    "t": "Apabila harga suatu barang naik, jumlah barang yang diminta akan turun dengan asumsi faktor lain tetap. Pernyataan tersebut merupakan isi dari ...",
+    "o": [
+      "hukum permintaan",
+      "hukum penawaran",
+      "hukum Gossen",
+      "hukum Say"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Fungsi permintaan Qd = 100 - 2P. Jika harga P = 20, jumlah barang yang diminta adalah ...",
+    "o": [
+      "40 unit",
+      "60 unit",
+      "50 unit",
+      "80 unit"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Fungsi penawaran Qs = -10 + 3P. Pada harga P = 20, jumlah barang yang ditawarkan adalah ...",
+    "o": [
+      "30 unit",
+      "40 unit",
+      "50 unit",
+      "60 unit"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Diketahui Qd = 200 - 2P dan Qs = 50 + P. Harga keseimbangan pasar adalah ...",
+    "o": [
+      "30",
+      "100",
+      "75",
+      "50"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Harga barang naik dari Rp10.000 menjadi Rp12.000 sehingga jumlah yang diminta turun dari 100 unit menjadi 80 unit. Koefisien elastisitas permintaan dengan metode persentase awal adalah ...",
+    "o": [
+      "1",
+      "0,5",
+      "1,5",
+      "2"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Biaya tetap suatu usaha Rp500.000 dan biaya variabel Rp10.000 per unit. Jika diproduksi 100 unit, total biaya adalah ...",
+    "o": [
+      "Rp500.000",
+      "Rp1.500.000",
+      "Rp1.000.000",
+      "Rp2.000.000"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Biaya tetap Rp4.000.000, harga jual Rp20.000 per unit, dan biaya variabel Rp12.000 per unit. Jumlah unit pada titik pulang pokok adalah ...",
+    "o": [
+      "200 unit",
+      "400 unit",
+      "500 unit",
+      "800 unit"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Struktur pasar yang dicirikan oleh jumlah penjual sedikit dan keputusan tiap penjual saling memengaruhi adalah ...",
+    "o": [
+      "persaingan sempurna",
+      "persaingan monopolistik",
+      "monopsoni",
+      "oligopoli"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Ciri pasar monopoli adalah ...",
+    "o": [
+      "satu penjual yang menentukan harga",
+      "banyak penjual dengan barang homogen",
+      "pembeli sepenuhnya menentukan harga",
+      "tidak ada hambatan untuk masuk pasar"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Indeks harga konsumen naik dari 110 menjadi 121. Tingkat inflasi pada periode tersebut adalah ...",
+    "o": [
+      "9%",
+      "10%",
+      "11%",
+      "21%"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Konsumsi Rp400 triliun, investasi Rp150 triliun, belanja pemerintah Rp100 triliun, ekspor Rp80 triliun, dan impor Rp60 triliun. PDB dengan pendekatan pengeluaran adalah ...",
+    "o": [
+      "Rp610 triliun",
+      "Rp650 triliun",
+      "Rp670 triliun",
+      "Rp730 triliun"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Kebijakan fiskal yang tepat ketika ekonomi mengalami resesi adalah ...",
+    "o": [
+      "menjual surat berharga bank sentral",
+      "menaikkan pajak",
+      "mengurangi belanja pemerintah",
+      "menambah belanja pemerintah"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Untuk menekan inflasi, kebijakan moneter yang ditempuh bank sentral adalah ...",
+    "o": [
+      "menaikkan suku bunga acuan",
+      "menurunkan suku bunga acuan",
+      "menambah jumlah uang beredar",
+      "menurunkan rasio cadangan wajib"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Anggaran Pendapatan dan Belanja Negara mengalami defisit apabila ...",
+    "o": [
+      "penerimaan lebih besar daripada belanja",
+      "belanja lebih besar daripada penerimaan",
+      "penerimaan sama dengan belanja",
+      "tabungan pemerintah meningkat"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Pembagian sisa hasil usaha koperasi kepada anggota didasarkan pada ...",
+    "o": [
+      "besarnya modal saja",
+      "jumlah tanggungan keluarga",
+      "partisipasi dan jasa anggota",
+      "lama bekerja sebagai pegawai"
+    ],
+    "k": 2
+  },
+  {
+    "t": "PDB suatu negara Rp8.000 triliun dan jumlah penduduk 200 juta jiwa. Pendapatan per kapita negara tersebut adalah ...",
+    "o": [
+      "Rp4 juta",
+      "Rp16 juta",
+      "Rp400 juta",
+      "Rp40 juta"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Batuan beku terbentuk dari ...",
+    "o": [
+      "magma yang membeku",
+      "sisa tumbuhan yang terendam",
+      "pengendapan material sedimen",
+      "perubahan batuan karena tekanan"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Batuan utama penyusun kawasan karst adalah ...",
+    "o": [
+      "granit",
+      "batu gamping",
+      "batu pasir",
+      "basal"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Lapisan atmosfer tempat terjadinya sebagian besar cuaca adalah ...",
+    "o": [
+      "mesosfer",
+      "stratosfer",
+      "troposfer",
+      "termosfer"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Perubahan uap air menjadi titik-titik air di atmosfer disebut ...",
+    "o": [
+      "evaporasi",
+      "infiltrasi",
+      "presipitasi",
+      "kondensasi"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Pola aliran sungai dendritik umumnya berkembang pada daerah dengan ...",
+    "o": [
+      "batuan homogen dan lereng landai",
+      "batuan tidak homogen",
+      "patahan yang sejajar",
+      "kawah gunung api"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Menurut ketentuan tata ruang, ruang terbuka hijau pada kawasan perkotaan minimal ...",
+    "o": [
+      "10%",
+      "30%",
+      "20%",
+      "50%"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Analisis buffer dalam sistem informasi geografis digunakan untuk ...",
+    "o": [
+      "menghitung luas wilayah",
+      "mengklasifikasikan citra satelit",
+      "menentukan wilayah dalam jarak tertentu dari suatu objek",
+      "memperbesar skala peta"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Data raster dalam sistem informasi geografis disimpan dalam bentuk ...",
+    "o": [
+      "titik",
+      "garis",
+      "poligon",
+      "sel grid atau piksel"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Tindakan yang tepat saat terjadi gempa bumi di dalam gedung adalah ...",
+    "o": [
+      "melindungi kepala dan keluar dengan tenang",
+      "berlari menuju lift",
+      "berdiri dekat jendela kaca",
+      "tetap di lantai atas menunggu bantuan"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Tanda awal datangnya tsunami di pantai adalah ...",
+    "o": [
+      "angin bertambah kencang",
+      "air laut surut mendadak",
+      "suhu udara turun drastis",
+      "langit menjadi gelap"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Sumber norma agama adalah ...",
+    "o": [
+      "kesepakatan masyarakat",
+      "keputusan pemerintah",
+      "wahyu Tuhan",
+      "kebiasaan turun-temurun"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Sanksi bagi pelanggar norma adat biasanya berupa ...",
+    "o": [
+      "denda kepada negara",
+      "hukuman penjara",
+      "pencabutan kewarganegaraan",
+      "pengucilan dari masyarakat"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Sistem stratifikasi sosial tertutup dicontohkan oleh ...",
+    "o": [
+      "kasta di India",
+      "jenjang pendidikan di Indonesia",
+      "jabatan pegawai negeri",
+      "kekayaan seorang pengusaha"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Seorang manajer yang diturunkan menjadi staf mengalami mobilitas sosial ...",
+    "o": [
+      "vertikal naik",
+      "vertikal turun",
+      "horizontal",
+      "antargenerasi naik"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Guru yang pindah ke sekolah lain dengan jabatan tetap guru mengalami mobilitas sosial ...",
+    "o": [
+      "vertikal naik",
+      "vertikal turun",
+      "horizontal",
+      "antargenerasi"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Penyelesaian konflik dengan bantuan pihak ketiga yang netral disebut ...",
+    "o": [
+      "arbitrase",
+      "kompromi",
+      "koersi",
+      "mediasi"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Penemuan baru yang kemudian diterapkan dalam masyarakat dapat mendorong perubahan sosial. Penemuan tersebut disebut ...",
+    "o": [
+      "discovery",
+      "difusi",
+      "akulturasi",
+      "asimilasi"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Dampak negatif globalisasi bagi masyarakat adalah ...",
+    "o": [
+      "meningkatnya solidaritas lokal",
+      "perilaku konsumtif",
+      "pelestarian budaya daerah",
+      "kemandirian ekonomi"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Agen sosialisasi primer bagi seorang anak adalah ...",
+    "o": [
+      "media massa",
+      "sekolah",
+      "keluarga",
+      "teman kerja"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Ketertinggalan unsur budaya nonmaterial dibandingkan perkembangan teknologi disebut ...",
+    "o": [
+      "difusi",
+      "etnosentrisme",
+      "akulturasi",
+      "cultural lag"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Kerajaan Hindu tertua di Indonesia adalah ...",
+    "o": [
+      "Kutai",
+      "Tarumanegara",
+      "Sriwijaya",
+      "Majapahit"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Kerajaan Sriwijaya dikenal sebagai kerajaan maritim yang berpusat di ...",
+    "o": [
+      "Kediri",
+      "Palembang",
+      "Singasari",
+      "Trowulan"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Kerajaan Islam pertama di Pulau Jawa adalah ...",
+    "o": [
+      "Banten",
+      "Mataram Islam",
+      "Demak",
+      "Cirebon"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Sistem tanam paksa pada masa kolonial Belanda mewajibkan petani menyisihkan ...",
+    "o": [
+      "10% lahan untuk tanaman ekspor",
+      "seluruh lahan untuk pemerintah",
+      "50% hasil panen untuk pajak",
+      "20% lahan untuk tanaman ekspor"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Program Politik Etis yang dicanangkan tahun 1901 meliputi bidang ...",
+    "o": [
+      "pendidikan, irigasi, dan emigrasi",
+      "perpajakan, perdagangan, dan militer",
+      "kesehatan, perumahan, dan transportasi",
+      "pendidikan, militer, dan industri"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Organisasi pergerakan nasional yang didirikan pada 20 Mei 1908 adalah ...",
+    "o": [
+      "Sarekat Islam",
+      "Budi Utomo",
+      "Indische Partij",
+      "Muhammadiyah"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Peristiwa Sumpah Pemuda terjadi pada ...",
+    "o": [
+      "20 Mei 1908",
+      "17 Agustus 1945",
+      "28 Oktober 1928",
+      "10 November 1945"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Naskah Proklamasi Kemerdekaan Indonesia disusun oleh ...",
+    "o": [
+      "Soepomo dan Ki Hajar Dewantara",
+      "Soekarno dan Sutan Sjahrir",
+      "Mohammad Hatta dan Tan Malaka",
+      "Soekarno dan Mohammad Hatta"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Pemilihan umum pertama di Indonesia pada tahun 1955 diselenggarakan pada masa ...",
+    "o": [
+      "Demokrasi Liberal",
+      "Demokrasi Terpimpin",
+      "Orde Baru",
+      "Reformasi"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Konsep Nasakom yang menonjol pada masa Demokrasi Terpimpin merupakan singkatan dari ...",
+    "o": [
+      "nasionalisme, sosialisme, komunisme",
+      "nasionalisme, agama, komunisme",
+      "agama, sosial, kebudayaan",
+      "nasional, sosial, komunikasi"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Program pembangunan berencana pada masa Orde Baru dilaksanakan melalui ...",
+    "o": [
+      "Program Benteng",
+      "Rencana Kasimo",
+      "Pembangunan Lima Tahun",
+      "Politik Etis"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Pemilihan umum tahun 1999 pada masa Reformasi dimenangkan oleh ...",
+    "o": [
+      "Partai Demokrat",
+      "Golkar",
+      "PPP",
+      "PDI Perjuangan"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Kebijakan moneter untuk menekan laju inflasi adalah ...",
+    "o": [
+      "menurunkan suku bunga acuan",
+      "menaikkan suku bunga acuan",
+      "menambah subsidi bahan bakar",
+      "menurunkan pajak penghasilan"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Faktor yang dapat menyebabkan inflasi adalah ...",
+    "o": [
+      "kenaikan permintaan agregat",
+      "pertambahan jumlah uang beredar",
+      "kenaikan biaya produksi",
+      "lonjakan produksi barang"
+    ],
+    "k": [
+      0,
+      1,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Instrumen kebijakan fiskal adalah ...",
+    "o": [
+      "pajak",
+      "belanja pemerintah",
+      "subsidi dan transfer",
+      "suku bunga acuan"
+    ],
+    "k": [
+      0,
+      1,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Upaya mitigasi bencana gempa bumi adalah ...",
+    "o": [
+      "membangun rumah tahan gempa",
+      "menyiapkan jalur evakuasi",
+      "membangun permukiman di atas sesar aktif",
+      "melakukan simulasi evakuasi"
+    ],
+    "k": [
+      0,
+      1,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Komponen sistem informasi geografis adalah ...",
+    "o": [
+      "perangkat keras",
+      "perangkat lunak",
+      "data spasial",
+      "jaringan internet"
+    ],
+    "k": [
+      0,
+      1,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Dampak El Nino di Indonesia adalah ...",
+    "o": [
+      "kekeringan",
+      "penurunan curah hujan",
+      "meningkatnya risiko kebakaran hutan",
+      "banjir besar yang merata"
+    ],
+    "k": [
+      0,
+      1,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Dampak positif globalisasi bagi masyarakat Indonesia adalah ...",
+    "o": [
+      "masuknya nilai budaya tanpa penyaringan",
+      "keterbukaan informasi dan pasar kerja",
+      "hilangnya bahasa daerah",
+      "ketergantungan pada produk impor"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Penyebab konflik sosial adalah ...",
+    "o": [
+      "perbedaan kepentingan",
+      "persaingan sumber daya yang langka",
+      "perbedaan budaya",
+      "kerja sama yang saling menguntungkan"
+    ],
+    "k": [
+      0,
+      1,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Bentuk mobilitas sosial vertikal adalah ...",
+    "o": [
+      "kenaikan jabatan",
+      "penurunan jabatan",
+      "perpindahan pekerjaan pada tingkat yang sama",
+      "perubahan status dari buruh menjadi pengusaha"
+    ],
+    "k": [
+      0,
+      1,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Isi Sumpah Pemuda 1928 adalah ...",
+    "o": [
+      "bertanah air satu, tanah air Indonesia",
+      "berbangsa satu, bangsa Indonesia",
+      "menjunjung bahasa persatuan, bahasa Indonesia",
+      "mendirikan satu partai politik nasional"
+    ],
+    "k": [
+      0,
+      1,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Pernyataan yang benar tentang Perang Dingin adalah ...",
+    "o": [
+      "NATO dipimpin oleh Amerika Serikat",
+      "Pakta Warsawa dipimpin oleh Uni Soviet",
+      "Indonesia menjadi anggota NATO",
+      "terjadi persaingan ideologi kapitalisme dan komunisme"
+    ],
+    "k": [
+      0,
+      1,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Tuntutan gerakan Reformasi 1998 antara lain ...",
+    "o": [
+      "penghapusan korupsi, kolusi, dan nepotisme",
+      "amandemen UUD 1945",
+      "pelaksanaan otonomi daerah",
+      "mempertahankan dwifungsi ABRI"
+    ],
+    "k": [
+      0,
+      1,
+      2
+    ],
+    "tipe": "multi"
+  }
+]

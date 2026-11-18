@@ -1,29 +1,44 @@
 # GemEdu — Latihan TKA SD · SMP · SMA
 
-Aplikasi web gratis untuk latihan Tes Kemampuan Awal siswa Indonesia.
+Aplikasi web gratis untuk latihan **Tes Kemampuan Akademik (TKA)**.
 **Chill belajarnya, skill ujiannya.**
 
 🌐 **Live:** https://adzcutecreative-cell.github.io/Gemaedu/
 
 ## Isi
 
-- **3 jenjang**: SD (Kelas 6), SMP (Kelas 9), SMA (Kelas 12)
-- **5 mata pelajaran** per jenjang: Matematika, Bahasa Indonesia, IPA, IPS, Bahasa Inggris
-- **100 soal per jenjang** → 20 soal per mapel, tiap sesi 15 soal acak
-- Timer, progress bar, penilaian otomatis, pembahasan singkat, tombol ulangi
-- **Mobile-first** — dirancang untuk HP, jalan juga di laptop
-- Hasil bisa **disimpan ke Google Sheets** atau **diunduh sebagai CSV**
-- Tanpa login, tanpa biaya, tanpa iklan
+| Jenjang | Mata pelajaran | Soal per mapel | Total bank |
+|---|---|---|---|
+| **SD** (Kelas 6) | Matematika, Bahasa Indonesia, IPAS | 60 | **180** |
+| **SMP** (Kelas 9) | Matematika, B. Indonesia, IPA, IPS, B. Inggris | 60 | **300** |
+| **SMA** (Kelas 12) | Matematika, B. Indonesia, IPA, IPS, B. Inggris | 60 | **300** |
+
+**Total 780 soal.**
+
+Fitur:
+
+- **Dua bentuk soal seperti TKA**: pilihan ganda biasa & **pilihan ganda kompleks** (jawaban benar lebih dari satu)
+- Mode **20 soal (cepat)** atau **60 soal (lengkap)**
+- Timer, progress bar, penilaian otomatis, rincian kunci jawaban, tombol ulangi
+- **Mobile-first** + bisa dipasang di HP (PWA, ada cache offline)
+- Hasil bisa dikirim ke **Google Sheets** atau diunduh sebagai **CSV**
+- Tanpa login, tanpa iklan, tanpa biaya
+
+> Catatan: pada TKA 2026 resmi, SD & SMP hanya menguji **Matematika** dan **Bahasa Indonesia**.
+> Mapel lain di GemEdu adalah pengayaan. Lihat `KISI_TKA_2026.md`.
 
 ## Struktur
 
 ```
-index.html            Halaman + layar (home / kuis / hasil)
-styles.css            Tema hijau-krem, mobile-first
-questions.js          Bank soal: 300 soal (100 per jenjang)
-app.js                Logika kuis, penilaian, ekspor
-google-apps-script.gs Konektor Google Sheets (opsional)
-assets/logo-dark.png  Logo GemEdu
+index.html              Halaman + 3 layar (home / kuis / hasil)
+styles.css              Tema hijau-krem, mobile-first
+app.js                  Mesin kuis, penilaian, ekspor
+questions.js            Hasil gabungan bank soal (auto-generate)
+build_questions.js      Gabung + validasi banks/*.json → questions.js
+banks/*.json            Sumber soal per jenjang-mapel (60 soal/file)
+google-apps-script.gs   Konektor Google Sheets (opsional)
+manifest.json, sw.js    PWA + cache offline
+KISI_TKA_2026.md        Ringkasan kisi-kisi resmi
 ```
 
 ## Jalanin di lokal
@@ -33,47 +48,40 @@ python -m http.server 8124
 # buka http://localhost:8124
 ```
 
+## Ubah / tambah soal
+
+1. Edit file di `banks/` (format: `{"t":"soal","o":["A","B","C","D"],"k":0}`;
+   untuk PG kompleks `"k":[0,2],"tipe":"multi"`).
+2. Jalankan:
+
+```bash
+node build_questions.js
+```
+
+Skrip ini memvalidasi (4 opsi unik, kunci valid, tanpa duplikat) lalu menulis `questions.js`.
+
 ## Deploy
 
-Otomatis: setiap `git push` ke `main` → GitHub Pages build ulang (±1 menit).
+Otomatis: `git push` ke `main` → GitHub Pages build ulang (±1 menit).
 
-```
-Settings → Pages → Deploy from a branch → main → / (root)
-```
-
-## Sambungkan Google Sheets (opsional, ±5 menit)
+## Google Sheets (opsional, ±5 menit)
 
 1. Buka <https://sheets.new>, beri nama **GemEdu - Nilai Siswa**
 2. **Extensions → Apps Script**, hapus isi `Code.gs`
 3. Tempel seluruh isi `google-apps-script.gs` → **Save**
-4. **Deploy → New deployment → Web app**
-   - Execute as: **Me**
-   - Who has access: **Anyone**
-5. **Deploy → Authorize access → Advanced → Go to … (unsafe) → Allow**
-6. Copy **Web app URL** (`https://script.google.com/macros/s/AKfy…/exec`)
-7. Buka `app.js`, isi:
+4. **Deploy → New deployment → Web app** → Execute as **Me**, access **Anyone** → Deploy → Allow
+5. Copy **Web app URL** (`https://script.google.com/macros/s/AKfy…/exec`)
+6. Isi di `app.js`:
 
 ```js
 const SHEETS_ENDPOINT = 'https://script.google.com/macros/s/AKfy…/exec';
 ```
 
-8. `git commit` + `git push` → tunggu ±1 menit
+7. Commit + push → tunggu ±1 menit
 
-Setelah itu, setiap siswa selesai kuis dan klik **Simpan ke Google Sheets**, satu baris otomatis masuk ke sheet **Nilai**.
+Selama belum diset, pakai **Unduh CSV** → buka <https://sheets.new> → **File → Import**.
 
-> Kalau endpoint belum diisi, tombol Sheets menampilkan pesan dan CSV tetap bisa dipakai:
-> unduh CSV → buka <https://sheets.new> → **File → Import**.
+## Pasang di HP
 
-## Pasang di HP (opsional)
-
-Tambahkan ke layar utama supaya seperti aplikasi:
-
-- **Android (Chrome):** buka situs → menu ⋮ → **Add to Home screen / Install app**
-- **iPhone (Safari):** buka situs → tombol Share → **Add to Home Screen**
-
-Setelah terpasang, app kebuka tanpa address bar dan dasar-dasarnya tetap jalan walau sinyal jelek (service worker menyimpan cache).
-
-## Catatan
-
-- Soal disusun sebagai latihan formatif, **bukan** bocoran soal resmi TKA.
-- Semua data nilai disimpan di perangkat siswa (localStorage) + spreadsheet milikmu. Tidak ada server pihak ketiga.
+- **Android (Chrome):** menu ⋮ → **Install app / Add to Home screen**
+- **iPhone (Safari):** Share → **Add to Home Screen**

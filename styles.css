@@ -227,6 +227,8 @@ body {
 .ans-detail { color: var(--cream-dim); font-size: .76rem; }
 
 .result-actions { display: flex; gap: .6rem; margin-bottom: 1rem; }
+.result-note { font-size: .74rem; color: var(--cream-dim); margin-bottom: 1rem; }
+.result-note strong { color: var(--lime-hi); }
 
 .sheets-box { border: 1px dashed rgba(140,183,67,.5); border-radius: 12px; padding: .8rem .9rem; text-align: left; background: rgba(140,183,67,.06); }
 .sheets-title { font-weight: 700; font-size: .85rem; letter-spacing: .06em; text-transform: uppercase; color: var(--lime-hi); margin-bottom: .5rem; }
@@ -241,6 +243,34 @@ body {
 .sheets-status.ok { color: var(--lime-hi); }
 .sheets-status.error { color: var(--red); }
 
+/* ============ MODE TOGGLE ============ */
+.mode-row {
+  display: flex; align-items: center; justify-content: space-between; gap: .75rem;
+  margin-top: 1.25rem; padding: .6rem .75rem; border-radius: 14px;
+  background: rgba(255,255,255,.04); border: 1px solid rgba(140,183,67,.2);
+}
+.mode-label { font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--cream-dim); }
+.mode-toggle { display: flex; gap: .35rem; }
+.mode-btn {
+  font-family: inherit; font-size: .78rem; font-weight: 700; cursor: pointer;
+  padding: .45rem .7rem; border-radius: 10px; border: 1px solid rgba(140,183,67,.3);
+  background: transparent; color: var(--cream-dim); transition: all .18s;
+}
+.mode-btn:hover { border-color: var(--lime); color: var(--cream); }
+.mode-btn.active { background: var(--lime); border-color: var(--lime); color: var(--green-950); }
+
+/* ============ QUESTION HINT / MULTI ============ */
+.question-hint {
+  display: inline-block; font-size: .72rem; font-weight: 700; letter-spacing: .04em;
+  color: var(--lime-hi); background: var(--green-soft); border: 1px solid rgba(140,183,67,.35);
+  border-radius: 999px; padding: .3rem .7rem; margin: -.35rem 0 .85rem;
+}
+.options.multi .option-prefix { border-radius: 6px; }
+.options.multi .option[aria-checked="true"]::after {
+  content: "✓"; margin-left: auto; padding-left: .5rem; align-self: center;
+  color: var(--lime-hi); font-weight: 800;
+}
+
 /* ============ RESPONSIVE UPGRADES ============ */
 @media (min-width: 720px) {
   .screen { padding: 1.75rem 2rem 2rem; }
@@ -248,3 +278,4 @@ body {
   .jenjang-emoji { font-size: 2rem; }
   .question-card { padding: 1.5rem 1.5rem 1.4rem; }
 }
+

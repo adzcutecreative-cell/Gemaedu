@@ -1,0 +1,651 @@
+[
+  {
+    "t": "My sister ___ to school by bicycle every day.",
+    "o": [
+      "goes",
+      "going",
+      "go",
+      "gone"
+    ],
+    "k": 0
+  },
+  {
+    "t": "We ___ a movie at the cinema last night.",
+    "o": [
+      "watch",
+      "watched",
+      "are watching",
+      "have watched"
+    ],
+    "k": 1
+  },
+  {
+    "t": "I ___ in this town since 2019.",
+    "o": [
+      "live",
+      "lived",
+      "have lived",
+      "am living"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Look! The children ___ football in the yard.",
+    "o": [
+      "have played",
+      "play",
+      "played",
+      "are playing"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Don't worry. I ___ you with your homework tomorrow.",
+    "o": [
+      "will help",
+      "am helped",
+      "help",
+      "helped"
+    ],
+    "k": 0
+  },
+  {
+    "t": "While I ___ dinner, the phone rang.",
+    "o": [
+      "cook",
+      "was cooking",
+      "have cooked",
+      "am cooking"
+    ],
+    "k": 1
+  },
+  {
+    "t": "If it ___ tomorrow, we will cancel the picnic.",
+    "o": [
+      "will rain",
+      "rained",
+      "rains",
+      "is raining"
+    ],
+    "k": 2
+  },
+  {
+    "t": "The classroom ___ every morning by the students.",
+    "o": [
+      "cleans",
+      "is cleaning",
+      "has cleaned",
+      "is cleaned"
+    ],
+    "k": 3
+  },
+  {
+    "t": "The bridge ___ in 1999.",
+    "o": [
+      "was built",
+      "built",
+      "is built",
+      "has built"
+    ],
+    "k": 0
+  },
+  {
+    "t": "The teacher said, \"I will give you a quiz tomorrow.\" She said that she ___ us a quiz the next day.",
+    "o": [
+      "will give",
+      "would give",
+      "gives",
+      "has given"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Doni asked me, \"Where did you buy your shoes?\" He asked me where I ___ my shoes.",
+    "o": [
+      "buy",
+      "have bought",
+      "had bought",
+      "did buy"
+    ],
+    "k": 2
+  },
+  {
+    "t": "You have finished your project, ___?",
+    "o": [
+      "have you",
+      "didn't you",
+      "don't you",
+      "haven't you"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Rina doesn't like coffee, ___?",
+    "o": [
+      "does she",
+      "doesn't she",
+      "is she",
+      "isn't she"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Neither the teacher nor the students ___ ready for the test.",
+    "o": [
+      "was",
+      "were",
+      "is",
+      "has been"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Each of the players ___ a new jersey.",
+    "o": [
+      "have",
+      "are having",
+      "has",
+      "were"
+    ],
+    "k": 2
+  },
+  {
+    "t": "You ___ wear a helmet when you ride a motorcycle. It is the law.",
+    "o": [
+      "may",
+      "might",
+      "could",
+      "must"
+    ],
+    "k": 3
+  },
+  {
+    "t": "The sky is very cloudy. It ___ rain later this afternoon.",
+    "o": [
+      "might",
+      "must",
+      "should",
+      "has to"
+    ],
+    "k": 0
+  },
+  {
+    "t": "You ___ smoke here. This is a non-smoking area.",
+    "o": [
+      "need not",
+      "must not",
+      "may",
+      "might"
+    ],
+    "k": 1
+  },
+  {
+    "t": "A giraffe is ___ than an elephant.",
+    "o": [
+      "tall",
+      "tallest",
+      "taller",
+      "more tall"
+    ],
+    "k": 2
+  },
+  {
+    "t": "This is ___ book I have ever read.",
+    "o": [
+      "more interesting",
+      "the more interesting",
+      "most interesting",
+      "the most interesting"
+    ],
+    "k": 3
+  },
+  {
+    "t": "The meeting will start ___ 9 o'clock ___ Monday morning.",
+    "o": [
+      "at, on",
+      "on, at",
+      "in, on",
+      "at, in"
+    ],
+    "k": 0
+  },
+  {
+    "t": "We walked ___ the bridge to reach the other side of the river.",
+    "o": [
+      "through",
+      "across",
+      "along",
+      "into"
+    ],
+    "k": 1
+  },
+  {
+    "t": "I wanted to join the competition, ___ I was too busy.",
+    "o": [
+      "so",
+      "because",
+      "but",
+      "or"
+    ],
+    "k": 2
+  },
+  {
+    "t": "She stayed at home ___ she was feeling ill.",
+    "o": [
+      "but",
+      "although",
+      "so",
+      "because"
+    ],
+    "k": 3
+  },
+  {
+    "t": "I enjoy ___ novels in my free time.",
+    "o": [
+      "reading",
+      "to read",
+      "read",
+      "reads"
+    ],
+    "k": 0
+  },
+  {
+    "t": "My mother asked me ___ her in the kitchen.",
+    "o": [
+      "helping",
+      "to help",
+      "help",
+      "helped"
+    ],
+    "k": 1
+  },
+  {
+    "t": "She bought a ___ dress for the party.",
+    "o": [
+      "red beautiful long",
+      "long beautiful red",
+      "beautiful long red",
+      "beautiful red long"
+    ],
+    "k": 2
+  },
+  {
+    "t": "They live in a ___ house near the river.",
+    "o": [
+      "wooden small old",
+      "small wooden old",
+      "old wooden small",
+      "small old wooden"
+    ],
+    "k": 3
+  },
+  {
+    "t": "The word \"diligent\" is closest in meaning to ___.",
+    "o": [
+      "hard-working",
+      "lazy",
+      "careless",
+      "friendly"
+    ],
+    "k": 0
+  },
+  {
+    "t": "The opposite of \"expensive\" is ___.",
+    "o": [
+      "valuable",
+      "cheap",
+      "rich",
+      "costly"
+    ],
+    "k": 1
+  },
+  {
+    "t": "In the sentence \"The museum is enormous\", the word \"enormous\" means ___.",
+    "o": [
+      "very old",
+      "very crowded",
+      "very large",
+      "very modern"
+    ],
+    "k": 2
+  },
+  {
+    "t": "A person who flies an airplane is called a ___.",
+    "o": [
+      "driver",
+      "sailor",
+      "engineer",
+      "pilot"
+    ],
+    "k": 3
+  },
+  {
+    "t": "The soup is too ___; please add some salt and pepper.",
+    "o": [
+      "bland",
+      "sweet",
+      "sour",
+      "spicy"
+    ],
+    "k": 0
+  },
+  {
+    "t": "We should ___ the lights when we leave the room to save energy.",
+    "o": [
+      "turn on",
+      "turn off",
+      "turn up",
+      "turn over"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Which expression is suitable to accept an invitation to a birthday party?",
+    "o": [
+      "I'm sorry to hear that.",
+      "Yes, I broke it yesterday.",
+      "I'd love to, thank you.",
+      "No, thank you for the book."
+    ],
+    "k": 2
+  },
+  {
+    "t": "Your friend says, \"Shall I open the window for you?\" The best response to accept the offer is ___",
+    "o": [
+      "No, I don't like windows.",
+      "I opened it last week.",
+      "You must open it now.",
+      "Yes, please. That would be nice."
+    ],
+    "k": 3
+  },
+  {
+    "t": "Excuse me, ___ I use your phone for a moment?",
+    "o": [
+      "may",
+      "should",
+      "ought to",
+      "must"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Your friend says, \"I'm sorry I forgot to bring your book.\" The best response is ___",
+    "o": [
+      "Thank you for the book.",
+      "That's all right. You can bring it tomorrow.",
+      "Yes, please. I'd love to.",
+      "Congratulations on your book."
+    ],
+    "k": 1
+  },
+  {
+    "t": "The Rafflesia arnoldii is the largest flower in the world. It grows in the rainforests of Sumatra and can reach one meter in diameter. Unlike most flowers, it smells like rotting meat in order to attract flies.\n\nWhat is the purpose of the flower's bad smell?",
+    "o": [
+      "To keep insects away",
+      "To help the flower grow faster",
+      "To attract flies",
+      "To protect it from strong wind"
+    ],
+    "k": 2
+  },
+  {
+    "t": "One hot day, a thirsty crow found a pitcher with a little water at the bottom. The crow could not reach the water, so it dropped small stones into the pitcher one by one. Slowly, the water rose to the top, and the crow drank happily.\n\nWhat can we learn from the story?",
+    "o": [
+      "We should always drink a lot of water.",
+      "Small stones are more useful than water.",
+      "We must not drink water from a pitcher.",
+      "We can solve problems with patience and cleverness."
+    ],
+    "k": 3
+  },
+  {
+    "t": "How to Make a Cup of Tea\n1. Boil some water.\n2. Put a tea bag into a cup.\n3. Pour the hot water into the cup.\n4. Wait for about three minutes.\n5. Stir well and add sugar if you like.\n\nWhat should you do right after pouring the hot water into the cup?",
+    "o": [
+      "Wait for about three minutes",
+      "Add sugar to the cup",
+      "Boil the water again",
+      "Put another tea bag into the cup"
+    ],
+    "k": 0
+  },
+  {
+    "t": "ANNOUNCEMENT\nAll Grade 9 students must join the rehearsal for the graduation ceremony on Friday at 1 p.m. in the school hall. Please bring your own water bottle and wear your white uniform.\n\nWhat must the students bring to the rehearsal?",
+    "o": [
+      "Their graduation certificate",
+      "Their own water bottle",
+      "Their parents' permission letter",
+      "A chair from their classroom"
+    ],
+    "k": 1
+  },
+  {
+    "t": "NOTICE\nKEEP OFF THE GRASS\n\nWhat does the notice mean?",
+    "o": [
+      "People should plant grass there.",
+      "People may cut the grass.",
+      "People must not walk on the grass.",
+      "People can play football on the grass."
+    ],
+    "k": 2
+  },
+  {
+    "t": "Rina: You look very tired, Dita. Would you like me to carry your bag?\nDita: Thanks, that's very kind of you.\n\nWhat is Rina doing?",
+    "o": [
+      "Asking for help",
+      "Inviting Dita to lunch",
+      "Refusing an offer",
+      "Offering help"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Dear Sari,\nOur study club will have a meeting on Saturday at 9 a.m. in the school library. We will discuss our project for the science fair. Please come on time.\nLina\n\nWhat is the purpose of the text?",
+    "o": [
+      "To invite Sari to a study club meeting",
+      "To tell Sari that the library is closed",
+      "To ask Sari to bring books to the library",
+      "To remind Sari about the science exam"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Last holiday, my family and I went to Yogyakarta. We visited Borobudur Temple early in the morning to see the sunrise. The view was amazing, and we took many photos before going back to our hotel.\n\nWhen did they visit Borobudur Temple?",
+    "o": [
+      "Late in the afternoon",
+      "Early in the morning",
+      "At noon",
+      "At midnight"
+    ],
+    "k": 1
+  },
+  {
+    "t": "The platypus is a strange animal from Australia. It has a beak like a duck and can swim very well. Although it is a mammal, it lays eggs and feeds its babies with milk.\n\nWhy does the writer call the platypus strange?",
+    "o": [
+      "It lives only in Australian rivers.",
+      "It can swim faster than a duck.",
+      "It lays eggs although it is a mammal.",
+      "It has a beak like other mammals."
+    ],
+    "k": 2
+  },
+  {
+    "t": "It was raining hard when Andi left school. He had forgotten his umbrella, so he waited under a tree. The rain did not stop. Then a girl he did not know came and offered to share her umbrella.\n\nWhat will Andi probably do next?",
+    "o": [
+      "Wait under the tree until the rain stops",
+      "Run home quickly in the rain",
+      "Buy a new umbrella at the school shop",
+      "Walk home together under the girl's umbrella"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Our school library opens from 7 a.m. to 4 p.m. Students may borrow two books at a time. Books must be returned within one week. A fine of Rp1,000 per day is charged for late returns.\n\nWhich statements are true based on the text?",
+    "o": [
+      "Students can borrow more than two books at a time.",
+      "Students may borrow two books at one time.",
+      "The library closes at four in the afternoon.",
+      "Students do not pay a fine if they are late."
+    ],
+    "k": [
+      1,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Dita: Hi, Bayu. Are you free this afternoon?\nBayu: I think so. Why?\nDita: I'm going to the bookstore to buy a dictionary. Would you like to come along?\nBayu: Sure, I'd love to. What time are we going?\n\nWhich statements are true based on the dialogue?",
+    "o": [
+      "Dita invites Bayu to go to the bookstore.",
+      "Bayu refuses Dita's invitation.",
+      "Bayu agrees to go with Dita.",
+      "Dita asks Bayu to buy a dictionary for her."
+    ],
+    "k": [
+      0,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "HOW TO KEEP YOUR CLASSROOM CLEAN\n1. Throw rubbish into the bin.\n2. Clean the whiteboard after the lesson.\n3. Arrange the chairs and desks before you leave.\n4. Turn off the lights and fans when the room is empty.\n\nAccording to the text, what should the students do?",
+    "o": [
+      "Arrange the chairs and desks before leaving.",
+      "Turn off the lights and fans.",
+      "Open all the windows during the lesson.",
+      "Write their names on the whiteboard."
+    ],
+    "k": [
+      0,
+      1
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Last Sunday, my classmates and I went to the beach for a clean-up program. We collected plastic bottles and wrappers along the shore. By noon, we had filled ten big bags. Although we were tired, we felt happy because we had done something useful.\n\nWhich statements are true based on the text?",
+    "o": [
+      "They finished the clean-up at night.",
+      "They felt sorry for joining the program.",
+      "They went to the beach on Sunday.",
+      "They collected plastic bottles and wrappers."
+    ],
+    "k": [
+      2,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Which sentences use the simple past tense correctly?",
+    "o": [
+      "She visited her grandmother yesterday.",
+      "They have finished their homework last night.",
+      "We watched a football match two days ago.",
+      "He is going to the market every morning."
+    ],
+    "k": [
+      0,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Which sentences are grammatically correct?",
+    "o": [
+      "I have lived here for five years.",
+      "She has bought a new bag yesterday.",
+      "They have just arrived at the station.",
+      "He has went to Bali twice."
+    ],
+    "k": [
+      0,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Which sentences are written in the passive voice?",
+    "o": [
+      "The cake was made by my mother.",
+      "My mother made a cake this morning.",
+      "English is spoken in many countries.",
+      "The students are doing the experiment."
+    ],
+    "k": [
+      0,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Which sentences use modal verbs correctly?",
+    "o": [
+      "You must wear a seat belt in the car.",
+      "She can to swim very well.",
+      "May I borrow your pen, please?",
+      "He musts study for the exam."
+    ],
+    "k": [
+      0,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Which sentences are correct?",
+    "o": [
+      "Mount Everest is the highest mountain in the world.",
+      "My bag is more heavier than yours.",
+      "This test is easier than the last one.",
+      "She is the most tall student in her class."
+    ],
+    "k": [
+      0,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Which sentences use conjunctions correctly?",
+    "o": [
+      "Although it was raining, we still went hiking.",
+      "Because he was tired, so he went to bed early.",
+      "I will call you when I arrive at the airport.",
+      "She studied hard, but she failed the test."
+    ],
+    "k": [
+      0,
+      2,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Which sentences have correct subject-verb agreement?",
+    "o": [
+      "The number of students in the class is thirty.",
+      "Each of the boys have a bicycle.",
+      "My friends enjoys playing badminton.",
+      "Neither Rina nor her sisters like coffee."
+    ],
+    "k": [
+      0,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Which expressions can be used to offer help to someone?",
+    "o": [
+      "Can I help you with that?",
+      "Would you like me to carry your bag?",
+      "I'm sorry to hear that.",
+      "Congratulations on your success!"
+    ],
+    "k": [
+      0,
+      1
+    ],
+    "tipe": "multi"
+  }
+]

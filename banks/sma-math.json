@@ -1,0 +1,660 @@
+[
+  {
+    "t": "Nilai dari (2^3 × 2^(-5)) : 2^(-4) adalah ...",
+    "o": [
+      "4",
+      "8",
+      "1/4",
+      "16"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Diketahui U3 = 11 dan U7 = 27 pada barisan aritmetika. Suku ke-10 barisan tersebut adalah ...",
+    "o": [
+      "35",
+      "39",
+      "43",
+      "41"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Pernyataan berikut yang bernilai benar adalah ...",
+    "o": [
+      "log 1 = 0",
+      "2^0 = 0",
+      "log 10 = 1",
+      "log 0 = 1"
+    ],
+    "k": [
+      0,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Nilai dari log2 32 + log3 (1/9) adalah ...",
+    "o": [
+      "-3",
+      "7",
+      "3",
+      "2"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Suku ke-10 dari barisan geometri 2, 6, 18, ... adalah ...",
+    "o": [
+      "13.122",
+      "26.244",
+      "78.732",
+      "39.366"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Jika 3^x = 27^(x-2), nilai x adalah ...",
+    "o": [
+      "3",
+      "2",
+      "4",
+      "6"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Jumlah tak hingga deret 8 + 4 + 2 + ... adalah ...",
+    "o": [
+      "12",
+      "16",
+      "14",
+      "18"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Diketahui barisan aritmetika 5, 9, 13, 17, ... Pernyataan yang benar adalah ...",
+    "o": [
+      "Beda barisan tersebut 4.",
+      "Suku ke-10 adalah 41.",
+      "Jumlah 10 suku pertama 250.",
+      "Suku ke-20 adalah 81."
+    ],
+    "k": [
+      0,
+      1,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Jumlah 20 suku pertama barisan aritmetika dengan suku pertama 5 dan beda 3 adalah ...",
+    "o": [
+      "630",
+      "650",
+      "670",
+      "690"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Akar-akar persamaan x^2 - 5x + 6 = 0 adalah x1 dan x2. Nilai x1^2 + x2^2 adalah ...",
+    "o": [
+      "11",
+      "12",
+      "25",
+      "13"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Persamaan kuadrat yang akar-akarnya 3 dan -5 adalah ...",
+    "o": [
+      "x^2 + 2x - 15 = 0",
+      "x^2 + 2x + 15 = 0",
+      "x^2 - 2x + 15 = 0",
+      "x^2 - 2x - 15 = 0"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Himpunan penyelesaian pertidaksamaan x^2 - x - 12 < 0 adalah ...",
+    "o": [
+      "x < -3 atau x > 4",
+      "-3 < x < 4",
+      "-4 < x < 3",
+      "x < -4 atau x > 3"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Diketahui persamaan kuadrat x^2 - 6x + 8 = 0. Pernyataan yang benar adalah ...",
+    "o": [
+      "Akar-akarnya 2 dan 4.",
+      "Jumlah akar-akarnya 6.",
+      "Diskriminannya 0.",
+      "Hasil kali akar-akarnya 8."
+    ],
+    "k": [
+      0,
+      1,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Diketahui f(x) = 2x + 3 dan g(x) = x^2 - 1. Nilai (f ∘ g)(2) adalah ...",
+    "o": [
+      "7",
+      "11",
+      "9",
+      "15"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Invers dari fungsi f(x) = 3x - 5 adalah ...",
+    "o": [
+      "(x - 5)/3",
+      "3x + 5",
+      "(5 - x)/3",
+      "(x + 5)/3"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Diketahui f(x) = x^2 + 1 dan g(x) = 2x - 3. Rumus (g ∘ f)(x) adalah ...",
+    "o": [
+      "2x^2 - 1",
+      "4x^2 - 12x + 10",
+      "2x^2 - 3",
+      "2x^2 + 1"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Invers dari f(x) = (2x - 1)/(x + 3), x ≠ -3 adalah ...",
+    "o": [
+      "(3x - 1)/(2 - x)",
+      "(3x + 1)/(2 - x)",
+      "(x + 3)/(2x - 1)",
+      "(2x + 1)/(x - 3)"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Diketahui f(x) = 2x + 1 dan g(x) = x^2. Pernyataan yang benar adalah ...",
+    "o": [
+      "(f ∘ g)(x) = 2x^2 + 1",
+      "(g ∘ f)(x) = (2x + 1)^2",
+      "f^(-1)(x) = (x - 1)/2",
+      "(f ∘ g)(1) = 4"
+    ],
+    "k": [
+      0,
+      1,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Diketahui f(x) = x^2 - 4x + 5 dengan x ≥ 2. Rumus f^(-1)(x) adalah ...",
+    "o": [
+      "2 - √(x - 1)",
+      "√(x + 1) + 2",
+      "2 + √(x - 1)",
+      "√(x - 1) - 2"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Penyelesaian sistem persamaan 2x + y = 7 dan x - y = 2 adalah ...",
+    "o": [
+      "(1, 3)",
+      "(2, 3)",
+      "(3, 2)",
+      "(3, 1)"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Diketahui sistem persamaan x + y + z = 6, 2x - y + z = 3, dan x + 2y - z = 2. Nilai z adalah ...",
+    "o": [
+      "3",
+      "4",
+      "2",
+      "1"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Harga 2 buku dan 3 pensil adalah Rp19.000,00. Harga 3 buku dan 1 pensil adalah Rp18.000,00. Harga 1 buku adalah ...",
+    "o": [
+      "Rp3.000,00",
+      "Rp5.000,00",
+      "Rp4.000,00",
+      "Rp6.000,00"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Nilai maksimum f(x, y) = 3x + 2y pada daerah yang dibatasi x + y ≤ 5, x + 2y ≤ 8, x ≥ 0, dan y ≥ 0 adalah ...",
+    "o": [
+      "10",
+      "12",
+      "15",
+      "16"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Diketahui sistem persamaan 2x + y = 5 dan x - y = 1. Pernyataan yang benar adalah ...",
+    "o": [
+      "x = 2",
+      "x - y = 2",
+      "y = 1",
+      "x + y = 3"
+    ],
+    "k": [
+      0,
+      2,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Nilai minimum f(x, y) = 2x + 3y pada daerah x + 2y ≥ 6, 2x + y ≥ 6, x ≥ 0, dan y ≥ 0 adalah ...",
+    "o": [
+      "18",
+      "12",
+      "8",
+      "10"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Titik yang terletak di dalam daerah penyelesaian 2x + y ≤ 8, x + y ≤ 5, x ≥ 0, dan y ≥ 0 adalah ...",
+    "o": [
+      "(3, 2)",
+      "(4, 2)",
+      "(1, 5)",
+      "(2, 4)"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Determinan matriks A = [[2, 1], [3, 4]] adalah ...",
+    "o": [
+      "-5",
+      "5",
+      "8",
+      "11"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Invers matriks A = [[2, 1], [5, 3]] adalah ...",
+    "o": [
+      "[[3, 1], [5, 2]]",
+      "[[2, -1], [-5, 3]]",
+      "[[3, -1], [-5, 2]]",
+      "[[3, -1], [5, 2]]"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Diketahui A = [[2, 1], [5, 3]] dan B = [[1, 2], [3, 4]]. Nilai det(A·B) adalah ...",
+    "o": [
+      "2",
+      "-1",
+      "4",
+      "-2"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Diketahui matriks A = [[2, 3], [1, 4]]. Pernyataan yang benar adalah ...",
+    "o": [
+      "A adalah matriks singular",
+      "A memiliki invers",
+      "det A = 5",
+      "det 2A = 10"
+    ],
+    "k": [
+      1,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Diketahui a = (3, -1) dan b = (1, 4). Nilai a · b adalah ...",
+    "o": [
+      "-1",
+      "7",
+      "1",
+      "11"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Diketahui a = (2, 3) dan b = (-1, 5). Panjang vektor a - b adalah ...",
+    "o": [
+      "√5",
+      "√13",
+      "5",
+      "13"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Sudut antara vektor a = (1, 1) dan b = (0, 1) adalah ...",
+    "o": [
+      "30°",
+      "60°",
+      "45°",
+      "90°"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Nilai sin 30° cos 60° + cos 30° sin 60° adalah ...",
+    "o": [
+      "0",
+      "1/2",
+      "√3/2",
+      "1"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Diketahui vektor a = (2, -1) dan b = (3, 4). Pernyataan yang benar adalah ...",
+    "o": [
+      "a sejajar dengan b",
+      "|a| = √5",
+      "a · b = 2",
+      "a + b = (5, 3)"
+    ],
+    "k": [
+      1,
+      2,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Nilai cos 75° adalah ...",
+    "o": [
+      "(√6 - √2)/4",
+      "(√6 + √2)/4",
+      "(√2 - √6)/4",
+      "(√3 - 1)/2"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Diketahui sin A = 3/5 dengan A sudut lancip. Nilai cos 2A adalah ...",
+    "o": [
+      "-7/25",
+      "7/25",
+      "16/25",
+      "24/25"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Himpunan penyelesaian sin x = 1/2 untuk 0° ≤ x ≤ 360° adalah ...",
+    "o": [
+      "{30°, 210°}",
+      "{60°, 120°}",
+      "{30°, 150°}",
+      "{30°, 330°}"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Nilai lim x→2 (x^2 - 4)/(x - 2) adalah ...",
+    "o": [
+      "0",
+      "2",
+      "Tak hingga",
+      "4"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Nilai lim x→0 (sin 3x)/(2x) adalah ...",
+    "o": [
+      "3/2",
+      "2/3",
+      "3",
+      "0"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Pernyataan berikut yang merupakan identitas trigonometri adalah ...",
+    "o": [
+      "sin 2x = 2 sin x cos x",
+      "sin^2 x + cos^2 x = 1",
+      "cos 2x = cos^2 x - sin^2 x",
+      "tan x = sin x · cos x"
+    ],
+    "k": [
+      0,
+      1,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Turunan pertama f(x) = x^3 - 3x^2 + 2. Nilai f'(2) adalah ...",
+    "o": [
+      "6",
+      "0",
+      "4",
+      "12"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Turunan pertama f(x) = (2x + 1)^5 adalah ...",
+    "o": [
+      "5(2x + 1)^4",
+      "10(2x + 1)^5",
+      "10(2x + 1)^4",
+      "2(2x + 1)^4"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Fungsi f(x) = x^2 + 2x - 3 naik pada interval ...",
+    "o": [
+      "x < -1",
+      "x > 1",
+      "x < 1",
+      "x > -1"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Hasil ∫ (3x^2 + 2x) dx adalah ...",
+    "o": [
+      "x^3 + x^2 + C",
+      "3x^3 + x^2 + C",
+      "x^3 + 2x^2 + C",
+      "6x + 2 + C"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Diketahui f(x) = x^3. Pernyataan yang benar adalah ...",
+    "o": [
+      "f'(0) = 1",
+      "f'(x) = 3x^2",
+      "f''(x) = 6x",
+      "f'(1) = 3"
+    ],
+    "k": [
+      1,
+      2,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Nilai ∫_0^2 (2x + 1) dx adalah ...",
+    "o": [
+      "4",
+      "6",
+      "8",
+      "5"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Nilai ∫_0^1 3x^2 dx adalah ...",
+    "o": [
+      "3",
+      "2",
+      "1",
+      "1/3"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Rata-rata data 6, 7, 7, 8, 9, 11 adalah ...",
+    "o": [
+      "7,5",
+      "9",
+      "8,5",
+      "8"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Median data 3, 5, 6, 8, 9, 10, 12 adalah ...",
+    "o": [
+      "8",
+      "7",
+      "6",
+      "9"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Pernyataan tentang integral berikut yang benar adalah ...",
+    "o": [
+      "∫ 2x dx = x^2 + C",
+      "∫_0^1 x dx = 1/2",
+      "∫ x^2 dx = 2x + C",
+      "∫ 3 dx = 3x + C"
+    ],
+    "k": [
+      0,
+      1,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Simpangan baku data 2, 4, 4, 4, 5, 5, 7, 9 adalah ...",
+    "o": [
+      "4",
+      "2",
+      "1",
+      "√2"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Rata-rata berat 20 siswa adalah 50 kg. Jika ditambah 5 siswa dengan rata-rata 60 kg, rata-rata berat seluruh siswa menjadi ...",
+    "o": [
+      "51 kg",
+      "54 kg",
+      "52 kg",
+      "55 kg"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Banyak cara memilih 2 orang dari 6 orang adalah ...",
+    "o": [
+      "12",
+      "30",
+      "20",
+      "15"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Diketahui data 2, 3, 3, 5, 7. Pernyataan yang benar adalah ...",
+    "o": [
+      "Rata-ratanya 4.",
+      "Mediannya 3.",
+      "Jangkauannya 4.",
+      "Modusnya 3."
+    ],
+    "k": [
+      0,
+      1,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Banyak susunan berbeda dari 4 huruf yang dipilih dari 6 huruf berbeda adalah ...",
+    "o": [
+      "360",
+      "720",
+      "120",
+      "15"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Dua dadu dilempar bersamaan. Peluang muncul jumlah mata dadu 8 adalah ...",
+    "o": [
+      "1/6",
+      "5/36",
+      "7/36",
+      "1/9"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Jari-jari lingkaran x^2 + y^2 - 6x + 4y - 12 = 0 adalah ...",
+    "o": [
+      "4",
+      "√12",
+      "5",
+      "25"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Dari 5 pria dan 4 wanita akan dipilih 2 orang. Pernyataan yang benar adalah ...",
+    "o": [
+      "Banyak cara memilih 2 wanita adalah 6.",
+      "Banyak cara memilih 2 orang adalah 36.",
+      "Peluang terpilih 1 pria dan 1 wanita adalah 20/36.",
+      "Banyak cara memilih 2 orang adalah 72."
+    ],
+    "k": [
+      0,
+      1,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Persamaan garis singgung lingkaran x^2 + y^2 = 25 di titik (3, 4) adalah ...",
+    "o": [
+      "3x + 4y = 5",
+      "4x + 3y = 25",
+      "3x - 4y = 25",
+      "3x + 4y = 25"
+    ],
+    "k": 3
+  }
+]

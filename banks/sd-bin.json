@@ -1,0 +1,651 @@
+[
+  {
+    "t": "Sampah plastik sangat berbahaya bagi kehidupan di laut. Plastik yang dibuang ke sungai akan terbawa arus menuju laut. Di laut, plastik dapat termakan hewan dan membuat hewan itu mati.\nIde pokok paragraf tersebut adalah ...",
+    "o": [
+      "bahaya sampah plastik bagi kehidupan di laut",
+      "cara membuang sampah ke sungai",
+      "jenis hewan yang hidup di laut",
+      "proses terjadinya arus laut"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Olahraga pagi memberi banyak manfaat bagi tubuh. Tubuh menjadi lebih bugar setelah berolahraga. Pikiran juga menjadi lebih segar.\nKalimat utama paragraf tersebut adalah ...",
+    "o": [
+      "Tubuh menjadi lebih bugar setelah berolahraga.",
+      "Olahraga pagi memberi banyak manfaat bagi tubuh.",
+      "Olahraga pagi dilakukan setiap hari.",
+      "Pikiran juga menjadi lebih segar."
+    ],
+    "k": 1
+  },
+  {
+    "t": "Setiap pagi Rani menyiram tanaman di halaman rumah. Ia juga memberi pupuk setiap dua minggu. Tanaman Rani tumbuh subur.\nInformasi yang sesuai dengan teks tersebut adalah ...",
+    "o": [
+      "Tanaman Rani tidak pernah tumbuh.",
+      "Rani menanam tanaman di kebun tetangga.",
+      "Rani menyiram tanaman setiap pagi.",
+      "Rani memberi pupuk setiap hari."
+    ],
+    "k": 2
+  },
+  {
+    "t": "Angin malam berbisik di telinga Adi. Adi mempercepat langkah menuju rumah. Lampu teras rumahnya sudah menyala.\nKalimat yang menggunakan majas personifikasi adalah ...",
+    "o": [
+      "Adi pulang ke rumah pada malam hari.",
+      "Lampu teras rumahnya sudah menyala.",
+      "Adi mempercepat langkah menuju rumah.",
+      "Angin malam berbisik di telinga Adi."
+    ],
+    "k": 3
+  },
+  {
+    "t": "Cara membuat teh manis:\n1. Didihkan air.\n2. Masukkan teh ke dalam cangkir.\n3. Tuang air panas, lalu tambahkan gula.\n4. Aduk sampai gula larut.\nTeks tersebut termasuk jenis teks ...",
+    "o": [
+      "prosedur",
+      "deskripsi",
+      "narasi",
+      "laporan"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Pantai Kuta memiliki pasir putih yang halus. Ombaknya besar dan cocok untuk peselancar. Setiap hari banyak wisatawan datang ke pantai itu.\nTeks tersebut menggambarkan ...",
+    "o": [
+      "cara peselancar berlatih",
+      "keadaan Pantai Kuta",
+      "proses terjadinya ombak",
+      "perjalanan wisatawan ke Bali"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Pada hari Senin, siswa kelas 6 mengamati tanaman kacang hijau. Batang tanaman itu bertambah tinggi tiga sentimeter. Daunnya juga bertambah lebar.\nTeks tersebut berisi ...",
+    "o": [
+      "cerita tentang siswa kelas 6",
+      "pendapat siswa tentang tanaman",
+      "hasil pengamatan tanaman kacang hijau",
+      "cara menanam kacang hijau"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Ibu berkata, \"Bawalah payung karena hari akan hujan.\"\nKalimat tersebut termasuk kalimat ...",
+    "o": [
+      "berita",
+      "tanya",
+      "tidak langsung",
+      "langsung"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Sebagian siswa membawa bekal dari rumah. Bekal itu berisi nasi, sayur, dan buah. Mereka makan bekal bersama di kelas saat istirahat.\nTeks tersebut menceritakan ...",
+    "o": [
+      "kegiatan siswa makan bekal bersama",
+      "cara membuat bekal sehat",
+      "jenis sayur di kantin sekolah",
+      "aturan makan di kelas"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Rina membeli buku baru di toko. Buku itu ia letakkan di dalam tas.\nKata \"ia\" pada teks tersebut merujuk pada ...",
+    "o": [
+      "buku",
+      "Rina",
+      "toko",
+      "tas"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Sinonim kata \"pandai\" adalah ...",
+    "o": [
+      "rajin",
+      "kuat",
+      "cerdas",
+      "malas"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Antonim kata \"ramai\" adalah ...",
+    "o": [
+      "padat",
+      "bising",
+      "riuh",
+      "sepi"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Kata baku yang benar adalah ...",
+    "o": [
+      "apotek",
+      "apotik",
+      "aktifitas",
+      "praktek"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Penulisan kata baku yang benar adalah ...",
+    "o": [
+      "Jum'at",
+      "Jumat",
+      "Jumaat",
+      "Juma'at"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Penulisan kata yang sesuai kaidah adalah ...",
+    "o": [
+      "silaken",
+      "silahken",
+      "silakan",
+      "silahkan"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Bentuk baku dari kata \"jaman\" adalah ...",
+    "o": [
+      "zamaan",
+      "zamman",
+      "jaman",
+      "zaman"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Penulisan gabungan kata yang benar adalah ...",
+    "o": [
+      "kerja sama",
+      "kerjasama",
+      "kerja-sama",
+      "kerjaSama"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Kalimat berikut yang tidak efektif adalah ...",
+    "o": [
+      "Rina pergi ke sekolah.",
+      "Rina pergi menuju ke sekolah.",
+      "Rina membawa tas baru.",
+      "Rina berangkat pagi ini."
+    ],
+    "k": 1
+  },
+  {
+    "t": "Penulisan kalimat dengan tanda baca yang benar adalah ...",
+    "o": [
+      "ibu membeli sayur, buah dan ikan.",
+      "Ibu membeli, sayur, buah, dan ikan.",
+      "Ibu membeli sayur, buah, dan ikan.",
+      "Ibu membeli sayur buah dan ikan."
+    ],
+    "k": 2
+  },
+  {
+    "t": "Penulisan kalimat tanya yang benar adalah ...",
+    "o": [
+      "Di mana, rumahmu?",
+      "Di mana rumahmu!",
+      "di mana rumahmu.",
+      "Di mana rumahmu?"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Imbuhan pada kata \"membaca\" adalah ...",
+    "o": [
+      "mem-",
+      "ber-",
+      "ter-",
+      "pe-"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Kata berimbuhan \"permainan\" berasal dari kata dasar ...",
+    "o": [
+      "permai",
+      "main",
+      "bermain",
+      "mainan"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Awalan me- jika digabungkan dengan kata \"tulis\" menjadi ...",
+    "o": [
+      "mentulis",
+      "mengtulis",
+      "menulis",
+      "metulis"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Kalimat \"Tutup pintu itu!\" termasuk kalimat ...",
+    "o": [
+      "seru",
+      "berita",
+      "tanya",
+      "perintah"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Kalimat \"Wah, indah sekali pemandangan ini!\" termasuk kalimat ...",
+    "o": [
+      "seru",
+      "berita",
+      "tanya",
+      "perintah"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Kalimat \"Siapa yang membawa buku ini?\" termasuk kalimat ...",
+    "o": [
+      "berita",
+      "tanya",
+      "seru",
+      "perintah"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Kalimat berita terdapat pada ...",
+    "o": [
+      "Berapa harga buku ini?",
+      "Aduh, sakitnya!",
+      "Ayah berangkat ke kantor pagi ini.",
+      "Tolong ambilkan tas itu!"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Kalimat yang mengandung kata depan adalah ...",
+    "o": [
+      "Ayah membelikan Rina buku.",
+      "Buku itu diletakkan di atas meja.",
+      "Buku itu sangat tebal.",
+      "Rina membaca buku baru."
+    ],
+    "k": 1
+  },
+  {
+    "t": "Rina rajin belajar, ... nilainya selalu bagus.",
+    "o": [
+      "meskipun",
+      "tetapi",
+      "jika",
+      "sehingga"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Kalimat tidak langsung terdapat pada ...",
+    "o": [
+      "Ibu berkata bahwa saya harus rajin belajar.",
+      "Ibu menyuruh saya rajin belajar.",
+      "Ibu bertanya apakah saya rajin belajar.",
+      "Ibu berkata, saya harus rajin belajar."
+    ],
+    "k": 0
+  },
+  {
+    "t": "Kalimat yang menggunakan majas personifikasi adalah ...",
+    "o": [
+      "Anak itu berlari sangat cepat.",
+      "Daun kelapa melambai ke arah kami.",
+      "Matahari bersinar terang hari ini.",
+      "Ayah memotong rumput di halaman."
+    ],
+    "k": 1
+  },
+  {
+    "t": "Kalimat yang menggunakan majas perbandingan adalah ...",
+    "o": [
+      "Kami pergi ke pantai.",
+      "Dia sangat rajin belajar.",
+      "Wajahnya putih seperti kapas.",
+      "Rumah itu besar sekali."
+    ],
+    "k": 2
+  },
+  {
+    "t": "Subjek kalimat \"Petani menanam padi di sawah.\" adalah ...",
+    "o": [
+      "sawah",
+      "menanam",
+      "padi",
+      "petani"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Kata kerja dalam kalimat \"Adik menangis dengan keras.\" adalah ...",
+    "o": [
+      "menangis",
+      "keras",
+      "dengan",
+      "adik"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Kata \"cantik\" dalam kalimat \"Bunga itu cantik.\" termasuk kata ...",
+    "o": [
+      "benda",
+      "sifat",
+      "bilangan",
+      "kerja"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Kalimat utama sebuah paragraf biasanya terletak pada ...",
+    "o": [
+      "gambar",
+      "tanda baca",
+      "awal paragraf",
+      "judul teks"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Kalimat penjelas adalah kalimat yang ...",
+    "o": [
+      "selalu berupa perintah",
+      "berisi judul teks",
+      "mengandung kata sapaan",
+      "menjelaskan kalimat utama"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Kata ulang \"sayur-mayur\" bermakna ...",
+    "o": [
+      "bermacam-macam sayur",
+      "sayur yang basi",
+      "tempat menjual sayur",
+      "satu jenis sayur"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Sinonim kata \"gembira\" adalah ...",
+    "o": [
+      "marah",
+      "senang",
+      "takut",
+      "sedih"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Antonim kata \"tinggi\" adalah ...",
+    "o": [
+      "lebar",
+      "besar",
+      "rendah",
+      "panjang"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Sinonim kata \"gigih\" adalah ...",
+    "o": [
+      "mudah marah",
+      "cepat menyerah",
+      "suka bercanda",
+      "pantang menyerah"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Antonim kata \"sempit\" adalah ...",
+    "o": [
+      "luas",
+      "pendek",
+      "tipis",
+      "kecil"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Cerita yang tokohnya berupa hewan dan berperilaku seperti manusia disebut ...",
+    "o": [
+      "laporan",
+      "fabel",
+      "pantun",
+      "puisi"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Pesan yang ingin disampaikan penulis dalam cerita disebut ...",
+    "o": [
+      "dialog",
+      "latar",
+      "amanat",
+      "tokoh"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Tempat, waktu, dan suasana terjadinya cerita disebut ...",
+    "o": [
+      "tema",
+      "tokoh",
+      "amanat",
+      "latar"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Percakapan antartokoh dalam cerita disebut ...",
+    "o": [
+      "dialog",
+      "amanat",
+      "judul",
+      "latar"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Kalimat majemuk setara terdapat pada ...",
+    "o": [
+      "Ibu memasak di dapur yang bersih.",
+      "Ayah membaca koran dan ibu memasak di dapur.",
+      "Ayah membaca koran sambil duduk.",
+      "Ayah membaca koran di ruang tamu."
+    ],
+    "k": 1
+  },
+  {
+    "t": "Penulisan kata depan yang benar adalah ...",
+    "o": [
+      "Ayah pergi Ke pasar.",
+      "Ayah pergi kepasar.",
+      "Ayah pergi ke pasar.",
+      "Ayah pergi ke-pasar."
+    ],
+    "k": 2
+  },
+  {
+    "t": "Manakah yang termasuk kata baku?",
+    "o": [
+      "analisis",
+      "analisa",
+      "sistem",
+      "sistim"
+    ],
+    "k": [
+      0,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Sungai Citarum kini dipenuhi sampah. Warga membuang sampah ke sungai karena tidak ada tempat sampah. Pemerintah mengajak warga menjaga kebersihan sungai.\nPernyataan yang sesuai dengan teks tersebut adalah ...",
+    "o": [
+      "Sungai Citarum dipenuhi sampah.",
+      "Warga membuang sampah ke sungai.",
+      "Pemerintah melarang warga memakai sungai.",
+      "Sungai Citarum sangat bersih."
+    ],
+    "k": [
+      0,
+      1
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Kupu-kupu beterbangan di taman. Sayapnya berwarna cerah. Bunga-bunga menyambutnya dengan senyum.\nPernyataan yang benar tentang teks tersebut adalah ...",
+    "o": [
+      "Teks tersebut menggunakan majas personifikasi.",
+      "Teks tersebut menggambarkan keadaan taman.",
+      "Teks tersebut berisi langkah-langkah.",
+      "Teks tersebut berupa kalimat perintah."
+    ],
+    "k": [
+      0,
+      1
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Manakah yang termasuk kalimat efektif?",
+    "o": [
+      "Kami belajar bersama di rumah.",
+      "Kami semua-semuanya belajar.",
+      "Para siswa-siswa berbaris di lapangan.",
+      "Rina pergi ke sekolah."
+    ],
+    "k": [
+      0,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Sinonim kata \"indah\" adalah ...",
+    "o": [
+      "cantik",
+      "elok",
+      "buruk",
+      "kotor"
+    ],
+    "k": [
+      0,
+      1
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Pasangan kata berikut yang berantonim adalah ...",
+    "o": [
+      "tinggi - rendah",
+      "besar - raksasa",
+      "rajin - malas",
+      "cepat - laju"
+    ],
+    "k": [
+      0,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Manakah yang termasuk kalimat perintah?",
+    "o": [
+      "Tolong tutup jendela itu!",
+      "Siapa namamu?",
+      "Jangan bermain di jalan!",
+      "Wah, bagus sekali!"
+    ],
+    "k": [
+      0,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Kalimat yang menggunakan konjungsi sebab adalah ...",
+    "o": [
+      "Rina tidak masuk karena sakit.",
+      "Karena hujan, acara dibatalkan.",
+      "Rina belajar agar pintar.",
+      "Rina belajar dan bermain."
+    ],
+    "k": [
+      0,
+      1
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Perhatikan kalimat \"Angin berbisik lembut di telingaku.\" Pernyataan yang benar adalah ...",
+    "o": [
+      "Kalimat tersebut menggunakan majas personifikasi.",
+      "Angin dianggap seperti manusia yang dapat berbisik.",
+      "Kalimat tersebut berupa kalimat perintah.",
+      "Kalimat tersebut tidak memiliki kata kerja."
+    ],
+    "k": [
+      0,
+      1
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Kata depan ditunjukkan oleh kata ...",
+    "o": [
+      "di",
+      "ke",
+      "dan",
+      "dari"
+    ],
+    "k": [
+      0,
+      1,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Kata berimbuhan meN- terdapat pada ...",
+    "o": [
+      "membaca",
+      "menulis",
+      "tulisan",
+      "pembaca"
+    ],
+    "k": [
+      0,
+      1
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Ciri teks prosedur adalah ...",
+    "o": [
+      "berisi langkah-langkah yang berurutan",
+      "menggunakan kalimat perintah",
+      "berisi dialog antartokoh",
+      "menggambarkan ciri fisik benda dengan rinci"
+    ],
+    "k": [
+      0,
+      1
+    ],
+    "tipe": "multi"
+  }
+]

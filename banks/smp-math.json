@@ -1,0 +1,659 @@
+[
+  {
+    "t": "Hasil dari 2⁵ × 2³ adalah ...",
+    "o": [
+      "256",
+      "216",
+      "128",
+      "512"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Nilai dari (3²)³ adalah ...",
+    "o": [
+      "27",
+      "729",
+      "216",
+      "2.187"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Hasil dari √144 + √49 adalah ...",
+    "o": [
+      "17",
+      "21",
+      "19",
+      "23"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Bentuk sederhana dari √50 adalah ...",
+    "o": [
+      "2√5",
+      "25√2",
+      "10√5",
+      "5√2"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Nilai dari 5⁻² adalah ...",
+    "o": [
+      "1/25",
+      "1/10",
+      "25",
+      "-25"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Nilai dari 8^(2/3) adalah ...",
+    "o": [
+      "2",
+      "4",
+      "16",
+      "32"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Bentuk baku dari 0,00042 adalah ...",
+    "o": [
+      "4,2 × 10⁴",
+      "4,2 × 10⁻³",
+      "4,2 × 10⁻⁴",
+      "42 × 10⁻³"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Manakah yang bernilai 64?",
+    "o": [
+      "2⁶",
+      "4³",
+      "8²",
+      "2⁸"
+    ],
+    "k": [
+      0,
+      1,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Manakah yang merupakan bilangan irasional?",
+    "o": [
+      "√2",
+      "√9",
+      "π",
+      "0,25"
+    ],
+    "k": [
+      0,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Bentuk sederhana dari 3(2x - 4) - 2(x - 5) adalah ...",
+    "o": [
+      "6x - 2",
+      "4x - 22",
+      "4x + 2",
+      "4x - 2"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Nilai x yang memenuhi 5x - 7 = 3x + 9 adalah ...",
+    "o": [
+      "8",
+      "6",
+      "4",
+      "10"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Himpunan penyelesaian dari 2x - 5 < 11 adalah ...",
+    "o": [
+      "x < 3",
+      "x < 8",
+      "x > 8",
+      "x < 16"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Himpunan penyelesaian dari 3(x - 2) ≥ 2x + 1 adalah ...",
+    "o": [
+      "x ≥ 5",
+      "x ≤ 7",
+      "x ≥ 7",
+      "x ≥ -7"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Diketahui x + y = 12 dan x - y = 4. Nilai x adalah ...",
+    "o": [
+      "4",
+      "6",
+      "10",
+      "8"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Harga 2 buku dan 3 pensil Rp19.000,00. Harga 3 buku dan 2 pensil Rp21.000,00. Harga 1 buku dan 1 pensil adalah ...",
+    "o": [
+      "Rp8.000,00",
+      "Rp7.500,00",
+      "Rp7.000,00",
+      "Rp8.500,00"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Manakah yang merupakan persamaan linear satu variabel?",
+    "o": [
+      "2x + 3 = 7",
+      "3x - 1 < 5",
+      "4x = 12",
+      "x² = 9"
+    ],
+    "k": [
+      0,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Manakah pasangan berurutan yang memenuhi x + y = 5?",
+    "o": [
+      "(1, 4)",
+      "(2, 3)",
+      "(3, 3)",
+      "(5, 0)"
+    ],
+    "k": [
+      0,
+      1,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Diketahui f(x) = 2x² - 3x + 1. Nilai f(-2) adalah ...",
+    "o": [
+      "3",
+      "15",
+      "11",
+      "19"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Manakah himpunan pasangan berurutan yang merupakan pemetaan?",
+    "o": [
+      "{(1, 2), (2, 3)}",
+      "{(2, 4), (3, 5)}",
+      "{(2, 4), (2, 5)}",
+      "{(1, 1), (2, 2)}"
+    ],
+    "k": [
+      0,
+      1,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Diketahui A = {1, 2} dan B = {a, b, c}. Banyak pemetaan dari A ke B adalah ...",
+    "o": [
+      "6",
+      "8",
+      "9",
+      "12"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Diketahui f(x) = 2x - 1 dengan domain {1, 2, 3}. Range fungsi tersebut adalah ...",
+    "o": [
+      "{1, 2, 3}",
+      "{3, 5, 7}",
+      "{2, 4, 6}",
+      "{1, 3, 5}"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Gradien garis yang melalui titik (2, 1) dan (6, 9) adalah ...",
+    "o": [
+      "2",
+      "1/2",
+      "-2",
+      "4"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Gradien garis 3x + 2y - 6 = 0 adalah ...",
+    "o": [
+      "-2/3",
+      "-3/2",
+      "2/3",
+      "3/2"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Persamaan garis yang melalui titik (1, 2) dan bergradien 3 adalah ...",
+    "o": [
+      "y = 3x + 5",
+      "y = 3x + 1",
+      "y = 3x - 1",
+      "y = 3x - 5"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Persamaan garis yang melalui titik (2, 5) dan sejajar garis y = 2x - 3 adalah ...",
+    "o": [
+      "y = -1/2 x + 6",
+      "y = 2x + 9",
+      "y = 2x - 1",
+      "y = 2x + 1"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Manakah garis yang gradiennya 2?",
+    "o": [
+      "y = 2x + 1",
+      "y = 2x - 5",
+      "y = -2x + 3",
+      "2x - y = 4"
+    ],
+    "k": [
+      0,
+      1,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Segitiga siku-siku memiliki sisi tegak 6 cm dan 8 cm. Panjang sisi miringnya adalah ...",
+    "o": [
+      "10 cm",
+      "9 cm",
+      "12 cm",
+      "14 cm"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Segitiga siku-siku memiliki sisi miring 13 cm dan salah satu sisi tegak 5 cm. Panjang sisi tegak lainnya adalah ...",
+    "o": [
+      "8 cm",
+      "12 cm",
+      "10 cm",
+      "14 cm"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Sebuah tangga panjangnya 5 m bersandar pada dinding. Jarak kaki tangga ke dinding 3 m. Tinggi ujung tangga dari tanah adalah ...",
+    "o": [
+      "3 m",
+      "4,5 m",
+      "4 m",
+      "5 m"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Persegi panjang berukuran 20 cm × 15 cm. Panjang diagonalnya adalah ...",
+    "o": [
+      "20 cm",
+      "24 cm",
+      "35 cm",
+      "25 cm"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Manakah yang merupakan tripel Pythagoras?",
+    "o": [
+      "3, 4, 5",
+      "6, 8, 10",
+      "5, 12, 13",
+      "4, 5, 6"
+    ],
+    "k": [
+      0,
+      1,
+      2
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Trapesium memiliki sisi sejajar 8 cm dan 14 cm serta tinggi 5 cm. Luas trapesium tersebut adalah ...",
+    "o": [
+      "55 cm²",
+      "44 cm²",
+      "110 cm²",
+      "220 cm²"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Keliling lingkaran dengan diameter 14 cm adalah ... (π = 22/7)",
+    "o": [
+      "22 cm",
+      "44 cm",
+      "88 cm",
+      "154 cm"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Luas lingkaran dengan jari-jari 7 cm adalah ... (π = 22/7)",
+    "o": [
+      "44 cm²",
+      "77 cm²",
+      "154 cm²",
+      "308 cm²"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Belah ketupat memiliki diagonal 12 cm dan 16 cm. Luasnya adalah ...",
+    "o": [
+      "48 cm²",
+      "384 cm²",
+      "192 cm²",
+      "96 cm²"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Sebuah juring lingkaran memiliki sudut pusat 90° dan jari-jari 14 cm. Luas juring tersebut adalah ... (π = 22/7)",
+    "o": [
+      "154 cm²",
+      "77 cm²",
+      "308 cm²",
+      "616 cm²"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Volume kubus dengan rusuk 6 cm adalah ...",
+    "o": [
+      "36 cm³",
+      "216 cm³",
+      "108 cm³",
+      "432 cm³"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Luas permukaan kubus dengan rusuk 5 cm adalah ...",
+    "o": [
+      "25 cm²",
+      "100 cm²",
+      "150 cm²",
+      "125 cm²"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Volume balok berukuran 12 cm × 8 cm × 5 cm adalah ...",
+    "o": [
+      "240 cm³",
+      "1.200 cm³",
+      "960 cm³",
+      "480 cm³"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Luas permukaan balok berukuran 10 cm × 6 cm × 5 cm adalah ...",
+    "o": [
+      "280 cm²",
+      "140 cm²",
+      "300 cm²",
+      "560 cm²"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Volume tabung dengan jari-jari 7 cm dan tinggi 10 cm adalah ... (π = 22/7)",
+    "o": [
+      "770 cm³",
+      "1.540 cm³",
+      "3.080 cm³",
+      "440 cm³"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Volume kerucut dengan jari-jari 7 cm dan tinggi 12 cm adalah ... (π = 22/7)",
+    "o": [
+      "308 cm³",
+      "1.232 cm³",
+      "616 cm³",
+      "1.848 cm³"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Volume bola dengan jari-jari 3 cm adalah ...",
+    "o": [
+      "12π cm³",
+      "27π cm³",
+      "108π cm³",
+      "36π cm³"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Manakah rumus volume bangun ruang yang benar?",
+    "o": [
+      "V kubus = s³",
+      "V balok = p × l × t",
+      "V tabung = 2πr²",
+      "V limas = 1/3 × luas alas × t"
+    ],
+    "k": [
+      0,
+      1,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Manakah bangun datar yang luasnya 36 cm²?",
+    "o": [
+      "Persegi dengan sisi 6 cm",
+      "Persegi panjang berukuran 4 cm × 9 cm",
+      "Segitiga dengan alas 6 cm dan tinggi 8 cm",
+      "Belah ketupat dengan diagonal 6 cm dan 12 cm"
+    ],
+    "k": [
+      0,
+      1,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Dua segitiga sebangun. Sisi 6 cm bersesuaian dengan 9 cm, dan sisi 8 cm bersesuaian dengan x. Nilai x adalah ...",
+    "o": [
+      "12 cm",
+      "11 cm",
+      "10 cm",
+      "14 cm"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Tongkat setinggi 2 m memiliki bayangan 3 m. Pada saat yang sama, sebuah pohon memiliki bayangan 12 m. Tinggi pohon tersebut adalah ...",
+    "o": [
+      "6 m",
+      "8 m",
+      "7 m",
+      "9 m"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Skala sebuah peta 1 : 200.000. Jarak dua kota pada peta 5 cm. Jarak sebenarnya kedua kota tersebut adalah ...",
+    "o": [
+      "1 km",
+      "20 km",
+      "10 km",
+      "100 km"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Dua bangun datar sebangun dengan perbandingan panjang sisi 3 : 5. Perbandingan luas kedua bangun tersebut adalah ...",
+    "o": [
+      "3 : 5",
+      "5 : 3",
+      "6 : 25",
+      "9 : 25"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Manakah pasangan bangun berikut yang pasti sebangun?",
+    "o": [
+      "Dua persegi",
+      "Dua segitiga sama sisi",
+      "Dua persegi panjang",
+      "Dua lingkaran"
+    ],
+    "k": [
+      0,
+      1,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Rata-rata dari data 6, 7, 7, 8, 9, 9, 10 adalah ...",
+    "o": [
+      "8",
+      "7,5",
+      "7",
+      "8,5"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Median dari data 4, 8, 6, 9, 5, 7, 10 adalah ...",
+    "o": [
+      "6",
+      "7",
+      "6,5",
+      "7,5"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Rata-rata nilai 8 siswa adalah 75. Setelah 2 siswa baru bergabung dengan nilai 85, rata-rata menjadi ...",
+    "o": [
+      "76",
+      "78",
+      "77",
+      "80"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Rata-rata 5 bilangan adalah 12. Jika empat bilangan di antaranya 10, 11, 13, dan 14, bilangan kelima adalah ...",
+    "o": [
+      "10",
+      "11",
+      "13",
+      "12"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Diketahui data 4, 5, 5, 6, 7, 7, 7, 8. Manakah pernyataan yang benar?",
+    "o": [
+      "Modus data adalah 7.",
+      "Median data adalah 6,5.",
+      "Rata-rata data adalah 6.",
+      "Jangkauan data adalah 4."
+    ],
+    "k": [
+      0,
+      1,
+      3
+    ],
+    "tipe": "multi"
+  },
+  {
+    "t": "Sebuah dadu dilempar sekali. Peluang muncul mata dadu prima adalah ...",
+    "o": [
+      "1/2",
+      "1/3",
+      "1/6",
+      "2/3"
+    ],
+    "k": 0
+  },
+  {
+    "t": "Dua koin dilempar bersama-sama. Peluang muncul tepat satu gambar adalah ...",
+    "o": [
+      "1/4",
+      "1/2",
+      "1/3",
+      "3/4"
+    ],
+    "k": 1
+  },
+  {
+    "t": "Sebuah kantong berisi 5 bola merah, 3 bola biru, dan 2 bola putih. Jika diambil satu bola, peluang terambil bola putih adalah ...",
+    "o": [
+      "1/10",
+      "3/10",
+      "1/5",
+      "1/2"
+    ],
+    "k": 2
+  },
+  {
+    "t": "Dua dadu dilempar bersama-sama. Peluang muncul jumlah mata dadu 7 adalah ...",
+    "o": [
+      "1/12",
+      "1/9",
+      "1/3",
+      "1/6"
+    ],
+    "k": 3
+  },
+  {
+    "t": "Sebuah dadu dilempar sekali. Manakah kejadian yang berpeluang 1/3?",
+    "o": [
+      "Muncul mata dadu 3 atau 4",
+      "Muncul mata dadu genap",
+      "Muncul mata dadu lebih dari 4",
+      "Muncul mata dadu prima"
+    ],
+    "k": [
+      0,
+      2
+    ],
+    "tipe": "multi"
+  }
+]
