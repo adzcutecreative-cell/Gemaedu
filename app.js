@@ -574,6 +574,7 @@ async function syncFromSheets() {
 
 function renderTeacher() {
   const recs = teacherRecords();
+  renderProgress(recs);
   const unique = new Set(recs.map(r => String(r.name).toLowerCase()));
   const avg = recs.length ? Math.round(recs.reduce((s, r) => s + Number(r.pct || 0), 0) / recs.length) : 0;
   $('#t-total').textContent = recs.length;
@@ -602,6 +603,65 @@ function renderTeacher() {
       <span class="teacher-meta">${esc(r.jenjang)} · ${esc(r.subject)} · ${esc(r.mode)} · ${r.correct}/${r.total} benar · ${tgl}${r.timedOut ? ' · waktu habis' : ''}</span>
     </div>`;
   }).join('');
+}
+
+/* Grafik perkembangan nilai per siswa (SVG ringan, tanpa library) */
+function renderProgress(recs) {
+  const box = $('#teacher-chart');
+  if (!box) return;
+  if (!recs.length) {
+    box.innerHTML = '<p class="teacher-empty">Belum ada data.</p>';
+    return;
+  }
+
+  const groups = new Map();
+  recs.forEach(r => {
+    const key = String(r.name || 'Tanpa nama').toLowerCase();
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(r);
+  });
+
+  const cards = Array.from(groups.values()).map(list => {
+    list.sort((a, b) => (Number(a.ts) || 0) - (Number(b.ts) || 0));
+    const vals = list.map(r => Number(r.pct) || 0);
+    const first = vals[0], last = vals[vals.length - 1];
+    const avg = Math.round(vals.reduce((a, b) => a + b, 0) / vals.length);
+    const delta = last - first;
+    const color = last >= 75 ? '#A8D960' : last >= 60 ? '#E7CA8D' : '#F19A96';
+
+    const pts = vals.map((v, i) => {
+      const x = vals.length === 1 ? 60 : (i / (vals.length - 1)) * 120;
+      const y = 38 - (Math.max(0, Math.min(100, v)) / 100) * 34;
+      return x.toFixed(1) + ',' + y.toFixed(1);
+    }).join(' ');
+    const lastX = vals.length === 1 ? 60 : 120;
+    const lastY = 38 - (Math.max(0, Math.min(100, last)) / 100) * 34;
+
+    const arrow = delta > 0 ? '▲ +' + delta : delta < 0 ? '▼ ' + delta : '■ 0';
+    const arrowCls = delta > 0 ? 'up' : delta < 0 ? 'down' : 'flat';
+    const r = list[list.length - 1];
+
+    return `<div class="progress-card">
+      <div class="progress-top">
+        <span class="progress-name">${esc(r.name)}</span>
+        <span class="progress-score">${last}%</span>
+      </div>
+      <svg class="progress-spark" viewBox="0 0 120 40" preserveAspectRatio="none" role="img"
+           aria-label="Grafik nilai ${esc(r.name)}">
+        <line x1="0" y1="38" x2="120" y2="38" stroke="rgba(255,255,255,.12)" stroke-width="1"/>
+        <line x1="0" y1="21" x2="120" y2="21" stroke="rgba(255,255,255,.08)" stroke-width="1" stroke-dasharray="3 3"/>
+        <polyline points="${pts}" fill="none" stroke="${color}" stroke-width="2.5"
+                  stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
+        <circle cx="${lastX}" cy="${lastY.toFixed(1)}" r="3" fill="${color}"/>
+      </svg>
+      <div class="progress-top">
+        <span class="progress-delta ${arrowCls}">${arrow} poin</span>
+        <span class="progress-foot">rata-rata ${avg}% · ${list.length} kuis</span>
+      </div>
+    </div>`;
+  });
+
+  box.innerHTML = cards.join('');
 }
 
 function exportTeacherCSV() {

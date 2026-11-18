@@ -1,11 +1,11 @@
 /* GemEdu service worker — cache ringan supaya app tetap kebuka saat sinyal jelek */
-const CACHE = 'gemaedu-v12';
+const CACHE = 'gemaedu-v13';
 const ASSETS = [
   './',
   './index.html',
-  './styles.css?v=12',
-  './questions.js?v=12',
-  './app.js?v=12',
+  './styles.css?v=13',
+  './questions.js?v=13',
+  './app.js?v=13',
   './manifest.json',
   './assets/logo-dark.png',
   './assets/icon-192.png',

@@ -324,6 +324,24 @@ body {
 .teacher-head h2 { font-size: 1.45rem; }
 .teacher-note { font-size: .8rem; color: var(--cream-dim); margin-bottom: 1rem; }
 .teacher-note strong { color: var(--lime-hi); }
+.teacher-sublabel { margin: .4rem .2rem .5rem; }
+.teacher-chart {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: .5rem;
+  margin-bottom: 1.25rem;
+}
+.progress-card {
+  background: var(--green-800); border: 1px solid rgba(140,183,67,.3); border-radius: 12px;
+  padding: .65rem .75rem;
+}
+.progress-top { display: flex; justify-content: space-between; align-items: baseline; gap: .5rem; }
+.progress-name { font-weight: 700; font-size: .85rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.progress-score { font-weight: 800; color: var(--lime-hi); font-variant-numeric: tabular-nums; }
+.progress-delta { font-size: .72rem; font-weight: 700; }
+.progress-delta.up { color: var(--lime-hi); }
+.progress-delta.down { color: #F19A96; }
+.progress-delta.flat { color: var(--cream-dim); }
+.progress-spark { width: 100%; height: 38px; margin: .35rem 0 .15rem; display: block; overflow: visible; }
+.progress-foot { font-size: .68rem; color: var(--cream-dim); }
 .teacher-stats {
   display: grid; grid-template-columns: repeat(3, 1fr); gap: .5rem; margin-bottom: 1rem;
 }
