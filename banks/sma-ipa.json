@@ -7,7 +7,8 @@
       "15 m/s",
       "20 m/s"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 3
   },
   {
     "t": "Benda bergerak dari keadaan diam dengan percepatan 3 m/s² selama 4 sekon. Jarak yang ditempuh benda adalah ...",
@@ -17,7 +18,8 @@
       "36 m",
       "48 m"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 3
   },
   {
     "t": "Balok bermassa 4 kg ditarik dengan gaya horizontal 20 N pada lantai licin. Percepatan balok adalah ...",
@@ -27,7 +29,8 @@
       "5 m/s²",
       "8 m/s²"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 3
   },
   {
     "t": "Benda bermassa 2 kg mula-mula diam, lalu bergerak hingga kecepatannya 6 m/s. Usaha total yang bekerja pada benda adalah ...",
@@ -37,7 +40,8 @@
       "72 J",
       "36 J"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 3
   },
   {
     "t": "Bola bermassa 0,5 kg bergerak dengan kecepatan 8 m/s. Besar momentum bola adalah ...",
@@ -47,7 +51,8 @@
       "8 kg·m/s",
       "16 kg·m/s"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 2
   },
   {
     "t": "Gaya sebesar 20 N bekerja pada sebuah benda selama 0,1 sekon. Besar impuls yang diberikan adalah ...",
@@ -57,7 +62,8 @@
       "20 N·s",
       "200 N·s"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 3
   },
   {
     "t": "Benda bervolume 200 cm³ tercelup seluruhnya dalam air. Jika massa jenis air 1.000 kg/m³ dan g = 10 m/s², gaya apung yang dialami benda adalah ...",
@@ -67,7 +73,8 @@
       "2 N",
       "200 N"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 6
   },
   {
     "t": "Tekanan hidrostatis pada kedalaman 2 m dalam air (ρ = 1.000 kg/m³, g = 10 m/s²) adalah ...",
@@ -77,7 +84,8 @@
       "200.000 Pa",
       "20.000 Pa"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 3
   },
   {
     "t": "Kalor yang diperlukan untuk memanaskan 2 kg air (c = 4.200 J/kg°C) dari 20 °C menjadi 30 °C adalah ...",
@@ -87,7 +95,8 @@
       "8.400 J",
       "840.000 J"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 4
   },
   {
     "t": "Kalor yang diperlukan untuk meleburkan 0,5 kg es pada titik leburnya (L = 334.000 J/kg) adalah ...",
@@ -97,7 +106,8 @@
       "334.000 J",
       "668.000 J"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 4
   },
   {
     "t": "Mesin Carnot bekerja antara reservoir bersuhu 600 K dan 300 K. Efisiensi mesin tersebut adalah ...",
@@ -107,7 +117,8 @@
       "50%",
       "75%"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 3
   },
   {
     "t": "Gelombang berfrekuensi 50 Hz memiliki panjang gelombang 4 m. Cepat rambat gelombang adalah ...",
@@ -117,7 +128,8 @@
       "400 m/s",
       "200 m/s"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 2
   },
   {
     "t": "Pipa organa terbuka panjang 0,5 m menghasilkan nada dasar. Jika cepat rambat bunyi 340 m/s, frekuensi nada dasar adalah ...",
@@ -127,7 +139,8 @@
       "85 Hz",
       "680 Hz"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 5
   },
   {
     "t": "Cermin cekung memiliki jarak fokus 10 cm. Benda diletakkan 15 cm di depan cermin. Perbesaran bayangan adalah ...",
@@ -137,7 +150,8 @@
       "1 kali",
       "3 kali"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 3
   },
   {
     "t": "Cahaya merambat dari udara ke dalam medium dengan indeks bias 1,5. Jika c = 3 × 10^8 m/s, cepat rambat cahaya dalam medium adalah ...",
@@ -147,7 +161,8 @@
       "2 × 10^8 m/s",
       "4,5 × 10^8 m/s"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 6
   },
   {
     "t": "Dua muatan masing-masing 2 μC dan 3 μC terpisah 0,1 m. Jika k = 9 × 10^9 N·m²/C², gaya Coulomb antara kedua muatan adalah ...",
@@ -157,7 +172,8 @@
       "54 N",
       "5,4 N"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 5
   },
   {
     "t": "Hambatan 6 Ω dan 3 Ω disusun paralel, lalu dihubungkan seri dengan hambatan 4 Ω dan sumber tegangan 12 V. Arus total pada rangkaian adalah ...",
@@ -167,7 +183,8 @@
       "0,5 A",
       "3 A"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 4
   },
   {
     "t": "Kumparan 200 lilitan mengalami perubahan fluks magnetik 0,02 Wb dalam 0,1 sekon. GGL induksi rata-rata yang timbul adalah ...",
@@ -177,7 +194,8 @@
       "20 V",
       "400 V"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 4
   },
   {
     "t": "Atom hidrogen mengalami transisi elektron dari kulit n = 3 ke n = 2. Pernyataan yang benar adalah ...",
@@ -187,7 +205,8 @@
       "atom memancarkan foton dengan energi sama dengan selisih kedua tingkat energi",
       "energi total atom tidak berubah"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 5
   },
   {
     "t": "Suatu zat radioaktif memiliki waktu paruh 5 hari. Jika massa awal 80 gram, massa zat yang tersisa setelah 15 hari adalah ...",
@@ -197,7 +216,8 @@
       "20 gram",
       "10 gram"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 5
   },
   {
     "t": "Unsur dengan nomor atom 17 memiliki konfigurasi elektron 1s² 2s² 2p⁶ 3s² 3p⁵. Unsur tersebut terletak pada ...",
@@ -207,7 +227,8 @@
       "golongan VIIB periode 3",
       "golongan VIIA periode 2"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 4
   },
   {
     "t": "Senyawa berikut yang terbentuk melalui ikatan ion adalah ...",
@@ -217,7 +238,8 @@
       "CO2",
       "HCl"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 2
   },
   {
     "t": "Bentuk molekul CH4 adalah ...",
@@ -227,7 +249,8 @@
       "tetrahedral",
       "oktahedral"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 1
   },
   {
     "t": "Sebanyak 4 mol gas H2 bereaksi sempurna dengan O2 berlebih menurut persamaan 2H2 + O2 menghasilkan 2H2O. Massa air yang terbentuk (Mr = 18) adalah ...",
@@ -237,7 +260,8 @@
       "80 gram",
       "72 gram"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 6
   },
   {
     "t": "Sebanyak 5,6 gram besi (Ar Fe = 56) direaksikan dengan HCl berlebih menurut Fe + 2HCl menghasilkan FeCl2 + H2. Volume gas H2 pada keadaan standar adalah ...",
@@ -247,7 +271,8 @@
       "4,48 L",
       "22,4 L"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 4
   },
   {
     "t": "pH larutan HCl 0,01 M adalah ...",
@@ -257,7 +282,8 @@
       "7",
       "12"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 1
   },
   {
     "t": "Larutan CH3COOH 0,1 M memiliki Ka = 1 × 10^-5. pH larutan tersebut adalah ...",
@@ -267,7 +293,8 @@
       "3",
       "11"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 2
   },
   {
     "t": "Pada reaksi 2KI + Cl2 menghasilkan 2KCl + I2, zat yang bertindak sebagai oksidator adalah ...",
@@ -277,7 +304,8 @@
       "KCl",
       "Cl2"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 2
   },
   {
     "t": "Elektrolisis larutan CuSO4 menggunakan arus 0,2 Faraday akan mengendapkan tembaga sebanyak ... (Ar Cu = 63,5)",
@@ -287,7 +315,8 @@
       "12,7 gram",
       "63,5 gram"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 3
   },
   {
     "t": "Pembakaran 1 mol CH4 melepaskan kalor 890 kJ. Kalor yang dilepaskan pada pembakaran 0,5 mol CH4 adalah ...",
@@ -297,7 +326,8 @@
       "890 kJ",
       "1.780 kJ"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 4
   },
   {
     "t": "Data percobaan laju reaksi A + B menghasilkan C adalah sebagai berikut. Percobaan 1: [A] = 0,1 M, [B] = 0,1 M, v = 2 × 10^-3 M/s. Percobaan 2: [A] = 0,2 M, [B] = 0,1 M, v = 4 × 10^-3 M/s. Percobaan 3: [A] = 0,2 M, [B] = 0,2 M, v = 8 × 10^-3 M/s. Orde reaksi total adalah ...",
@@ -307,7 +337,8 @@
       "2",
       "3"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 6
   },
   {
     "t": "Pada kesetimbangan A + B menghasilkan 2C diketahui [A] = 0,1 M, [B] = 0,2 M, dan [C] = 0,4 M. Tetapan kesetimbangan Kc adalah ...",
@@ -317,7 +348,8 @@
       "16",
       "8"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 5
   },
   {
     "t": "Jumlah isomer struktur dari C4H10 adalah ...",
@@ -327,7 +359,8 @@
       "3",
       "4"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 1
   },
   {
     "t": "Monomer pembentuk polimer PVC adalah ...",
@@ -337,7 +370,8 @@
       "propena",
       "stirena"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 1
   },
   {
     "t": "Senyawa yang mengandung gugus karboksil adalah ...",
@@ -347,7 +381,8 @@
       "CH3COOH",
       "CH3COCH3"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 1
   },
   {
     "t": "Jumlah molekul dalam 0,5 mol CO2 adalah ... (L = 6,02 × 10^23)",
@@ -357,7 +392,8 @@
       "1,204 × 10^24",
       "3,01 × 10^23"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 2
   },
   {
     "t": "Organel sel yang berperan dalam sintesis protein adalah ...",
@@ -367,7 +403,8 @@
       "lisosom",
       "badan Golgi"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 1
   },
   {
     "t": "Tahap glikolisis dalam respirasi sel terjadi di ...",
@@ -377,7 +414,8 @@
       "membran dalam mitokondria",
       "nukleus"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 1
   },
   {
     "t": "Reaksi gelap fotosintesis atau siklus Calvin berlangsung di ...",
@@ -387,7 +425,8 @@
       "stroma",
       "matriks mitokondria"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 2
   },
   {
     "t": "Persilangan Aa dengan Aa menghasilkan perbandingan fenotipe ...",
@@ -397,7 +436,8 @@
       "9 : 3 : 3 : 1",
       "3 : 1"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 1
   },
   {
     "t": "Persilangan AaBb dengan AaBb menghasilkan keturunan. Peluang munculnya individu bergenotipe aabb adalah ...",
@@ -407,7 +447,8 @@
       "1/4",
       "1/32"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 3
   },
   {
     "t": "Teknik PCR dalam bioteknologi bertujuan untuk ...",
@@ -417,7 +458,8 @@
       "memotong DNA pada situs tertentu",
       "menyisipkan gen ke dalam plasmid"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 2
   },
   {
     "t": "Produsen dalam suatu ekosistem menyimpan energi 10.000 kJ. Jika berlaku aturan 10 persen, energi yang diterima konsumen sekunder adalah ...",
@@ -427,7 +469,8 @@
       "100 kJ",
       "5.000 kJ"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 6
   },
   {
     "t": "Proses filtrasi darah dalam ginjal terjadi di ...",
@@ -437,7 +480,8 @@
       "lengkung Henle",
       "glomerulus"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 2
   },
   {
     "t": "Hormon yang berfungsi menurunkan kadar glukosa darah adalah ...",
@@ -447,7 +491,8 @@
       "tiroksin",
       "glukagon"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 2
   },
   {
     "t": "Antibodi dalam tubuh dihasilkan oleh ...",
@@ -457,7 +502,8 @@
       "makrofag",
       "neutrofil"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 1
   },
   {
     "t": "Sayap burung dan tangan manusia memiliki struktur dasar yang sama meskipun fungsinya berbeda. Peristiwa ini merupakan contoh ...",
@@ -467,7 +513,8 @@
       "homologi",
       "mutasi"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 4
   },
   {
     "t": "Pertukaran gas O2 dan CO2 pada paru-paru terjadi di ...",
@@ -477,7 +524,8 @@
       "trakea",
       "alveolus"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 1
   },
   {
     "t": "Bola dilempar vertikal ke atas dan bergerak tanpa gesekan udara. Pada titik tertinggi, pernyataan yang benar adalah ...",
@@ -491,7 +539,8 @@
       0,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 6
   },
   {
     "t": "Benda jatuh bebas tanpa gesekan udara. Pernyataan yang benar selama benda jatuh adalah ...",
@@ -506,7 +555,8 @@
       1,
       3
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 6
   },
   {
     "t": "Pernyataan yang benar tentang lensa cembung adalah ...",
@@ -521,7 +571,8 @@
       1,
       3
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 5
   },
   {
     "t": "Dua hambatan disusun paralel pada sumber tegangan. Pernyataan yang benar adalah ...",
@@ -536,7 +587,8 @@
       1,
       3
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 6
   },
   {
     "t": "Atom natrium memiliki nomor atom 11 dan nomor massa 23. Pernyataan yang benar tentang atom tersebut adalah ...",
@@ -551,7 +603,8 @@
       1,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 6
   },
   {
     "t": "Larutan berikut yang tergolong elektrolit kuat adalah ...",
@@ -565,7 +618,8 @@
       0,
       1
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 5
   },
   {
     "t": "Faktor yang dapat menggeser letak kesetimbangan reaksi gas adalah ...",
@@ -580,7 +634,8 @@
       1,
       3
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 5
   },
   {
     "t": "Ciri reaksi eksoterm adalah ...",
@@ -595,7 +650,8 @@
       1,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 4
   },
   {
     "t": "Organel berikut yang memiliki membran adalah ...",
@@ -610,7 +666,8 @@
       2,
       3
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 5
   },
   {
     "t": "Genotipe berikut yang menghasilkan golongan darah A adalah ...",
@@ -624,7 +681,8 @@
       0,
       1
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 5
   },
   {
     "t": "Pernyataan yang benar tentang aliran energi dalam ekosistem adalah ...",
@@ -639,7 +697,8 @@
       1,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 6
   },
   {
     "t": "Penerapan bioteknologi modern antara lain ...",
@@ -654,6 +713,7 @@
       1,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 4
   }
 ]

@@ -7,7 +7,8 @@
       "go",
       "gone"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 1
   },
   {
     "t": "We ___ a movie at the cinema last night.",
@@ -17,7 +18,8 @@
       "are watching",
       "have watched"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 2
   },
   {
     "t": "I ___ in this town since 2019.",
@@ -27,7 +29,8 @@
       "have lived",
       "am living"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 2
   },
   {
     "t": "Look! The children ___ football in the yard.",
@@ -37,7 +40,8 @@
       "played",
       "are playing"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 2
   },
   {
     "t": "Don't worry. I ___ you with your homework tomorrow.",
@@ -47,7 +51,8 @@
       "help",
       "helped"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 3
   },
   {
     "t": "While I ___ dinner, the phone rang.",
@@ -57,7 +62,8 @@
       "have cooked",
       "am cooking"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 1
   },
   {
     "t": "If it ___ tomorrow, we will cancel the picnic.",
@@ -67,7 +73,8 @@
       "rains",
       "is raining"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 2
   },
   {
     "t": "The classroom ___ every morning by the students.",
@@ -77,7 +84,8 @@
       "has cleaned",
       "is cleaned"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 3
   },
   {
     "t": "The bridge ___ in 1999.",
@@ -87,7 +95,8 @@
       "is built",
       "has built"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 2
   },
   {
     "t": "The teacher said, \"I will give you a quiz tomorrow.\" She said that she ___ us a quiz the next day.",
@@ -97,7 +106,8 @@
       "gives",
       "has given"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 4
   },
   {
     "t": "Doni asked me, \"Where did you buy your shoes?\" He asked me where I ___ my shoes.",
@@ -107,7 +117,8 @@
       "had bought",
       "did buy"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 4
   },
   {
     "t": "You have finished your project, ___?",
@@ -117,7 +128,8 @@
       "don't you",
       "haven't you"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 1
   },
   {
     "t": "Rina doesn't like coffee, ___?",
@@ -127,7 +139,8 @@
       "is she",
       "isn't she"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 1
   },
   {
     "t": "Neither the teacher nor the students ___ ready for the test.",
@@ -137,7 +150,8 @@
       "is",
       "has been"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 3
   },
   {
     "t": "Each of the players ___ a new jersey.",
@@ -147,7 +161,8 @@
       "has",
       "were"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 1
   },
   {
     "t": "You ___ wear a helmet when you ride a motorcycle. It is the law.",
@@ -157,7 +172,8 @@
       "could",
       "must"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 3
   },
   {
     "t": "The sky is very cloudy. It ___ rain later this afternoon.",
@@ -167,7 +183,8 @@
       "should",
       "has to"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 3
   },
   {
     "t": "You ___ smoke here. This is a non-smoking area.",
@@ -177,7 +194,8 @@
       "may",
       "might"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 2
   },
   {
     "t": "A giraffe is ___ than an elephant.",
@@ -187,7 +205,8 @@
       "taller",
       "more tall"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 1
   },
   {
     "t": "This is ___ book I have ever read.",
@@ -197,7 +216,8 @@
       "most interesting",
       "the most interesting"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 3
   },
   {
     "t": "The meeting will start ___ 9 o'clock ___ Monday morning.",
@@ -207,7 +227,8 @@
       "in, on",
       "at, in"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 3
   },
   {
     "t": "We walked ___ the bridge to reach the other side of the river.",
@@ -217,7 +238,8 @@
       "along",
       "into"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 4
   },
   {
     "t": "I wanted to join the competition, ___ I was too busy.",
@@ -227,7 +249,8 @@
       "but",
       "or"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 2
   },
   {
     "t": "She stayed at home ___ she was feeling ill.",
@@ -237,7 +260,8 @@
       "so",
       "because"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 1
   },
   {
     "t": "I enjoy ___ novels in my free time.",
@@ -247,7 +271,8 @@
       "read",
       "reads"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 1
   },
   {
     "t": "My mother asked me ___ her in the kitchen.",
@@ -257,7 +282,8 @@
       "help",
       "helped"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 1
   },
   {
     "t": "She bought a ___ dress for the party.",
@@ -267,7 +293,8 @@
       "beautiful long red",
       "beautiful red long"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 3
   },
   {
     "t": "They live in a ___ house near the river.",
@@ -277,7 +304,8 @@
       "old wooden small",
       "small old wooden"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 3
   },
   {
     "t": "The word \"diligent\" is closest in meaning to ___.",
@@ -287,7 +315,8 @@
       "careless",
       "friendly"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 3
   },
   {
     "t": "The opposite of \"expensive\" is ___.",
@@ -297,7 +326,8 @@
       "rich",
       "costly"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 1
   },
   {
     "t": "In the sentence \"The museum is enormous\", the word \"enormous\" means ___.",
@@ -307,7 +337,8 @@
       "very large",
       "very modern"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 4
   },
   {
     "t": "A person who flies an airplane is called a ___.",
@@ -317,7 +348,8 @@
       "engineer",
       "pilot"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 2
   },
   {
     "t": "The soup is too ___; please add some salt and pepper.",
@@ -327,7 +359,8 @@
       "sour",
       "spicy"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 2
   },
   {
     "t": "We should ___ the lights when we leave the room to save energy.",
@@ -337,7 +370,8 @@
       "turn up",
       "turn over"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 4
   },
   {
     "t": "Which expression is suitable to accept an invitation to a birthday party?",
@@ -347,7 +381,8 @@
       "I'd love to, thank you.",
       "No, thank you for the book."
     ],
-    "k": 2
+    "k": 2,
+    "lv": 4
   },
   {
     "t": "Your friend says, \"Shall I open the window for you?\" The best response to accept the offer is ___",
@@ -357,7 +392,8 @@
       "You must open it now.",
       "Yes, please. That would be nice."
     ],
-    "k": 3
+    "k": 3,
+    "lv": 4
   },
   {
     "t": "Excuse me, ___ I use your phone for a moment?",
@@ -367,7 +403,8 @@
       "ought to",
       "must"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 2
   },
   {
     "t": "Your friend says, \"I'm sorry I forgot to bring your book.\" The best response is ___",
@@ -377,7 +414,8 @@
       "Yes, please. I'd love to.",
       "Congratulations on your book."
     ],
-    "k": 1
+    "k": 1,
+    "lv": 4
   },
   {
     "t": "The Rafflesia arnoldii is the largest flower in the world. It grows in the rainforests of Sumatra and can reach one meter in diameter. Unlike most flowers, it smells like rotting meat in order to attract flies.\n\nWhat is the purpose of the flower's bad smell?",
@@ -387,7 +425,8 @@
       "To attract flies",
       "To protect it from strong wind"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 6
   },
   {
     "t": "One hot day, a thirsty crow found a pitcher with a little water at the bottom. The crow could not reach the water, so it dropped small stones into the pitcher one by one. Slowly, the water rose to the top, and the crow drank happily.\n\nWhat can we learn from the story?",
@@ -397,7 +436,8 @@
       "We must not drink water from a pitcher.",
       "We can solve problems with patience and cleverness."
     ],
-    "k": 3
+    "k": 3,
+    "lv": 6
   },
   {
     "t": "How to Make a Cup of Tea\n1. Boil some water.\n2. Put a tea bag into a cup.\n3. Pour the hot water into the cup.\n4. Wait for about three minutes.\n5. Stir well and add sugar if you like.\n\nWhat should you do right after pouring the hot water into the cup?",
@@ -407,7 +447,8 @@
       "Boil the water again",
       "Put another tea bag into the cup"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 6
   },
   {
     "t": "ANNOUNCEMENT\nAll Grade 9 students must join the rehearsal for the graduation ceremony on Friday at 1 p.m. in the school hall. Please bring your own water bottle and wear your white uniform.\n\nWhat must the students bring to the rehearsal?",
@@ -417,7 +458,8 @@
       "Their parents' permission letter",
       "A chair from their classroom"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 6
   },
   {
     "t": "NOTICE\nKEEP OFF THE GRASS\n\nWhat does the notice mean?",
@@ -427,7 +469,8 @@
       "People must not walk on the grass.",
       "People can play football on the grass."
     ],
-    "k": 2
+    "k": 2,
+    "lv": 4
   },
   {
     "t": "Rina: You look very tired, Dita. Would you like me to carry your bag?\nDita: Thanks, that's very kind of you.\n\nWhat is Rina doing?",
@@ -437,7 +480,8 @@
       "Refusing an offer",
       "Offering help"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 5
   },
   {
     "t": "Dear Sari,\nOur study club will have a meeting on Saturday at 9 a.m. in the school library. We will discuss our project for the science fair. Please come on time.\nLina\n\nWhat is the purpose of the text?",
@@ -447,7 +491,8 @@
       "To ask Sari to bring books to the library",
       "To remind Sari about the science exam"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 5
   },
   {
     "t": "Last holiday, my family and I went to Yogyakarta. We visited Borobudur Temple early in the morning to see the sunrise. The view was amazing, and we took many photos before going back to our hotel.\n\nWhen did they visit Borobudur Temple?",
@@ -457,7 +502,8 @@
       "At noon",
       "At midnight"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 5
   },
   {
     "t": "The platypus is a strange animal from Australia. It has a beak like a duck and can swim very well. Although it is a mammal, it lays eggs and feeds its babies with milk.\n\nWhy does the writer call the platypus strange?",
@@ -467,7 +513,8 @@
       "It lays eggs although it is a mammal.",
       "It has a beak like other mammals."
     ],
-    "k": 2
+    "k": 2,
+    "lv": 6
   },
   {
     "t": "It was raining hard when Andi left school. He had forgotten his umbrella, so he waited under a tree. The rain did not stop. Then a girl he did not know came and offered to share her umbrella.\n\nWhat will Andi probably do next?",
@@ -477,7 +524,8 @@
       "Buy a new umbrella at the school shop",
       "Walk home together under the girl's umbrella"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 6
   },
   {
     "t": "Our school library opens from 7 a.m. to 4 p.m. Students may borrow two books at a time. Books must be returned within one week. A fine of Rp1,000 per day is charged for late returns.\n\nWhich statements are true based on the text?",
@@ -491,7 +539,8 @@
       1,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 6
   },
   {
     "t": "Dita: Hi, Bayu. Are you free this afternoon?\nBayu: I think so. Why?\nDita: I'm going to the bookstore to buy a dictionary. Would you like to come along?\nBayu: Sure, I'd love to. What time are we going?\n\nWhich statements are true based on the dialogue?",
@@ -505,7 +554,8 @@
       0,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 6
   },
   {
     "t": "HOW TO KEEP YOUR CLASSROOM CLEAN\n1. Throw rubbish into the bin.\n2. Clean the whiteboard after the lesson.\n3. Arrange the chairs and desks before you leave.\n4. Turn off the lights and fans when the room is empty.\n\nAccording to the text, what should the students do?",
@@ -519,7 +569,8 @@
       0,
       1
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 6
   },
   {
     "t": "Last Sunday, my classmates and I went to the beach for a clean-up program. We collected plastic bottles and wrappers along the shore. By noon, we had filled ten big bags. Although we were tired, we felt happy because we had done something useful.\n\nWhich statements are true based on the text?",
@@ -533,7 +584,8 @@
       2,
       3
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 6
   },
   {
     "t": "Which sentences use the simple past tense correctly?",
@@ -547,7 +599,8 @@
       0,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 5
   },
   {
     "t": "Which sentences are grammatically correct?",
@@ -561,7 +614,8 @@
       0,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 5
   },
   {
     "t": "Which sentences are written in the passive voice?",
@@ -575,7 +629,8 @@
       0,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 5
   },
   {
     "t": "Which sentences use modal verbs correctly?",
@@ -589,7 +644,8 @@
       0,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 4
   },
   {
     "t": "Which sentences are correct?",
@@ -603,7 +659,8 @@
       0,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 5
   },
   {
     "t": "Which sentences use conjunctions correctly?",
@@ -618,7 +675,8 @@
       2,
       3
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 5
   },
   {
     "t": "Which sentences have correct subject-verb agreement?",
@@ -632,7 +690,8 @@
       0,
       3
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 5
   },
   {
     "t": "Which expressions can be used to offer help to someone?",
@@ -646,6 +705,7 @@
       0,
       1
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 5
   }
 ]

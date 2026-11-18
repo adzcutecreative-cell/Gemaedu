@@ -7,7 +7,8 @@
       "hukum Gossen",
       "hukum Say"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 6
   },
   {
     "t": "Fungsi permintaan Qd = 100 - 2P. Jika harga P = 20, jumlah barang yang diminta adalah ...",
@@ -17,7 +18,8 @@
       "50 unit",
       "80 unit"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 6
   },
   {
     "t": "Fungsi penawaran Qs = -10 + 3P. Pada harga P = 20, jumlah barang yang ditawarkan adalah ...",
@@ -27,7 +29,8 @@
       "50 unit",
       "60 unit"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 5
   },
   {
     "t": "Diketahui Qd = 200 - 2P dan Qs = 50 + P. Harga keseimbangan pasar adalah ...",
@@ -37,7 +40,8 @@
       "75",
       "50"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 4
   },
   {
     "t": "Harga barang naik dari Rp10.000 menjadi Rp12.000 sehingga jumlah yang diminta turun dari 100 unit menjadi 80 unit. Koefisien elastisitas permintaan dengan metode persentase awal adalah ...",
@@ -47,7 +51,8 @@
       "1,5",
       "2"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 6
   },
   {
     "t": "Biaya tetap suatu usaha Rp500.000 dan biaya variabel Rp10.000 per unit. Jika diproduksi 100 unit, total biaya adalah ...",
@@ -57,7 +62,8 @@
       "Rp1.000.000",
       "Rp2.000.000"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 6
   },
   {
     "t": "Biaya tetap Rp4.000.000, harga jual Rp20.000 per unit, dan biaya variabel Rp12.000 per unit. Jumlah unit pada titik pulang pokok adalah ...",
@@ -67,7 +73,8 @@
       "500 unit",
       "800 unit"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 6
   },
   {
     "t": "Struktur pasar yang dicirikan oleh jumlah penjual sedikit dan keputusan tiap penjual saling memengaruhi adalah ...",
@@ -77,7 +84,8 @@
       "monopsoni",
       "oligopoli"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 5
   },
   {
     "t": "Ciri pasar monopoli adalah ...",
@@ -87,7 +95,8 @@
       "pembeli sepenuhnya menentukan harga",
       "tidak ada hambatan untuk masuk pasar"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 2
   },
   {
     "t": "Indeks harga konsumen naik dari 110 menjadi 121. Tingkat inflasi pada periode tersebut adalah ...",
@@ -97,7 +106,8 @@
       "11%",
       "21%"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 4
   },
   {
     "t": "Konsumsi Rp400 triliun, investasi Rp150 triliun, belanja pemerintah Rp100 triliun, ekspor Rp80 triliun, dan impor Rp60 triliun. PDB dengan pendekatan pengeluaran adalah ...",
@@ -107,7 +117,8 @@
       "Rp670 triliun",
       "Rp730 triliun"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 6
   },
   {
     "t": "Kebijakan fiskal yang tepat ketika ekonomi mengalami resesi adalah ...",
@@ -117,7 +128,8 @@
       "mengurangi belanja pemerintah",
       "menambah belanja pemerintah"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 3
   },
   {
     "t": "Untuk menekan inflasi, kebijakan moneter yang ditempuh bank sentral adalah ...",
@@ -127,7 +139,8 @@
       "menambah jumlah uang beredar",
       "menurunkan rasio cadangan wajib"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 4
   },
   {
     "t": "Anggaran Pendapatan dan Belanja Negara mengalami defisit apabila ...",
@@ -137,7 +150,8 @@
       "penerimaan sama dengan belanja",
       "tabungan pemerintah meningkat"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 4
   },
   {
     "t": "Pembagian sisa hasil usaha koperasi kepada anggota didasarkan pada ...",
@@ -147,7 +161,8 @@
       "partisipasi dan jasa anggota",
       "lama bekerja sebagai pegawai"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 3
   },
   {
     "t": "PDB suatu negara Rp8.000 triliun dan jumlah penduduk 200 juta jiwa. Pendapatan per kapita negara tersebut adalah ...",
@@ -157,7 +172,8 @@
       "Rp400 juta",
       "Rp40 juta"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 5
   },
   {
     "t": "Batuan beku terbentuk dari ...",
@@ -167,7 +183,8 @@
       "pengendapan material sedimen",
       "perubahan batuan karena tekanan"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 1
   },
   {
     "t": "Batuan utama penyusun kawasan karst adalah ...",
@@ -177,7 +194,8 @@
       "batu pasir",
       "basal"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 1
   },
   {
     "t": "Lapisan atmosfer tempat terjadinya sebagian besar cuaca adalah ...",
@@ -187,7 +205,8 @@
       "troposfer",
       "termosfer"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 1
   },
   {
     "t": "Perubahan uap air menjadi titik-titik air di atmosfer disebut ...",
@@ -197,7 +216,8 @@
       "presipitasi",
       "kondensasi"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 1
   },
   {
     "t": "Pola aliran sungai dendritik umumnya berkembang pada daerah dengan ...",
@@ -207,7 +227,8 @@
       "patahan yang sejajar",
       "kawah gunung api"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 3
   },
   {
     "t": "Menurut ketentuan tata ruang, ruang terbuka hijau pada kawasan perkotaan minimal ...",
@@ -217,7 +238,8 @@
       "20%",
       "50%"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 2
   },
   {
     "t": "Analisis buffer dalam sistem informasi geografis digunakan untuk ...",
@@ -227,7 +249,8 @@
       "menentukan wilayah dalam jarak tertentu dari suatu objek",
       "memperbesar skala peta"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 5
   },
   {
     "t": "Data raster dalam sistem informasi geografis disimpan dalam bentuk ...",
@@ -237,7 +260,8 @@
       "poligon",
       "sel grid atau piksel"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 2
   },
   {
     "t": "Tindakan yang tepat saat terjadi gempa bumi di dalam gedung adalah ...",
@@ -247,7 +271,8 @@
       "berdiri dekat jendela kaca",
       "tetap di lantai atas menunggu bantuan"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 4
   },
   {
     "t": "Tanda awal datangnya tsunami di pantai adalah ...",
@@ -257,7 +282,8 @@
       "suhu udara turun drastis",
       "langit menjadi gelap"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 2
   },
   {
     "t": "Sumber norma agama adalah ...",
@@ -267,7 +293,8 @@
       "wahyu Tuhan",
       "kebiasaan turun-temurun"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 1
   },
   {
     "t": "Sanksi bagi pelanggar norma adat biasanya berupa ...",
@@ -277,7 +304,8 @@
       "pencabutan kewarganegaraan",
       "pengucilan dari masyarakat"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 2
   },
   {
     "t": "Sistem stratifikasi sosial tertutup dicontohkan oleh ...",
@@ -287,7 +315,8 @@
       "jabatan pegawai negeri",
       "kekayaan seorang pengusaha"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 2
   },
   {
     "t": "Seorang manajer yang diturunkan menjadi staf mengalami mobilitas sosial ...",
@@ -297,7 +326,8 @@
       "horizontal",
       "antargenerasi naik"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 2
   },
   {
     "t": "Guru yang pindah ke sekolah lain dengan jabatan tetap guru mengalami mobilitas sosial ...",
@@ -307,7 +337,8 @@
       "horizontal",
       "antargenerasi"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 3
   },
   {
     "t": "Penyelesaian konflik dengan bantuan pihak ketiga yang netral disebut ...",
@@ -317,7 +348,8 @@
       "koersi",
       "mediasi"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 1
   },
   {
     "t": "Penemuan baru yang kemudian diterapkan dalam masyarakat dapat mendorong perubahan sosial. Penemuan tersebut disebut ...",
@@ -327,7 +359,8 @@
       "akulturasi",
       "asimilasi"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 4
   },
   {
     "t": "Dampak negatif globalisasi bagi masyarakat adalah ...",
@@ -337,7 +370,8 @@
       "pelestarian budaya daerah",
       "kemandirian ekonomi"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 2
   },
   {
     "t": "Agen sosialisasi primer bagi seorang anak adalah ...",
@@ -347,7 +381,8 @@
       "keluarga",
       "teman kerja"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 1
   },
   {
     "t": "Ketertinggalan unsur budaya nonmaterial dibandingkan perkembangan teknologi disebut ...",
@@ -357,7 +392,8 @@
       "akulturasi",
       "cultural lag"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 3
   },
   {
     "t": "Kerajaan Hindu tertua di Indonesia adalah ...",
@@ -367,7 +403,8 @@
       "Sriwijaya",
       "Majapahit"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 1
   },
   {
     "t": "Kerajaan Sriwijaya dikenal sebagai kerajaan maritim yang berpusat di ...",
@@ -377,7 +414,8 @@
       "Singasari",
       "Trowulan"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 2
   },
   {
     "t": "Kerajaan Islam pertama di Pulau Jawa adalah ...",
@@ -387,7 +425,8 @@
       "Demak",
       "Cirebon"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 1
   },
   {
     "t": "Sistem tanam paksa pada masa kolonial Belanda mewajibkan petani menyisihkan ...",
@@ -397,7 +436,8 @@
       "50% hasil panen untuk pajak",
       "20% lahan untuk tanaman ekspor"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 4
   },
   {
     "t": "Program Politik Etis yang dicanangkan tahun 1901 meliputi bidang ...",
@@ -407,7 +447,8 @@
       "kesehatan, perumahan, dan transportasi",
       "pendidikan, militer, dan industri"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 5
   },
   {
     "t": "Organisasi pergerakan nasional yang didirikan pada 20 Mei 1908 adalah ...",
@@ -417,7 +458,8 @@
       "Indische Partij",
       "Muhammadiyah"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 3
   },
   {
     "t": "Peristiwa Sumpah Pemuda terjadi pada ...",
@@ -427,7 +469,8 @@
       "28 Oktober 1928",
       "10 November 1945"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 1
   },
   {
     "t": "Naskah Proklamasi Kemerdekaan Indonesia disusun oleh ...",
@@ -437,7 +480,8 @@
       "Mohammad Hatta dan Tan Malaka",
       "Soekarno dan Mohammad Hatta"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 3
   },
   {
     "t": "Pemilihan umum pertama di Indonesia pada tahun 1955 diselenggarakan pada masa ...",
@@ -447,7 +491,8 @@
       "Orde Baru",
       "Reformasi"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 4
   },
   {
     "t": "Konsep Nasakom yang menonjol pada masa Demokrasi Terpimpin merupakan singkatan dari ...",
@@ -457,7 +502,8 @@
       "agama, sosial, kebudayaan",
       "nasional, sosial, komunikasi"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 4
   },
   {
     "t": "Program pembangunan berencana pada masa Orde Baru dilaksanakan melalui ...",
@@ -467,7 +513,8 @@
       "Pembangunan Lima Tahun",
       "Politik Etis"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 3
   },
   {
     "t": "Pemilihan umum tahun 1999 pada masa Reformasi dimenangkan oleh ...",
@@ -477,7 +524,8 @@
       "PPP",
       "PDI Perjuangan"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 3
   },
   {
     "t": "Kebijakan moneter untuk menekan laju inflasi adalah ...",
@@ -487,7 +535,8 @@
       "menambah subsidi bahan bakar",
       "menurunkan pajak penghasilan"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 2
   },
   {
     "t": "Faktor yang dapat menyebabkan inflasi adalah ...",
@@ -502,7 +551,8 @@
       1,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 5
   },
   {
     "t": "Instrumen kebijakan fiskal adalah ...",
@@ -517,7 +567,8 @@
       1,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 4
   },
   {
     "t": "Upaya mitigasi bencana gempa bumi adalah ...",
@@ -532,7 +583,8 @@
       1,
       3
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 5
   },
   {
     "t": "Komponen sistem informasi geografis adalah ...",
@@ -547,7 +599,8 @@
       1,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 5
   },
   {
     "t": "Dampak El Nino di Indonesia adalah ...",
@@ -562,7 +615,8 @@
       1,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 5
   },
   {
     "t": "Dampak positif globalisasi bagi masyarakat Indonesia adalah ...",
@@ -572,7 +626,8 @@
       "hilangnya bahasa daerah",
       "ketergantungan pada produk impor"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 3
   },
   {
     "t": "Penyebab konflik sosial adalah ...",
@@ -587,7 +642,8 @@
       1,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 5
   },
   {
     "t": "Bentuk mobilitas sosial vertikal adalah ...",
@@ -602,7 +658,8 @@
       1,
       3
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 6
   },
   {
     "t": "Isi Sumpah Pemuda 1928 adalah ...",
@@ -617,7 +674,8 @@
       1,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 6
   },
   {
     "t": "Pernyataan yang benar tentang Perang Dingin adalah ...",
@@ -632,7 +690,8 @@
       1,
       3
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 6
   },
   {
     "t": "Tuntutan gerakan Reformasi 1998 antara lain ...",
@@ -647,6 +706,7 @@
       1,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 6
   }
 ]

@@ -7,7 +7,8 @@
       "Teachers should assign more homework to raise achievement.",
       "Sleep is more important than any academic activity."
     ],
-    "k": 0
+    "k": 0,
+    "lv": 6
   },
   {
     "t": "In the past decade, remote work has shifted from a rare privilege to a routine arrangement. Employees report fewer commutes and greater control over their schedules. Managers, however, warn that informal mentoring and spontaneous collaboration are harder to sustain. Companies that blend remote and on-site work appear to capture the benefits of both models.\n\nWhat can be inferred about a fully remote arrangement?",
@@ -17,7 +18,8 @@
       "It always reduces company costs.",
       "It is now the most common arrangement."
     ],
-    "k": 1
+    "k": 1,
+    "lv": 6
   },
   {
     "t": "Plastic straws are used for an average of twenty minutes yet persist in the environment for centuries. Coastal clean-ups repeatedly list them among the most common items collected. Consumers should refuse single-use straws and carry reusable alternatives. Small habits, multiplied by millions of people, produce measurable change.\n\nWhat is the author's main purpose?",
@@ -27,7 +29,8 @@
       "To persuade readers to stop using single-use straws",
       "To compare plastic straws with paper cups"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 5
   },
   {
     "t": "Some educators argue that smartphones distract students and should be banned during lessons. Others counter that the devices provide instant access to dictionaries, simulations and collaborative platforms. A blanket ban, critics note, may punish responsible users while failing to teach digital discipline. The debate ultimately concerns not the device but the classroom culture that surrounds it.\n\nWhat does the writer suggest about the smartphone debate?",
@@ -37,7 +40,8 @@
       "Smartphones have no legitimate academic use.",
       "The real issue is classroom culture, not the device."
     ],
-    "k": 3
+    "k": 3,
+    "lv": 6
   },
   {
     "t": "The water cycle begins when the sun heats surface water, causing it to evaporate. This vapour rises, cools and condenses into droplets that form clouds. When the droplets grow heavy enough, they fall as precipitation, returning to rivers, lakes and soil. The cycle then repeats indefinitely.\n\nIn the sentence 'When the droplets grow heavy enough, they fall as precipitation', the word 'they' refers to ...",
@@ -47,7 +51,8 @@
       "rivers and lakes",
       "surface waters"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 5
   },
   {
     "t": "JAKARTA — A 6.2-magnitude earthquake struck off the coast of Sulawesi on Tuesday morning, prompting residents in three districts to evacuate to higher ground. No casualties have been reported, though several schools sustained minor damage. Authorities lifted the tsunami warning two hours later after sea levels returned to normal.\n\nWhat is the passage mainly about?",
@@ -57,7 +62,8 @@
       "The reconstruction of damaged schools in three districts",
       "A tsunami that killed hundreds of residents"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 6
   },
   {
     "t": "At first glance, the film's slow pacing feels like a flaw. By the final act, however, those quiet early scenes pay off, turning ordinary conversations into emotional landmines. The cinematography is restrained, the score almost invisible, and the lead performance carries the entire weight of the story. It is not a film for everyone, but it rewards patience.\n\nThe tone of the review is best described as ...",
@@ -67,7 +73,8 @@
       "admiring",
       "sarcastic"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 5
   },
   {
     "t": "When the old lighthouse keeper retired, the village expected the light to be automated within weeks. Instead, a teenager named Rani began climbing the tower every evening, oiling the mechanism and polishing the lens. She had no official appointment and received no wages. The ships, of course, never noticed the difference.\n\nWhat can be inferred about Rani?",
@@ -77,7 +84,8 @@
       "She wanted the keeper's salary.",
       "She maintained the lighthouse out of personal commitment."
     ],
-    "k": 3
+    "k": 3,
+    "lv": 5
   },
   {
     "t": "The market opens before dawn, when the alleys are still damp and the air smells of wet asphalt and fried shallots. Vendors arrange pyramids of mangoes and stack baskets of chilli in colours so saturated they seem artificial. By nine, the crowd is impenetrable; by noon, only crushed leaves and cardboard remain.\n\nThe word 'impenetrable' in the passage is closest in meaning to ...",
@@ -87,7 +95,8 @@
       "poorly organised",
       "unusually colourful"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 5
   },
   {
     "t": "Extracting Clear Water in the Field\n1. Dig a hole about 30 cm wide and 20 cm deep.\n2. Place a container at the centre of the hole.\n3. Cover the hole with a plastic sheet and seal the edges with soil.\n4. Put a small stone on the centre of the sheet, directly above the container.\n5. Leave the device under the sun for several hours.\n\nWhy is the stone placed on the centre of the sheet?",
@@ -97,7 +106,8 @@
       "To measure the depth of the hole",
       "To prevent insects from entering the container"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 6
   },
   {
     "t": "SMARTLEARN — Prepare for the national exam anytime, anywhere.\n• 5,000+ practice questions with instant explanations\n• Offline mode for low-connection areas\n• Free for the first 30 days, then Rp25,000 per month\nJoin 200,000 students who improved their scores last year.\n\nWhat can be inferred about SmartLearn?",
@@ -107,7 +117,8 @@
       "It requires a paid subscription after the trial period.",
       "It guarantees that every user will pass the exam."
     ],
-    "k": 2
+    "k": 2,
+    "lv": 5
   },
   {
     "t": "The bar chart shows average daily study hours among Grade 12 students in four provinces: Province A 3.4 hours, Province B 2.1 hours, Province C 2.9 hours and Province D 1.6 hours. The national average is 2.5 hours.\n\nWhich statement is supported by the data?",
@@ -117,7 +128,8 @@
       "Province C recorded the highest figure.",
       "Province D recorded the lowest figure, below two hours."
     ],
-    "k": 3
+    "k": 3,
+    "lv": 5
   },
   {
     "t": "Dear Ms Harahap,\nI am writing to apply for the position of Junior Data Analyst advertised on your company website on 3 May. I hold a degree in Statistics and have completed an internship in which I built dashboards for a retail client. I have attached my curriculum vitae and portfolio for your consideration.\n\nWhat is the main purpose of the letter?",
@@ -127,7 +139,8 @@
       "To complain about a recruitment process",
       "To offer a training programme to the company"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 5
   },
   {
     "t": "The greenhouse effect is often misunderstood. Certain gases in the atmosphere — carbon dioxide, methane and water vapour — allow shortwave solar radiation to pass through but absorb the longwave radiation the Earth emits. This absorbed energy warms the lower atmosphere. Without any greenhouse gases, the planet's average temperature would be roughly 33°C colder than it is today. The current concern is not the effect itself but its rapid intensification.\n\nWhich TWO statements are true according to the passage?",
@@ -141,7 +154,8 @@
       0,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 6
   },
   {
     "t": "SEMARANG — Heavy rain on Thursday night caused the Kaligarang river to overflow, inundating three sub-districts and forcing 400 residents into temporary shelters. The city's drainage system, built in the 1990s, was unable to handle the volume of water. Officials said repairs would begin next month, but residents argued that the problem has recurred every rainy season for a decade.\n\nWhich TWO statements are supported by the passage?",
@@ -155,7 +169,8 @@
       0,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 6
   },
   {
     "t": "Should schools require students to wear uniforms? Supporters contend that uniforms reduce visible inequality and simplify daily decisions. Opponents argue that they suppress self-expression and that the cost of official sets can burden low-income families. Research offers no decisive verdict: some studies link uniforms to improved attendance, others find no academic effect. Most schools, in practice, compromise — requiring a uniform on certain days while permitting casual dress on others.\n\nWhich THREE statements are stated in the passage?",
@@ -170,7 +185,8 @@
       1,
       3
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 6
   },
   {
     "t": "Every morning Pak Sudirman opened his shop at five, though no customer had ever arrived before seven. He swept the floor, arranged the tins in perfect rows, and waited. When his daughter asked why he bothered, he said only that a shop should look as if it expects good things. Years later, after the road was widened and most stalls closed, customers still came to his.\n\nWhich TWO statements are supported by the passage?",
@@ -184,7 +200,8 @@
       0,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 6
   },
   {
     "t": "Solar panels are frequently criticised for producing nothing at night. Yet this objection ignores how electricity grids actually work. Panels generate most during the day, when demand from offices and factories peaks, and storage or gas plants cover the evening. The real barrier to wider adoption is not intermittency but the upfront cost of installation, which many households cannot finance without long-term loans.\n\nWhich TWO statements are supported by the passage?",
@@ -198,7 +215,8 @@
       1,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 6
   },
   {
     "t": "If I ___ more free time, I would learn to play the guitar.",
@@ -208,7 +226,8 @@
       "will have",
       "would have"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 2
   },
   {
     "t": "If the team ___ harder, they would have won the final.",
@@ -218,7 +237,8 @@
       "had trained",
       "would train"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 2
   },
   {
     "t": "The manuscript ___ by the editor before it was sent to the printer.",
@@ -228,7 +248,8 @@
       "was reviewing",
       "had been reviewed"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 3
   },
   {
     "t": "All applications must ___ by Friday at 5 p.m.",
@@ -238,7 +259,8 @@
       "submitted",
       "submitting"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 1
   },
   {
     "t": "The teacher said, 'I will return your essays tomorrow.'\n\nWhich sentence reports this statement correctly?",
@@ -248,7 +270,8 @@
       "The teacher said that I would return her essays the next day.",
       "The teacher said that she returns our essays the day after."
     ],
-    "k": 1
+    "k": 1,
+    "lv": 5
   },
   {
     "t": "He asked me whether I ___ the document before the meeting.",
@@ -258,7 +281,8 @@
       "had signed",
       "will sign"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 2
   },
   {
     "t": "Never ___ such a spectacular sunrise.",
@@ -268,7 +292,8 @@
       "I saw",
       "have I seen"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 1
   },
   {
     "t": "Not only ___ the exam, but she also received a scholarship.",
@@ -278,7 +303,8 @@
       "she did pass",
       "passed she"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 3
   },
   {
     "t": "The committee recommended that the report ___ before the end of the month.",
@@ -288,7 +314,8 @@
       "was submitted",
       "submits"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 3
   },
   {
     "t": "I wish I ___ how to swim when I was a child.",
@@ -298,7 +325,8 @@
       "had learned",
       "learn"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 1
   },
   {
     "t": "The scientist ___ research changed the field received the award.",
@@ -308,7 +336,8 @@
       "which",
       "whose"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 2
   },
   {
     "t": "This is the laboratory in ___ the vaccine was first tested.",
@@ -318,7 +347,8 @@
       "that",
       "whose"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 1
   },
   {
     "t": "She stopped ___ soft drinks after her doctor's advice.",
@@ -328,7 +358,8 @@
       "drink",
       "drunk"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 1
   },
   {
     "t": "He is used to ___ up at five every morning.",
@@ -338,7 +369,8 @@
       "waking",
       "woken"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 1
   },
   {
     "t": "By the time we arrived, the ceremony ___.",
@@ -348,7 +380,8 @@
       "would already begin",
       "had already begun"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 2
   },
   {
     "t": "By 2030, the city ___ its new transit line.",
@@ -358,7 +391,8 @@
       "completes",
       "has completed"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 3
   },
   {
     "t": "Neither the students nor the teacher ___ aware of the schedule change.",
@@ -368,7 +402,8 @@
       "are",
       "have been"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 3
   },
   {
     "t": "The sample was small. ___, the findings should be treated with caution.",
@@ -378,7 +413,8 @@
       "Therefore",
       "Similarly"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 3
   },
   {
     "t": "___ the heavy rain, the match continued until midnight.",
@@ -388,7 +424,8 @@
       "Because of",
       "Despite"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 2
   },
   {
     "t": "The new policy reduced operational costs; ___, it improved employee morale.",
@@ -398,7 +435,8 @@
       "otherwise",
       "therefore"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 3
   },
   {
     "t": "Renewable energy is now cheaper in many regions, ___ coal remains dominant in others.",
@@ -408,7 +446,8 @@
       "so that",
       "unless"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 3
   },
   {
     "t": "Which sentence is most appropriate in a formal letter of enquiry?",
@@ -418,7 +457,8 @@
       "Could you kindly send me further details about the scholarship programme?",
       "I'm just checking out your scholarship thing."
     ],
-    "k": 2
+    "k": 2,
+    "lv": 4
   },
   {
     "t": "I look forward to ___ from you at your earliest convenience.",
@@ -428,7 +468,8 @@
       "heard",
       "hearing"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 2
   },
   {
     "t": "The committee judged the response inadequate.\n\nWhich word is closest in meaning to 'inadequate'?",
@@ -438,7 +479,8 @@
       "impressive",
       "intentional"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 4
   },
   {
     "t": "The lecture was remarkably concise.\n\nWhich word is most nearly opposite in meaning to 'concise'?",
@@ -448,7 +490,8 @@
       "clear",
       "technical"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 4
   },
   {
     "t": "The company reported a significant ___ in profits during the third quarter.",
@@ -458,7 +501,8 @@
       "decline",
       "declines"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 3
   },
   {
     "t": "After analysing the data, the researchers ___ a surprising conclusion.",
@@ -468,7 +512,8 @@
       "did",
       "drew"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 2
   },
   {
     "t": "The manager decided to ___ the meeting because of the storm.",
@@ -478,7 +523,8 @@
       "call for",
       "call up"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 2
   },
   {
     "t": "The proposal was ___ by the board owing to budget constraints.",
@@ -488,7 +534,8 @@
       "turned into",
       "turned over"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 3
   },
   {
     "t": "She had her laptop ___ yesterday afternoon.",
@@ -498,7 +545,8 @@
       "repaired",
       "to repair"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 1
   },
   {
     "t": "You ___ told me earlier; I could have helped you.",
@@ -508,7 +556,8 @@
       "must",
       "should have"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 1
   },
   {
     "t": "Should you require further assistance, ___.",
@@ -518,7 +567,8 @@
       "kindly to contact us immediately",
       "contacting us will be appreciated much"
     ],
-    "k": 0
+    "k": 0,
+    "lv": 4
   },
   {
     "t": "The higher the altitude, ___.",
@@ -528,7 +578,8 @@
       "thinner the air becomes",
       "the air is thinner than"
     ],
-    "k": 1
+    "k": 1,
+    "lv": 2
   },
   {
     "t": "The results were inconclusive, ___?",
@@ -538,7 +589,8 @@
       "weren't they",
       "don't they"
     ],
-    "k": 2
+    "k": 2,
+    "lv": 1
   },
   {
     "t": "The report is based ___ data collected over five years.",
@@ -548,7 +600,8 @@
       "at",
       "on"
     ],
-    "k": 3
+    "k": 3,
+    "lv": 1
   },
   {
     "t": "Which TWO sentences use the passive voice correctly?",
@@ -562,7 +615,8 @@
       0,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 4
   },
   {
     "t": "Which TWO conditional sentences are grammatically correct?",
@@ -576,7 +630,8 @@
       0,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 4
   },
   {
     "t": "Which TWO connectors are appropriate for adding information in a formal essay?",
@@ -590,7 +645,8 @@
       0,
       1
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 4
   },
   {
     "t": "Which TWO sentences report speech correctly?",
@@ -604,7 +660,8 @@
       0,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 4
   },
   {
     "t": "In the phrase 'a substantial increase', which TWO words are closest in meaning to 'substantial'?",
@@ -618,7 +675,8 @@
       0,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 4
   },
   {
     "t": "Which TWO sentences contain a correct relative clause?",
@@ -632,7 +690,8 @@
       0,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 4
   },
   {
     "t": "Which TWO statements express a recommendation rather than a fact?",
@@ -646,6 +705,7 @@
       0,
       2
     ],
-    "tipe": "multi"
+    "tipe": "multi",
+    "lv": 5
   }
 ]

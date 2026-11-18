@@ -54,6 +54,8 @@ for (const [j, p] of BANKS) {
 
     const item = { j, p, t: q.t, o: q.o, k: q.k };
     if (isMulti) item.tipe = 'multi';
+    if (Number.isInteger(q.lv) && q.lv >= 1 && q.lv <= 6) item.lv = q.lv;
+    else errors.push(`${tag}: lv belum diisi (jalankan assign_levels.js)`);
     all.push(item);
   });
 
