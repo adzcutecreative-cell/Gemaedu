@@ -64,6 +64,15 @@ Setelah itu, setiap siswa selesai kuis dan klik **Simpan ke Google Sheets**, sat
 > Kalau endpoint belum diisi, tombol Sheets menampilkan pesan dan CSV tetap bisa dipakai:
 > unduh CSV → buka <https://sheets.new> → **File → Import**.
 
+## Pasang di HP (opsional)
+
+Tambahkan ke layar utama supaya seperti aplikasi:
+
+- **Android (Chrome):** buka situs → menu ⋮ → **Add to Home screen / Install app**
+- **iPhone (Safari):** buka situs → tombol Share → **Add to Home Screen**
+
+Setelah terpasang, app kebuka tanpa address bar dan dasar-dasarnya tetap jalan walau sinyal jelek (service worker menyimpan cache).
+
 ## Catatan
 
 - Soal disusun sebagai latihan formatif, **bukan** bocoran soal resmi TKA.
